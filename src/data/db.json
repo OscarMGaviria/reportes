@@ -1,0 +1,4455 @@
+{
+  "subregiones": [
+    {
+      "nombre": "OCCIDENTE",
+      "circuitos": [
+        {
+          "id": 1,
+          "corredor_vial": "Frontino - Nutibara",
+          "municipio": "FRONTINO",
+          "contratista": "CONSORCIO EL PROGRESO",
+          "valor_contrato": 104855613958,
+          "cortes_semanales": [
+            {
+              "semana": 2,
+              "fecha_corte": "2023-11-03",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 30
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 36
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "Ejecución adelantada"
+              },
+              "fisico": {
+                "programado": 30,
+                "ejecutado": 35,
+                "avance": 0,
+                "estado": "Ejecución adelantada"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 7
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 100,
+                  "completado": 42
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 158,
+                  "completado": 158
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 25
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Avance a buen ritmo debido al buen clima.",
+                "Se requiere maquinaria adicional en el K3+500."
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "sábado, 30 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 26 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 30 de junio de 2026",
+                  "estado_observacion": ""
+                }
+              ]
+            },
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 29359571908.24,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "NO SE CUENTA CON ESTRUCTURA APROBADA. A la espera de reunión con especialistas SIF. Conformación completada 25/25 km. OT construidas 64/94, pendientes 7 por trámite ocupación de cauce."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "corredor_vial": "Sopetrán - Horizontes - Belmira",
+          "municipio": "SOPETRÁN",
+          "contratista": "CONSORCIO EL PROGRESO",
+          "valor_contrato": 104855613958,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 29359571908.24,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3145668418.74,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 35,
+                  "completado": 5
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 140,
+                  "completado": 40
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 319,
+                  "completado": 319
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 35,
+                  "completado": 0.54
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 35,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 35,
+                  "completado": 35
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "NO SE CUENTA CON ESTRUCTURA APROBADA. A la espera de reunión con especialistas SIF. Conformación completada 35/35 km. Limpieza OT completada 319/319. OT construidas 9/11, pendientes 2 por trámite ocupación de cauce. Filtros 0,54 km avanzados."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "sábado, 30 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 26 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 30 de junio de 2026",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "corredor_vial": "Ebéjico - Heliconia - Medellin",
+          "municipio": "EBÉJICO",
+          "contratista": "CONSORCIO EL PROGRESO",
+          "valor_contrato": 104855613958,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 29359571908.24,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3145668418.74,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 28.76,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 115,
+                  "completado": 30
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 210,
+                  "completado": 108
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 28.76,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 28.76,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 28.76,
+                  "completado": 28.76
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "NO SE CUENTA CON ESTRUCTURA APROBADA. A la espera de reunión con especialistas SIF. Conformación completada 28,76/28,76 km. OT construidas 13/75 identificadas, pendiente verificación en campo. No presentan resultados de laboratorio ni diseño de estructura."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "sábado, 30 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 26 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 30 de junio de 2026",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "corredor_vial": "Titiribi - Armenia",
+          "municipio": "ARMENIA",
+          "contratista": "CONSORCIO EL PROGRESO",
+          "valor_contrato": 104855613958,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 29359571908.24,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3145668418.74,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 20,
+                  "completado": 20
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "NO SE CUENTA CON ESTRUCTURA APROBADA. No se ha iniciado obra. Se debe definir tramo de inicio; cambio requiere otrosí al contrato y nuevos apiques. Exploración geotécnica completada 20/20."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "sábado, 30 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 26 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "En análisis del diseñador del contratista",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "corredor_vial": "Ebéjico - Miserenga",
+          "municipio": "EBÉJICO",
+          "contratista": "CONSORCIO EL PROGRESO",
+          "valor_contrato": 104855613958,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 29359571908.24,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3145668418.74,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 1,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 4,
+                  "completado": 4
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 1,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 1,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "NO SE CUENTA CON ESTRUCTURA APROBADA. Intervención aún no ha iniciado. Exploración geotécnica completada 4/4. No se requiere construcción de obras nuevas."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "NO SE HA INICIADO",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 26 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 30 de junio de 2026",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "SUROESTE",
+      "circuitos": [
+        {
+          "id": 3,
+          "corredor_vial": "Valparaíso - Támesis",
+          "municipio": "TÁMESIS",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+          "valor_contrato": 72870090400,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 20403625312.000004,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 2186102712,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 22.51,
+                  "completado": 22.51
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 22.4,
+                  "completado": 22.4
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 212,
+                  "completado": 95
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 22.51,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 22.51,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 22.51,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Pendiente pronunciamiento SIF sobre diseño 5,0 km iniciales y finales. Topografía y exploración completadas. Excavación franja recuperación sección: 1,0 km. Rocería 1,2 km. 70% OT existentes requiere reemplazo por mal estado estructural."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Completado",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 25 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "miércoles, 24 de junio de 2026 (V2)",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "corredor_vial": "Abejorral - Santa Barbara",
+          "municipio": "MONTEBELLO",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+          "valor_contrato": 72870090400,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 20403625312.000004,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 2186102712,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 2.43,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 2.43,
+                  "completado": 2.43
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 2.43,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 2.43,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 2.43,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "No se han iniciado actividades a la fecha. Exploración geotécnica completada 2,43/2,43 km. Contratista no ha entregado diseño inicial a Interventoría."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 25 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "corredor_vial": "Andes - San José - Pueblo Rico",
+          "municipio": "ANDES",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+          "valor_contrato": 72870090400,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 20403625312.000004,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 2186102712,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 22.4,
+                  "completado": 22.4
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 22.4,
+                  "completado": 22.4
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 229,
+                  "completado": 120
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 22.39,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 22.39,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 22.39,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Pendiente pronunciamiento SIF sobre diseño 5,0 km iniciales y finales. Topografía y exploración completadas. Limpieza OT 120/229. Excavación franja recuperación sección: 2,0 km. Rocería 5,0 km iniciales y 5,0 km finales. 65% OT requiere reemplazo. Instalada 1 tubería 36\" de reemplazo. 256m tuberías acueductos veredales identificados."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Completado",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 25 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "jueves, 11 de junio de 2026 (V3)",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "corredor_vial": "Salgar - La Quiebra - Concordia",
+          "municipio": "SALGAR",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+          "valor_contrato": 72870090400,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 20403625312.000004,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 2186102712,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 15.93,
+                  "completado": 8.1
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 15.9,
+                  "completado": 15.9
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 116,
+                  "completado": 94
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 15.93,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 15.93,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 15.93,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Pendiente pronunciamiento SIF sobre diseño 5,0 km iniciales y finales. Exploración completada. Rocería y desmonte completados 15,93 km. 40% OT requiere reemplazo por mal estado."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Completado",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 25 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 6 de julio de 2026 (V1)",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "corredor_vial": "Titiribi - Armenia",
+          "municipio": "TITIRIBÍ",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+          "valor_contrato": 72870090400,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 20403625312.000004,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 2186102712,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 5
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "No se han iniciado actividades a la fecha. Exploración geotécnica completada 5,0/5,0 km. Contratista no ha entregado diseño inicial a Interventoría."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 25 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "NORTE",
+      "circuitos": [
+        {
+          "id": 5,
+          "corredor_vial": "Carolina del Príncipe - Angostura",
+          "municipio": "ANGOSTURA",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+          "valor_contrato": 124487403196,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 34856472894.880005,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3734622095.8799996,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "corredor_vial": "Sopetrán - Horizontes - Belmira",
+          "municipio": "BELMIRA",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+          "valor_contrato": 124487403196,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 34856472894.880005,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3734622095.8799996,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "corredor_vial": "Entrerríos - Labores - San José de la Montana",
+          "municipio": "BELMIRA",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+          "valor_contrato": 124487403196,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 34856472894.880005,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3734622095.8799996,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "corredor_vial": "El Guayabo - El Salto - Partidas a Guadalupe",
+          "municipio": "GOMEZ PLATA",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+          "valor_contrato": 124487403196,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 34856472894.880005,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3734622095.8799996,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "corredor_vial": "Alto del Cardal - Toledo",
+          "municipio": "SAN ANDRÉS DE CUERQUIA",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+          "valor_contrato": 124487403196,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 34856472894.880005,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3734622095.8799996,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "corredor_vial": "Santa Rosa - Carolina del Príncipe",
+          "municipio": "CAROLINA",
+          "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+          "valor_contrato": 124487403196,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 34856472894.880005,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3734622095.8799996,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 0,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "ORIENTE",
+      "circuitos": [
+        {
+          "id": 6,
+          "corredor_vial": "Abejorral - Santa Barbara",
+          "municipio": "ABEJORRAL",
+          "contratista": "CONSORCIO ANTIOQUIA ORIENTE",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 23.77,
+                  "completado": 10
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 98,
+                  "completado": 96
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 115,
+                  "completado": 91
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 23.77,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 23.77,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 23.77,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "topografía-0",
+                  "url": "",
+                  "descripcion": "Topografía"
+                },
+                {
+                  "id": "exploración-geotécnica-1",
+                  "url": "",
+                  "descripcion": "Exploración Geotécnica"
+                },
+                {
+                  "id": "limpieza-obras-transversales-2",
+                  "url": "",
+                  "descripcion": "Limpieza Obras Transversales"
+                },
+                {
+                  "id": "construcción-de-filtros-3",
+                  "url": "",
+                  "descripcion": "Construcción de filtros"
+                },
+                {
+                  "id": "construcción-de-cuneta-4",
+                  "url": "",
+                  "descripcion": "Construcción de Cuneta"
+                },
+                {
+                  "id": "conformación-y-adecuación-5",
+                  "url": "",
+                  "descripcion": "Conformación y adecuación"
+                },
+                {
+                  "id": "estabilización-mat-existente-6",
+                  "url": "",
+                  "descripcion": "Estabilización Mat Existente"
+                },
+                {
+                  "id": "estabilización-mat-préstamo-7",
+                  "url": "",
+                  "descripcion": "Estabilización Mat Préstamo"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "Se cuenta con estructura en proceso de aprobación.",
+                "A la fecha el contratista ha adelantado topografía y limpieza de obras transversales.",
+                "Estructura en proceso de aprobación. Topografía 10/23,77 km. Exploración geotécnica 96/98 apiques. Limpieza OT primeros 10 km: 91/115. Contratista ha adelantado topografía y limpieza de OT."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "julio 28 de 2026 tramo inicial de 5 km",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "junio 16 de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "julio 28 de 2026 tramo inicial de 5 km",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "corredor_vial": "Abejorral - La Frontera",
+          "municipio": "ABEJORRAL",
+          "contratista": "POR DEFINIR (RENTAN)",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 25.49,
+                  "completado": 10
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 98,
+                  "completado": 96
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 16,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 25.49,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 25.49,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 25.49,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Topografía 10/25,49 km. Exploración geotécnica 96/98 apiques. Limpieza OT últimos 10 km: 0/16. Constructor prepara entrega de diseño de estructura tras resultados de ensayos."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "En proceso",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "junio 16 de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Después de entrega de resultados de ensayos 10 km iniciales",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "corredor_vial": "San Vicente - El Peñol",
+          "municipio": "EL PEÑOL",
+          "contratista": "CONSORCIO VÍAS ORIENTE (CONCRECIVIL S.A.S BIC 50% - CONINGECON S.A.S 50%)",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 4
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 12.5
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 91,
+                  "completado": 5
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "topografía-0",
+                  "url": "",
+                  "descripcion": "Topografía"
+                },
+                {
+                  "id": "exploración-geotécnica-1",
+                  "url": "",
+                  "descripcion": "Exploración Geotécnica"
+                },
+                {
+                  "id": "limpieza-obras-transversales-2",
+                  "url": "",
+                  "descripcion": "Limpieza Obras Transversales"
+                },
+                {
+                  "id": "construcción-de-filtros-3",
+                  "url": "",
+                  "descripcion": "Construcción de filtros"
+                },
+                {
+                  "id": "construcción-de-cuneta-4",
+                  "url": "",
+                  "descripcion": "Construcción de Cuneta"
+                },
+                {
+                  "id": "conformación-y-adecuación-5",
+                  "url": "",
+                  "descripcion": "Conformación y adecuación"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente.",
+                "Aún no se ha iniciado la rocería del tramo que se va a estabilizar inicialmente. Definido que será ejecutada por RENTAN.",
+                "El levantamiento topográfico avanzó hasta K15+138. Continúan labores con material en márgenes reportado.",
+                "Desarrollo en sentido El Peñol hacia San Vicente. Tramo inicial K15+138-K18+150. Rocería pendiente (RENTAN). Ampliación y corte de taludes K5+700-K15+000 con material en márgenes. Tramo a estabilizar ~12,5 km (5,4 km en pavimento flexible). Exploración geotécnica completada."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "jueves, 23 de julio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "junio 16 de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "julio 24 de 2026 (resultados lab y diseño inicial)",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "corredor_vial": "La Quiebra - Santa Ana",
+          "municipio": "GRANADA",
+          "contratista": "CONSORCIO ANTIOQUIA GRUPO 3",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 5.33,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 22,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 204,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 5.33,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 5.33,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 5.33,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "topografía-0",
+                  "url": "",
+                  "descripcion": "Topografía"
+                },
+                {
+                  "id": "exploración-geotécnica-1",
+                  "url": "",
+                  "descripcion": "Exploración Geotécnica"
+                },
+                {
+                  "id": "limpieza-obras-transversales-2",
+                  "url": "",
+                  "descripcion": "Limpieza Obras Transversales"
+                },
+                {
+                  "id": "construcción-de-filtros-3",
+                  "url": "",
+                  "descripcion": "Construcción de filtros"
+                },
+                {
+                  "id": "construcción-de-cuneta-4",
+                  "url": "",
+                  "descripcion": "Construcción de Cuneta"
+                },
+                {
+                  "id": "conformación-y-adecuación-5",
+                  "url": "",
+                  "descripcion": "Conformación y adecuación"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "El Constructor anunció que la próxima semana iniciará con topografía y apiques en esta vía.",
+                "Sin avances. Constructor anunció que próxima semana iniciará topografía y apiques. Inventario OT por iniciar (204 und)."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "corredor_vial": "Sonsón - Aguadas (Puente San Rafael)",
+          "municipio": "SONSÓN",
+          "contratista": "CONSORCIO ANTIOQUIA GRUPO 3",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 19.22,
+                  "completado": 3.3
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 77,
+                  "completado": 41
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 150,
+                  "completado": 54
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 19.22,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 19.22,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 19.22,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "topografía-0",
+                  "url": "",
+                  "descripcion": "Topografía"
+                },
+                {
+                  "id": "exploración-geotécnica-1",
+                  "url": "",
+                  "descripcion": "Exploración Geotécnica"
+                },
+                {
+                  "id": "limpieza-obras-transversales-2",
+                  "url": "",
+                  "descripcion": "Limpieza Obras Transversales"
+                },
+                {
+                  "id": "construcción-de-filtros-3",
+                  "url": "",
+                  "descripcion": "Construcción de filtros"
+                },
+                {
+                  "id": "construcción-de-cuneta-4",
+                  "url": "",
+                  "descripcion": "Construcción de Cuneta"
+                },
+                {
+                  "id": "conformación-y-adecuación-5",
+                  "url": "",
+                  "descripcion": "Conformación y adecuación"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "Hasta el momento no se cuenta con diseños entregados por parte del Contratista.",
+                "Se requiere que el contratista presente información de apiques y topografía y con ello avanzar en el diseño y fórmula de trabajo.",
+                "No se cuenta con diseños entregados por parte del Contratista. Se requiere presentación de apiques y topografía para avanzar en diseño y fórmula de trabajo. Topografía 3,3/19,22 km. Exploración 41/77 apiques. Limpieza OT 54/150, inventario en elaboración."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "julio 28 de 2026 tramo inicial de 2 km",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "junio 16 de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "corredor_vial": "San Rafael - San Roque - Santo Domingo - Alejandría",
+          "municipio": "ALEJANDRÍA",
+          "contratista": "POR DEFINIR (RENTAN)",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 11,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "localización-y-replanteo-0",
+                  "url": "",
+                  "descripcion": "Localización y replanteo"
+                },
+                {
+                  "id": "rozería-y-limpieza-1",
+                  "url": "",
+                  "descripcion": "Rozería y limpieza"
+                },
+                {
+                  "id": "instalación-de-geoceldas-2",
+                  "url": "",
+                  "descripcion": "Instalación de Geoceldas"
+                },
+                {
+                  "id": "obras-de-drenaje-3",
+                  "url": "",
+                  "descripcion": "Obras de drenaje"
+                },
+                {
+                  "id": "pavimentación-4",
+                  "url": "",
+                  "descripcion": "Pavimentación"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Sin avances. Todas las actividades en 0."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "corredor_vial": "Guarne - Yolombal",
+          "municipio": "GUARNE",
+          "contratista": "CONSORCIO VÍAS ORIENTE (CONCRECIVIL S.A.S BIC 50% - CONINGECON S.A.S 50%)",
+          "valor_contrato": 108554215084.00002,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 30395180223.520008,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 3256626452.5200005,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 1
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 42,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "topografía-0",
+                  "url": "",
+                  "descripcion": "Topografía"
+                },
+                {
+                  "id": "exploración-geotécnica-1",
+                  "url": "",
+                  "descripcion": "Exploración Geotécnica"
+                },
+                {
+                  "id": "limpieza-obras-transversales-2",
+                  "url": "",
+                  "descripcion": "Limpieza Obras Transversales"
+                },
+                {
+                  "id": "construcción-de-filtros-3",
+                  "url": "",
+                  "descripcion": "Construcción de filtros"
+                },
+                {
+                  "id": "construcción-de-cuneta-4",
+                  "url": "",
+                  "descripcion": "Construcción de Cuneta"
+                },
+                {
+                  "id": "conformación-y-adecuación-5",
+                  "url": "",
+                  "descripcion": "Conformación y adecuación"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "Sin avances significativos. Exploración geotécnica 1,0/5,0 km. Inventario OT en construcción (42 und)."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "NORDESTE",
+      "circuitos": [
+        {
+          "id": 22,
+          "corredor_vial": "Caramanta - Cristales - San Roque",
+          "municipio": "SAN ROQUE",
+          "contratista": "CONSORCIO CONSTRUCCIONES 11 SAN ROQUE",
+          "valor_contrato": 57385592096,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 16067965786.880001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 1721567762.8799999,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 20
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 98,
+                  "completado": 96
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 128,
+                  "completado": 89
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 20.64,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 20.64,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 20.64,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Estructura aprobada para 13,25 km con dosificación de Cal para suelo existente. Aún no se define dosificación de Cemento para Material Granular de Préstamo. Topografía 20/23,46 km. Exploración 96/98. Contratista solicitó reunión para alternativa sin Cal."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "jueves, 7 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 26 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 30 de junio de 2026",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "corredor_vial": "San Rafael - San Roque - Santo Domingo - Alejandría",
+          "municipio": "SAN ROQUE",
+          "contratista": "CONSORCIO CONSTRUCCIONES 11 SAN ROQUE",
+          "valor_contrato": 57385592096,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 16067965786.880001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 1721567762.8799999,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 20
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 98,
+                  "completado": 96
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 204,
+                  "completado": 12
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [
+                {
+                  "id": "localización-y-replanteo-0",
+                  "url": "",
+                  "descripcion": "Localización y replanteo"
+                },
+                {
+                  "id": "rozería-y-limpieza-1",
+                  "url": "",
+                  "descripcion": "Rozería y limpieza"
+                },
+                {
+                  "id": "instalación-de-geoceldas-2",
+                  "url": "",
+                  "descripcion": "Instalación de Geoceldas"
+                },
+                {
+                  "id": "obras-de-drenaje-3",
+                  "url": "",
+                  "descripcion": "Obras de drenaje"
+                },
+                {
+                  "id": "pavimentación-4",
+                  "url": "",
+                  "descripcion": "Pavimentación"
+                }
+              ],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Topografía 20/23,46 km. Exploración 96/98. Limpieza OT 12/204. No presentan resultados de laboratorio ni diseño de estructura, tampoco dosificaciones de cal y cemento."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "corredor_vial": "Amalfi - Portachuelos - Santa Isabel",
+          "municipio": "AMALFI",
+          "contratista": "CONSORCIO CONSTRUCCIONES 11 SAN ROQUE",
+          "valor_contrato": 57385592096,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 16067965786.880001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 1721567762.8799999,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 10,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 10,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 23.46,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Sin avances en ninguna actividad. No presentan resultados de laboratorio ni diseño de estructura."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "BAJO CAUCA",
+      "circuitos": [
+        {
+          "id": 25,
+          "corredor_vial": "Cáceres - La Chilona",
+          "municipio": "CÁCERES",
+          "contratista": "CONSORCIO VIAS 7PD",
+          "valor_contrato": 26362070969,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 7381379871.320001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 790862129.0699999,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 25
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 100,
+                  "completado": 16
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 280,
+                  "completado": 110
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 1.5
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 9
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Estructura aprobada para 0,750 km (tramo de prueba). Aún no se define dosificación de Cemento para Material Granular de Préstamo. Topografía completada 25/25 km. Conformación 9/25 km. Filtros 1,5/25 km. Estabilización mat. existente 0,2/25 km. Contratista solicitó cambio de estabilización con material existente por material suministrado."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Completado",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 1 de junio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "13 de mayo de 2026 (tramo prueba)",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "URABÁ",
+      "circuitos": [
+        {
+          "id": 26,
+          "corredor_vial": "San Pedro de Urabá - Necoclí",
+          "municipio": "NECOCLÍ",
+          "contratista": "CONSORCIO URABÁ 25",
+          "valor_contrato": 144973755369,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 40592651503.32001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 4349212661.07,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 58.65,
+                  "completado": 16
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 235,
+                  "completado": 56
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 350,
+                  "completado": 106
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 58.65,
+                  "completado": 4.4
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 58.65,
+                  "completado": 0.5
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 58.65,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Topografía 16/58,65 km. Diseño geométrico entregado 9 km hasta K13, en revisión. Diseño estructura remitido a RENTAN 17/07 con concepto de interventoría. Pendiente autorización SIF. Filtros 4,4 km. Cuneta 0,5 km."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Entregados 9 km diseño geométrico, levantamiento 16 km",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 1 de junio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Remitido a RENTAN 17 julio con concepto interventoría",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "corredor_vial": "Mutata - Pavarando",
+          "municipio": "MUTATÁ",
+          "contratista": "CONSORCIO URABÁ 25",
+          "valor_contrato": 144973755369,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 40592651503.32001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 4349212661.07,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 10,
+                  "completado": 10
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 40,
+                  "completado": 40
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 20,
+                  "completado": 14
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 10,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 10,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 10,
+                  "completado": 3
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Topografía completada 10/10 km. Exploración completada 40/40. Diseño geométrico 6 km entregados, últimos 4 km en revisión. Alternativa 2 aprobada en comité (SIF, RENTAN, Interventoría, Contratista). Pendiente autorización SIF área financiera. Conformación 3/10 km."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Entregados 6 km diseño geométrico, levantamiento 10 km",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 1 de junio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Remitido a RENTAN 10 junio, alternativa 2 aprobada en comité",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "corredor_vial": "San Pedro de Urabá - Arboletes",
+          "municipio": "ARBOLETES",
+          "contratista": "CONSORCIO URABÁ 25",
+          "valor_contrato": 144973755369,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 40592651503.32001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 4349212661.07,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 120,
+                  "completado": 20
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 120,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Topografía no realizada, solo posicionamiento de 4 km. Exploración 20/120. Limpieza OT 0/120. Fase exploratoria 5 km inició 21/07/2026."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "No realizada, solo posicionamiento",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 1 de junio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "No presentado por contratista",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "corredor_vial": "San Pedro - El Tres - Turbo",
+          "municipio": "TURBO",
+          "contratista": "CONSORCIO URABÁ 25",
+          "valor_contrato": 144973755369,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 40592651503.32001,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 4349212661.07,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 22,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 88,
+                  "completado": 44
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 100,
+                  "completado": 38
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 22,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 22,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 22,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Tramitando modificatorio por cambio de coordenadas de puntos de intervención. Solo posicionamiento y mojonamiento topográfico. Exploración 44/88. Limpieza OT 38/100. Fase exploratoria 5 km inició 09/07/2026."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "No realizada, cambio de coordenadas",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 1 de junio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "No presentado por contratista",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "MAGDALENA MEDIO",
+      "circuitos": [
+        {
+          "id": 31,
+          "corredor_vial": "La Ye - Yondó",
+          "municipio": "YONDÓ",
+          "contratista": "CONSORCIO MAGDALENA 787",
+          "valor_contrato": 54441800920,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 15243704257.600002,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 1633254027.6,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 120,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 0,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 30,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Fase muy inicial. Contratista realizando amarre geodésico para iniciar levantamientos topográficos. Reunión de inicio 03/06/2026. Se reportó denuncia por mensajes extorsivos (comunicado CMAG-205-2026)."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Realizando amarre geodésico",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "corredor_vial": "Remedios - La Y De La Virgen - Puerto Berrío",
+          "municipio": "PUERTO BERRIO",
+          "contratista": "CONSORCIO MAGDALENA 787",
+          "valor_contrato": 54441800920,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 546304971,
+                  "porcentaje": 10
+                },
+                "programado": {
+                  "valor": 15243704257.600002,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 1633254027.6,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 297900250,
+                  "porcentaje": 5.5
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 4.7,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 25
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 100,
+                  "completado": 84
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 128,
+                  "completado": 89
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 25,
+                  "completado": 0
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+                "El suministro de materiales se ha estabilizado.",
+                "A la espera de aprobación de diseño modificado en el km 15.",
+                "Topografía completada 25/25 km. Pendiente aprobación SIF del diseño hasta K14+300. No se cuenta con fórmula de trabajo. Exploración: resultados hasta K14+300, apiques hasta K21+000 (84/100). Limpieza OT 89/128."
+              ],
+              "tipo_estructura": [
+                "Pavimento Flexible: 15km",
+                "Pavimento Rígido: 5km",
+                "Geoceldas: 10km"
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "martes, 12 de mayo de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "lunes, 1 de junio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "Diseño V2 hasta K14+300 presentado 13/07/2026. Reunión SIF 24/07/2026",
+                  "estado_observacion": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "LOTE 1: ORIENTE",
+      "circuitos": [
+        {
+          "id": "C-SV-EP",
+          "id_circuito": "C-SV-EP",
+          "corredor_vial": "SAN VICENTE - EL PEÑOL",
+          "municipio": "SAN VICENTE",
+          "contratista": "CONSORCIO VÍAS ORIENTE CONCRECIVIL S.A.S BIC (50%) CONINGECON S.A.S (50%)",
+          "valor_contrato": 0,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "En Ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 0,
+                "estado": "En Ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 4
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 12.5
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 91,
+                  "completado": 5
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                }
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "jueves, 23 de julio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "junio 16 de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "julio 24 de 2026 (resultados lab y diseño inicial)",
+                  "estado_observacion": ""
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Observación",
+                "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente...",
+                "Aún no se ha iniciado la rocería del tramo que se va a estabilizar inicialmente.",
+                "El levantamiento topográfico avanzó de abscisa final a menores hasta la abscisa K15+138...",
+                "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente... Aún no se ha iniciado la rocería... El levantamiento topográfico avanzó...",
+                "Desarrollo en sentido El Peñol hacia San Vicente. Tramo inicial K15+138-K18+150. Rocería pendiente (RENTAN). Ampliación y corte de taludes K5+700-K15+000 con material en márgenes. Tramo a estabilizar ~12,5 km (5,4 km en pavimento flexible). Exploración geotécnica completada."
+              ]
+            }
+          ],
+          "info_adicional": {
+            "obra": {
+              "contrato": "20260212",
+              "objeto": "ACTIVIDADES DE MEJORAMIENTO, MANTENIMIENTO Y OBRAS COMPLEMENTARIAS PARA LA ESTABILIZACIÓN DE LAS VÍAS A CARGO DEL DEPARTAMENTO DE ANTIOQUIA, CORRESPONDIENTES A LOS CORREDORES DEL GRUPO 1 DE LA SUBREGIÓN ORIENTE.",
+              "fecha_inicio": "miércoles, 10 de junio de 2026",
+              "plazo": "11 MESES (20 de abril de 2027)"
+            },
+            "interventoria": {
+              "contrato": "20260210",
+              "objeto": "INTERVENTORÍA TÉCNICA, ADMINISTRATIVA, AMBIENTAL, FINANCIERA Y LEGAL A LOS CONTRATOS PARA LAS ACTIVIDADES DE MEJORAMIENTO Y MANTENIMIENTO PARA LA ESTABILIZACIÓN DE LAS VÍAS EN LA SUBREGIÓN ORIENTE A CARGO DEL DEPARTAMENTO DE ANTIOQUIA.",
+              "contratista": "CAMILO ANDRÉS ANGEL SALDARRIAGA",
+              "fecha_inicio": "miércoles, 27 de mayo de 2026",
+              "plazo": "14 MESES (20 de abril de 2027)"
+            },
+            "longitud_total_km": 18.15
+          }
+        },
+        {
+          "id": "C-G-Y",
+          "id_circuito": "C-G-Y",
+          "corredor_vial": "Guarne - Yolombal",
+          "municipio": "GUARNE",
+          "contratista": "CONSORCIO VÍAS ORIENTE CONCRECIVIL S.A.S BIC (50%) CONINGECON S.A.S (50%)",
+          "valor_contrato": 0,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "En Ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 0,
+                "estado": "En Ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 1
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 42,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                }
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Observación",
+                "No hay observaciones adicionales para este tramo.",
+                "Sin avances significativos. Exploración geotécnica 1,0/5,0 km. Inventario OT en construcción (42 und)."
+              ]
+            }
+          ],
+          "info_adicional": {
+            "obra": {
+              "contrato": "20260212",
+              "objeto": "ACTIVIDADES DE MEJORAMIENTO, MANTENIMIENTO Y OBRAS COMPLEMENTARIAS PARA LA ESTABILIZACIÓN DE LAS VÍAS A CARGO DEL DEPARTAMENTO DE ANTIOQUIA, CORRESPONDIENTES A LOS CORREDORES DEL GRUPO 1 DE LA SUBREGIÓN ORIENTE.",
+              "fecha_inicio": "miércoles, 10 de junio de 2026",
+              "plazo": "11 MESES (20 de abril de 2027)"
+            },
+            "interventoria": {
+              "contrato": "20260210",
+              "objeto": "INTERVENTORÍA TÉCNICA, ADMINISTRATIVA, AMBIENTAL, FINANCIERA Y LEGAL A LOS CONTRATOS PARA LAS ACTIVIDADES DE MEJORAMIENTO Y MANTENIMIENTO PARA LA ESTABILIZACIÓN DE LAS VÍAS EN LA SUBREGIÓN ORIENTE A CARGO DEL DEPARTAMENTO DE ANTIOQUIA.",
+              "contratista": "CAMILO ANDRÉS ANGEL SALDARRIAGA",
+              "fecha_inicio": "miércoles, 27 de mayo de 2026",
+              "plazo": "14 MESES (20 de abril de 2027)"
+            },
+            "longitud_total_km": 5
+          }
+        },
+        {
+          "id": "C-SR-SR",
+          "id_circuito": "C-SR-SR",
+          "corredor_vial": "San Rafael - San Roque - Santo Domingo - Alejandría",
+          "municipio": "SAN RAFAEL",
+          "contratista": "CONSORCIO VÍAS ORIENTE CONCRECIVIL S.A.S BIC (50%) CONINGECON S.A.S (50%)",
+          "valor_contrato": 0,
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "En Ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 0,
+                "estado": "En Ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 11,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                }
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Observación",
+                "Tramo sin observaciones destacadas por el momento.",
+                "Sin avances. Todas las actividades en 0."
+              ]
+            }
+          ],
+          "info_adicional": {
+            "obra": {
+              "contrato": "20260212",
+              "objeto": "ACTIVIDADES DE MEJORAMIENTO, MANTENIMIENTO Y OBRAS COMPLEMENTARIAS PARA LA ESTABILIZACIÓN DE LAS VÍAS A CARGO DEL DEPARTAMENTO DE ANTIOQUIA, CORRESPONDIENTES A LOS CORREDORES DEL GRUPO 1 DE LA SUBREGIÓN ORIENTE.",
+              "fecha_inicio": "miércoles, 10 de junio de 2026",
+              "plazo": "11 MESES (20 de abril de 2027)"
+            },
+            "interventoria": {
+              "contrato": "20260210",
+              "objeto": "INTERVENTORÍA TÉCNICA, ADMINISTRATIVA, AMBIENTAL, FINANCIERA Y LEGAL A LOS CONTRATOS PARA LAS ACTIVIDADES DE MEJORAMIENTO Y MANTENIMIENTO PARA LA ESTABILIZACIÓN DE LAS VÍAS EN LA SUBREGIÓN ORIENTE A CARGO DEL DEPARTAMENTO DE ANTIOQUIA.",
+              "contratista": "CAMILO ANDRÉS ANGEL SALDARRIAGA",
+              "fecha_inicio": "miércoles, 27 de mayo de 2026",
+              "plazo": "14 MESES (20 de abril de 2027)"
+            },
+            "longitud_total_km": 2.26
+          }
+        },
+        {
+          "id": "L1-C1-18.15",
+          "id_circuito": "L1-C1-18.15",
+          "corredor_vial": "San Vicente - El Peñol",
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 0,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 4
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 12.5
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 91,
+                  "completado": 5
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 12.5,
+                  "completado": 0
+                }
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "jueves, 23 de julio de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "junio 16 de 2026",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "fecha_presentacion": "julio 24 de 2026 (resultados lab y diseño inicial)",
+                  "estado_observacion": ""
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente... Aún no se ha iniciado la rocería... El levantamiento topográfico avanzó...",
+                "Desarrollo en sentido El Peñol hacia San Vicente. Tramo inicial K15+138-K18+150. Rocería pendiente (RENTAN). Ampliación y corte de taludes K5+700-K15+000 con material en márgenes. Tramo a estabilizar ~12,5 km (5,4 km en pavimento flexible). Exploración geotécnica completada."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "L1-C2-5.0",
+          "id_circuito": "L1-C2-5.0",
+          "corredor_vial": "Guarne - Yolombal",
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 0,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 1
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 42,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 5,
+                  "completado": 0
+                }
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Sin avances significativos. Exploración geotécnica 1,0/5,0 km. Inventario OT en construcción (42 und)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "L1-C3-2.26",
+          "id_circuito": "L1-C3-2.26",
+          "corredor_vial": "San Rafael - San Roque",
+          "cortes_semanales": [
+            {
+              "semana": 1,
+              "fecha_corte": "2026-07-24",
+              "financiero": {
+                "anticipo": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "programado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "ejecutado": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "avance": {
+                  "valor": 0,
+                  "porcentaje": 0
+                },
+                "estado": "En ejecución"
+              },
+              "fisico": {
+                "programado": 0,
+                "ejecutado": 0,
+                "avance": 0,
+                "estado": "En ejecución"
+              },
+              "actividades_ejecutadas": [
+                {
+                  "nombre": "Topografía",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Exploración Geotécnica",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Limpieza de Obras Transversales",
+                  "unidad": "und",
+                  "total": 11,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de filtros",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Construcción de Cuneta",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                },
+                {
+                  "nombre": "Conformación y adecuación",
+                  "unidad": "km",
+                  "total": 2.26,
+                  "completado": 0
+                }
+              ],
+              "insumos": [
+                {
+                  "nombre": "Perfil Topográfico",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Estudios de tránsito",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                },
+                {
+                  "nombre": "Presentación diseño estructura",
+                  "responsable": "CONTRATISTA",
+                  "estado_observacion": ""
+                }
+              ],
+              "imagenes": [],
+              "observaciones_tecnicas": [
+                "Sin avances. Todas las actividades en 0."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

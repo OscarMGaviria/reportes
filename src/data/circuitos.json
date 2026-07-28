@@ -1,0 +1,795 @@
+{
+  "type": "FeatureCollection",
+  "name": "localizacion_circuitos",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4979"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 1",
+        "NOMBRE_VIA": "Corredor 1 - Variante",
+        "MPIO_NOMBR": "TÁMESIS",
+        "AV_FISICO": 0.07,
+        "AV_FINAN": 0.73,
+        "VALOR_CTO": 35791956077,
+        "id": 1
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 2",
+        "NOMBRE_VIA": "Corredor 2 - Variante",
+        "MPIO_NOMBR": "VALPARAÍSO",
+        "AV_FISICO": 0.1,
+        "AV_FINAN": 0.12,
+        "VALOR_CTO": 36878453530,
+        "id": 2
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 3",
+        "NOMBRE_VIA": "Corredor 3 - Variante",
+        "MPIO_NOMBR": "MEDELLÍN",
+        "AV_FISICO": 0.09,
+        "AV_FINAN": 0.03,
+        "VALOR_CTO": 58929453333,
+        "id": 3
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 4",
+        "NOMBRE_VIA": "Corredor 4 - Variante",
+        "MPIO_NOMBR": "BELLO",
+        "AV_FISICO": 0.39,
+        "AV_FINAN": 0.54,
+        "VALOR_CTO": 89899413395,
+        "id": 4
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 5",
+        "NOMBRE_VIA": "Corredor 5 - Variante",
+        "MPIO_NOMBR": "ENVIGADO",
+        "AV_FISICO": 0.28,
+        "AV_FINAN": 0.89,
+        "VALOR_CTO": 30085202349,
+        "id": 5
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 6",
+        "NOMBRE_VIA": "Corredor 6 - Variante",
+        "MPIO_NOMBR": "ITAGÜÍ",
+        "AV_FISICO": 0.14,
+        "AV_FINAN": 0.35,
+        "VALOR_CTO": 94164915149,
+        "id": 6
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 7",
+        "NOMBRE_VIA": "Corredor 7 - Variante",
+        "MPIO_NOMBR": "RIONEGRO",
+        "AV_FISICO": 0.05,
+        "AV_FINAN": 0.4,
+        "VALOR_CTO": 84111319919,
+        "id": 7
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 8",
+        "NOMBRE_VIA": "Corredor 8 - Variante",
+        "MPIO_NOMBR": "APARTADÓ",
+        "AV_FISICO": 0.17,
+        "AV_FINAN": 0.68,
+        "VALOR_CTO": 83435419990,
+        "id": 8
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 9",
+        "NOMBRE_VIA": "Corredor 9 - Variante",
+        "MPIO_NOMBR": "TURBO",
+        "AV_FISICO": 0.11,
+        "AV_FINAN": 0.89,
+        "VALOR_CTO": 32472403954,
+        "id": 9
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 10",
+        "NOMBRE_VIA": "Corredor 10 - Variante",
+        "MPIO_NOMBR": "FRONTINO",
+        "AV_FISICO": 0.22,
+        "AV_FINAN": 0.87,
+        "VALOR_CTO": 42926460762,
+        "id": 10
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 11",
+        "NOMBRE_VIA": "Corredor 11 - Variante",
+        "MPIO_NOMBR": "TÁMESIS",
+        "AV_FISICO": 0.59,
+        "AV_FINAN": 0.87,
+        "VALOR_CTO": 43168057833,
+        "id": 11
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 12",
+        "NOMBRE_VIA": "Corredor 12 - Variante",
+        "MPIO_NOMBR": "VALPARAÍSO",
+        "AV_FISICO": 0.11,
+        "AV_FINAN": 0.47,
+        "VALOR_CTO": 91960244181,
+        "id": 12
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 13",
+        "NOMBRE_VIA": "Corredor 13 - Variante",
+        "MPIO_NOMBR": "MEDELLÍN",
+        "AV_FISICO": 0.32,
+        "AV_FINAN": 0.44,
+        "VALOR_CTO": 92876147317,
+        "id": 13
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 14",
+        "NOMBRE_VIA": "Corredor 14 - Variante",
+        "MPIO_NOMBR": "BELLO",
+        "AV_FISICO": 0.35,
+        "AV_FINAN": 0.39,
+        "VALOR_CTO": 66061897504,
+        "id": 14
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 15",
+        "NOMBRE_VIA": "Corredor 15 - Variante",
+        "MPIO_NOMBR": "ENVIGADO",
+        "AV_FISICO": 0.83,
+        "AV_FINAN": 0.17,
+        "VALOR_CTO": 86956172087,
+        "id": 15
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 16",
+        "NOMBRE_VIA": "Corredor 16 - Variante",
+        "MPIO_NOMBR": "ITAGÜÍ",
+        "AV_FISICO": 0.21,
+        "AV_FINAN": 0.72,
+        "VALOR_CTO": 45772777942,
+        "id": 16
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 17",
+        "NOMBRE_VIA": "Corredor 17 - Variante",
+        "MPIO_NOMBR": "RIONEGRO",
+        "AV_FISICO": 0.06,
+        "AV_FINAN": 0.54,
+        "VALOR_CTO": 27202397453,
+        "id": 17
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 18",
+        "NOMBRE_VIA": "Corredor 18 - Variante",
+        "MPIO_NOMBR": "APARTADÓ",
+        "AV_FISICO": 0.22,
+        "AV_FINAN": 0.03,
+        "VALOR_CTO": 82711907441,
+        "id": 18
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 19",
+        "NOMBRE_VIA": "Corredor 19 - Variante",
+        "MPIO_NOMBR": "TURBO",
+        "AV_FISICO": 0.06,
+        "AV_FINAN": 0.77,
+        "VALOR_CTO": 98271747532,
+        "id": 19
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 20",
+        "NOMBRE_VIA": "Corredor 20 - Variante",
+        "MPIO_NOMBR": "FRONTINO",
+        "AV_FISICO": 0.4,
+        "AV_FINAN": 0.23,
+        "VALOR_CTO": 72331163394,
+        "id": 20
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 21",
+        "NOMBRE_VIA": "Corredor 21 - Variante",
+        "MPIO_NOMBR": "TÁMESIS",
+        "AV_FISICO": 0.33,
+        "AV_FINAN": 0.19,
+        "VALOR_CTO": 67199886038,
+        "id": 21
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 22",
+        "NOMBRE_VIA": "Corredor 22 - Variante",
+        "MPIO_NOMBR": "VALPARAÍSO",
+        "AV_FISICO": 0.84,
+        "AV_FINAN": 0.1,
+        "VALOR_CTO": 75483688090,
+        "id": 22
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 23",
+        "NOMBRE_VIA": "Corredor 23 - Variante",
+        "MPIO_NOMBR": "MEDELLÍN",
+        "AV_FISICO": 0.15,
+        "AV_FINAN": 0.68,
+        "VALOR_CTO": 23355843143,
+        "id": 23
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 24",
+        "NOMBRE_VIA": "Corredor 24 - Variante",
+        "MPIO_NOMBR": "BELLO",
+        "AV_FISICO": 0.57,
+        "AV_FINAN": 0.21,
+        "VALOR_CTO": 18346493287,
+        "id": 24
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 25",
+        "NOMBRE_VIA": "Corredor 25 - Variante",
+        "MPIO_NOMBR": "ENVIGADO",
+        "AV_FISICO": 0.27,
+        "AV_FINAN": 0.75,
+        "VALOR_CTO": 38260717534,
+        "id": 25
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 26",
+        "NOMBRE_VIA": "Corredor 26 - Variante",
+        "MPIO_NOMBR": "ITAGÜÍ",
+        "AV_FISICO": 0.65,
+        "AV_FINAN": 0.77,
+        "VALOR_CTO": 90877190800,
+        "id": 26
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 27",
+        "NOMBRE_VIA": "Corredor 27 - Variante",
+        "MPIO_NOMBR": "RIONEGRO",
+        "AV_FISICO": 0.46,
+        "AV_FINAN": 0.06,
+        "VALOR_CTO": 96616354717,
+        "id": 27
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 28",
+        "NOMBRE_VIA": "Corredor 28 - Variante",
+        "MPIO_NOMBR": "APARTADÓ",
+        "AV_FISICO": 0.38,
+        "AV_FINAN": 0.49,
+        "VALOR_CTO": 28881547921,
+        "id": 28
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CIRCUITO": "Circuito de Prueba 29",
+        "NOMBRE_VIA": "Corredor 29 - Variante",
+        "MPIO_NOMBR": "TURBO",
+        "AV_FISICO": 0.28,
+        "AV_FINAN": 0.33,
+        "VALOR_CTO": 24234292553,
+        "id": 29
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

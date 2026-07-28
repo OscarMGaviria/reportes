@@ -17,8 +17,8 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div v-if="imagenes && imagenes.length > 0" class="photo-gallery">
-    <template v-if="true">
+  <div class="photo-gallery">
+    <template v-if="imagenes && imagenes.length > 0">
       <div v-for="(img, index) in imagenes" :key="img.id" class="photo-card">
         <div class="img-wrapper" @click="openModal(index)">
           <img :src="`https://picsum.photos/seed/${img.id+index}/400/300`" :alt="img.descripcion" />
@@ -27,6 +27,11 @@ const closeModal = () => {
         <div class="photo-caption bg-dark-green">
           <span class="photo-desc">{{ img.descripcion }}</span>
         </div>
+      </div>
+    </template>
+    <template v-else>
+      <div class="photo-card empty-card" style="grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; background: #f3f4f6; padding: 2vh;">
+        <span style="color: #6b7280; font-size: 1.6vh; font-style: italic;">Sin registro fotográfico reportado para esta semana.</span>
       </div>
     </template>
 

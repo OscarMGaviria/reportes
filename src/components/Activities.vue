@@ -13,9 +13,7 @@ const formatNumber = (num) => {
     <div class="activities-grid">
       <div v-for="(act, index) in actividades" :key="index" class="activity-item">
         <div class="check-icon">✓</div>
-        <div class="act-icon-wrapper">
-          <div class="act-icon-placeholder"></div>
-        </div>
+
         <div class="act-details">
           <div class="act-name">{{ act.nombre }}: <span v-if="act.porcentaje !== undefined" class="text-green font-bold">{{ act.porcentaje }}%</span></div>
           <div v-if="act.completado !== undefined" class="act-progress">
@@ -69,20 +67,7 @@ const formatNumber = (num) => {
   flex-shrink: 0;
 }
 
-.act-icon-wrapper {
-  width: 3vh;
-  height: 3vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.act-icon-placeholder {
-  width: 100%;
-  height: 100%;
-  background-image: repeating-linear-gradient(45deg, #1f4287 0, #1f4287 2px, transparent 2px, transparent 4px);
-  border: 1px solid #1f4287;
-}
 
 .act-details {
   font-size: 1.5vh;

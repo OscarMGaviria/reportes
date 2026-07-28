@@ -17,8 +17,8 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div class="photo-gallery">
-    <template v-if="imagenes && imagenes.length > 0">
+  <div v-if="imagenes && imagenes.length > 0" class="photo-gallery">
+    <template v-if="true">
       <div v-for="(img, index) in imagenes" :key="img.id" class="photo-card">
         <div class="img-wrapper" @click="openModal(index)">
           <img :src="`https://picsum.photos/seed/${img.id+index}/400/300`" :alt="img.descripcion" />
@@ -29,16 +29,7 @@ const closeModal = () => {
         </div>
       </div>
     </template>
-    <template v-else>
-      <div class="photo-card empty-card">
-        <div class="img-wrapper no-cursor">
-          <img src="https://placehold.co/400x300/e5e7eb/6b7280?text=Sin+Imagen" alt="Sin imagen" />
-        </div>
-        <div class="photo-caption bg-dark-green">
-          <span class="photo-desc">No hay fotografías disponibles para este circuito.</span>
-        </div>
-      </div>
-    </template>
+
 
     <!-- Modal para imagen ampliada -->
     <div v-if="selectedImageIndex !== null" class="modal-overlay" @click="closeModal">

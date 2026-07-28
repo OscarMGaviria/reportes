@@ -21,7 +21,7 @@ const closeModal = () => {
     <template v-if="imagenes && imagenes.length > 0">
       <div v-for="(img, index) in imagenes" :key="img.id" class="photo-card">
         <div class="img-wrapper" @click="openModal(index)">
-          <img :src="`https://picsum.photos/seed/${img.id+index}/400/300`" :alt="img.descripcion" />
+          <img :src="img.url" :alt="img.descripcion" />
           <div class="photo-number">{{ index + 1 }}</div>
         </div>
         <div class="photo-caption bg-dark-green">
@@ -41,7 +41,7 @@ const closeModal = () => {
       <div class="modal-content" @click.stop>
         <button class="close-btn" @click="closeModal">✕</button>
         <img 
-          :src="`https://picsum.photos/seed/${imagenes[selectedImageIndex].id+selectedImageIndex}/800/600`" 
+          :src="imagenes[selectedImageIndex].url" 
           :alt="imagenes[selectedImageIndex].descripcion" 
           class="enlarged-img"
         />

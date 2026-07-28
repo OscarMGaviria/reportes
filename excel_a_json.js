@@ -80,6 +80,27 @@ try {
       corte.fisico.ejecutado = row.Porcentaje_Fisico_Ejecutado ?? corte.fisico.ejecutado;
     }
     
+    // Escanear carpeta de imágenes de este circuito
+    corte.imagenes = [];
+    try {
+      const sanitize = (name) => name.replace(/[<>:"/\\|?*]+/g, '-').trim();
+      const imgsPath = path.join(process.cwd(), 'public', 'images', sanitize(lote), sanitize(circuito.corredor_vial));
+      if (fs.existsSync(imgsPath)) {
+        const files = fs.readdirSync(imgsPath);
+        files.forEach((file, index) => {
+          if (file.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {
+            corte.imagenes.push({
+              id: index + 1,
+              url: `/images/${encodeURIComponent(sanitize(lote))}/${encodeURIComponent(sanitize(circuito.corredor_vial))}/${encodeURIComponent(file)}`.replace(/%20/g, ' '),
+              descripcion: file.split('.')[0].replace(/_/g, ' ')
+            });
+          }
+        });
+      }
+    } catch(err) {
+      console.warn("Error leyendo imágenes del circuito:", circuito.corredor_vial, err.message);
+    }
+    
     // Asignar observación si existe
     if (row.Observacion_Semanal) {
       if (!corte.observaciones_tecnicas.includes(row.Observacion_Semanal)) {

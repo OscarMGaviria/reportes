@@ -1826,48 +1826,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "topografía-0",
-                  "url": "",
-                  "descripcion": "Topografía"
-                },
-                {
-                  "id": "exploración-geotécnica-1",
-                  "url": "",
-                  "descripcion": "Exploración Geotécnica"
-                },
-                {
-                  "id": "limpieza-obras-transversales-2",
-                  "url": "",
-                  "descripcion": "Limpieza Obras Transversales"
-                },
-                {
-                  "id": "construcción-de-filtros-3",
-                  "url": "",
-                  "descripcion": "Construcción de filtros"
-                },
-                {
-                  "id": "construcción-de-cuneta-4",
-                  "url": "",
-                  "descripcion": "Construcción de Cuneta"
-                },
-                {
-                  "id": "conformación-y-adecuación-5",
-                  "url": "",
-                  "descripcion": "Conformación y adecuación"
-                },
-                {
-                  "id": "estabilización-mat-existente-6",
-                  "url": "",
-                  "descripcion": "Estabilización Mat Existente"
-                },
-                {
-                  "id": "estabilización-mat-préstamo-7",
-                  "url": "",
-                  "descripcion": "Estabilización Mat Préstamo"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "Se cuenta con estructura en proceso de aprobación.",
                 "A la fecha el contratista ha adelantado topografía y limpieza de obras transversales.",
@@ -2082,38 +2041,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "topografía-0",
-                  "url": "",
-                  "descripcion": "Topografía"
-                },
-                {
-                  "id": "exploración-geotécnica-1",
-                  "url": "",
-                  "descripcion": "Exploración Geotécnica"
-                },
-                {
-                  "id": "limpieza-obras-transversales-2",
-                  "url": "",
-                  "descripcion": "Limpieza Obras Transversales"
-                },
-                {
-                  "id": "construcción-de-filtros-3",
-                  "url": "",
-                  "descripcion": "Construcción de filtros"
-                },
-                {
-                  "id": "construcción-de-cuneta-4",
-                  "url": "",
-                  "descripcion": "Construcción de Cuneta"
-                },
-                {
-                  "id": "conformación-y-adecuación-5",
-                  "url": "",
-                  "descripcion": "Conformación y adecuación"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente.",
                 "Aún no se ha iniciado la rocería del tramo que se va a estabilizar inicialmente. Definido que será ejecutada por RENTAN.",
@@ -2221,38 +2149,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "topografía-0",
-                  "url": "",
-                  "descripcion": "Topografía"
-                },
-                {
-                  "id": "exploración-geotécnica-1",
-                  "url": "",
-                  "descripcion": "Exploración Geotécnica"
-                },
-                {
-                  "id": "limpieza-obras-transversales-2",
-                  "url": "",
-                  "descripcion": "Limpieza Obras Transversales"
-                },
-                {
-                  "id": "construcción-de-filtros-3",
-                  "url": "",
-                  "descripcion": "Construcción de filtros"
-                },
-                {
-                  "id": "construcción-de-cuneta-4",
-                  "url": "",
-                  "descripcion": "Construcción de Cuneta"
-                },
-                {
-                  "id": "conformación-y-adecuación-5",
-                  "url": "",
-                  "descripcion": "Conformación y adecuación"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "El Constructor anunció que la próxima semana iniciará con topografía y apiques en esta vía.",
                 "Sin avances. Constructor anunció que próxima semana iniciará topografía y apiques. Inventario OT por iniciar (204 und)."
@@ -2355,38 +2252,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "topografía-0",
-                  "url": "",
-                  "descripcion": "Topografía"
-                },
-                {
-                  "id": "exploración-geotécnica-1",
-                  "url": "",
-                  "descripcion": "Exploración Geotécnica"
-                },
-                {
-                  "id": "limpieza-obras-transversales-2",
-                  "url": "",
-                  "descripcion": "Limpieza Obras Transversales"
-                },
-                {
-                  "id": "construcción-de-filtros-3",
-                  "url": "",
-                  "descripcion": "Construcción de filtros"
-                },
-                {
-                  "id": "construcción-de-cuneta-4",
-                  "url": "",
-                  "descripcion": "Construcción de Cuneta"
-                },
-                {
-                  "id": "conformación-y-adecuación-5",
-                  "url": "",
-                  "descripcion": "Conformación y adecuación"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "Hasta el momento no se cuenta con diseños entregados por parte del Contratista.",
                 "Se requiere que el contratista presente información de apiques y topografía y con ello avanzar en el diseño y fórmula de trabajo.",
@@ -2492,33 +2358,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "localización-y-replanteo-0",
-                  "url": "",
-                  "descripcion": "Localización y replanteo"
-                },
-                {
-                  "id": "rozería-y-limpieza-1",
-                  "url": "",
-                  "descripcion": "Rozería y limpieza"
-                },
-                {
-                  "id": "instalación-de-geoceldas-2",
-                  "url": "",
-                  "descripcion": "Instalación de Geoceldas"
-                },
-                {
-                  "id": "obras-de-drenaje-3",
-                  "url": "",
-                  "descripcion": "Obras de drenaje"
-                },
-                {
-                  "id": "pavimentación-4",
-                  "url": "",
-                  "descripcion": "Pavimentación"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -2623,38 +2463,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "topografía-0",
-                  "url": "",
-                  "descripcion": "Topografía"
-                },
-                {
-                  "id": "exploración-geotécnica-1",
-                  "url": "",
-                  "descripcion": "Exploración Geotécnica"
-                },
-                {
-                  "id": "limpieza-obras-transversales-2",
-                  "url": "",
-                  "descripcion": "Limpieza Obras Transversales"
-                },
-                {
-                  "id": "construcción-de-filtros-3",
-                  "url": "",
-                  "descripcion": "Construcción de filtros"
-                },
-                {
-                  "id": "construcción-de-cuneta-4",
-                  "url": "",
-                  "descripcion": "Construcción de Cuneta"
-                },
-                {
-                  "id": "conformación-y-adecuación-5",
-                  "url": "",
-                  "descripcion": "Conformación y adecuación"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "Sin avances significativos. Exploración geotécnica 1,0/5,0 km. Inventario OT en construcción (42 und)."
               ],
@@ -2869,33 +2678,7 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [
-                {
-                  "id": "localización-y-replanteo-0",
-                  "url": "",
-                  "descripcion": "Localización y replanteo"
-                },
-                {
-                  "id": "rozería-y-limpieza-1",
-                  "url": "",
-                  "descripcion": "Rozería y limpieza"
-                },
-                {
-                  "id": "instalación-de-geoceldas-2",
-                  "url": "",
-                  "descripcion": "Instalación de Geoceldas"
-                },
-                {
-                  "id": "obras-de-drenaje-3",
-                  "url": "",
-                  "descripcion": "Obras de drenaje"
-                },
-                {
-                  "id": "pavimentación-4",
-                  "url": "",
-                  "descripcion": "Pavimentación"
-                }
-              ],
+              "imagenes": [],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",

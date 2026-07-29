@@ -31,8 +31,9 @@ const circuitoActual = computed(() => {
 })
 
 const corteActual = computed(() => {
-  if (!circuitoActual.value) return null
-  return circuitoActual.value.cortes_semanales[0]
+  if (!circuitoActual.value || !circuitoActual.value.cortes_semanales.length) return null
+  // Obtener el corte con la semana mayor
+  return [...circuitoActual.value.cortes_semanales].sort((a, b) => b.semana - a.semana)[0]
 })
 
 const formatCurrency = (value) => {

@@ -84,17 +84,43 @@ try {
     corte.imagenes = [];
     try {
       const sanitize = (name) => name.replace(/[<>:"/\\|?*]+/g, '-').trim();
-      const imgsPath = path.join(process.cwd(), 'public', 'images', sanitize(lote), sanitize(circuito.corredor_vial));
+      
+      // Buscar la subregión a la que pertenece este circuito
+      let subregionName = lote; // por defecto el lote
+      const subObj = db.subregiones.find(s => s.circuitos.some(c => c.corredor_vial === circuito.corredor_vial));
+      if (subObj) {
+        subregionName = subObj.nombre;
+      }
+      
+      const imgsPath = path.join(process.cwd(), 'public', 'images', sanitize(subregionName), sanitize(circuito.corredor_vial));
+      
       if (fs.existsSync(imgsPath)) {
-        const files = fs.readdirSync(imgsPath);
-        files.forEach((file, index) => {
-          if (file.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {
-            corte.imagenes.push({
-              id: index + 1,
-              url: `/images/${encodeURIComponent(sanitize(lote))}/${encodeURIComponent(sanitize(circuito.corredor_vial))}/${encodeURIComponent(file)}`.replace(/%20/g, ' '),
-              descripcion: file.split('.')[0].replace(/_/g, ' ')
-            });
-          }
+        // Función recursiva para buscar imágenes
+        const getImages = (dir) => {
+          let results = [];
+          const list = fs.readdirSync(dir);
+          list.forEach(file => {
+            const filePath = path.join(dir, file);
+            const stat = fs.statSync(filePath);
+            if (stat && stat.isDirectory()) {
+              results = results.concat(getImages(filePath));
+            } else if (file.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {
+              results.push(filePath);
+            }
+          });
+          return results;
+        };
+
+        const imageFiles = getImages(imgsPath);
+        
+        imageFiles.forEach((filePath, index) => {
+          const relativePath = path.relative(path.join(process.cwd(), 'public'), filePath).replace(/\\/g, '/');
+          const fileName = path.basename(filePath);
+          corte.imagenes.push({
+            id: index + 1,
+            url: `/${relativePath}`,
+            descripcion: fileName.split('.')[0].replace(/_/g, ' ')
+          });
         });
       }
     } catch(err) {

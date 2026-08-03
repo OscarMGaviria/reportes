@@ -131,7 +131,63 @@
                 "estado": "En ejecución"
               },
               "actividades_ejecutadas": [],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 7"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 7"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (3).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 7"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (4).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 7"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 7"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.36.47 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 7"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 9.15.48 AM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-21 at 9"
+                },
+                {
+                  "id": 8,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Construccion de alcantarillas/WhatsApp Image 2026-05-19 at 5.27.54 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-19 at 5"
+                },
+                {
+                  "id": 9,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Construccion de alcantarillas/WhatsApp Image 2026-05-19 at 5.27.54 PM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-19 at 5"
+                },
+                {
+                  "id": 10,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Topografia/topografia.jpg",
+                  "descripcion": "topografia"
+                },
+                {
+                  "id": 11,
+                  "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Topografia/topografia2.jpg",
+                  "descripcion": "topografia2"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -870,7 +926,118 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 4.21.39 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 4"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 4.21.40 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 4"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 4.21.40 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 4"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.13.15 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 9"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.14.05 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 9"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.14.05 AM (3).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 9"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.14.05 AM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 9"
+                },
+                {
+                  "id": 8,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.57 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 9,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.57 AM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 10,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.58 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 11,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.59 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 12,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.59 AM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 13,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.59 AM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 14,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-14 at 8.20.48 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-14 at 8"
+                },
+                {
+                  "id": 15,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-15 at 3.07.17 PM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 3"
+                },
+                {
+                  "id": 16,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/punto critico/WhatsApp Image 2026-05-11 at 4.21.37 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 4"
+                },
+                {
+                  "id": 17,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/punto critico/WhatsApp Image 2026-05-11 at 4.21.37 PM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-11 at 4"
+                },
+                {
+                  "id": 18,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-13 at 7.53.53 AM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 19,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-13 at 7.53.54 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-13 at 7"
+                },
+                {
+                  "id": 20,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-14 at 8.20.49 AM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-14 at 8"
+                },
+                {
+                  "id": 21,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-15 at 3.07.19 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 3"
+                },
+                {
+                  "id": 22,
+                  "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-15 at 8.08.18 AM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 8"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -978,7 +1145,43 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 1.54.10 PM (3).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 1"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 1.54.10 PM (4).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 1"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 1.54.10 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 1"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 1.54.11 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 1"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 1.54.12 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 1"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 2.05.36 PM (3).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 2"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/SUROESTE/Salgar - La Quiebra - Concordia/actividades/Topografia/WhatsApp Image 2026-05-15 at 2.11.57 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-15 at 2"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -1405,7 +1608,63 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1806.JPG.jpeg",
+                  "descripcion": "IMG 1806"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1826.JPG.jpeg",
+                  "descripcion": "IMG 1826"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1879.JPG.jpeg",
+                  "descripcion": "IMG 1879"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1882.JPG.jpeg",
+                  "descripcion": "IMG 1882"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1883.JPG.jpeg",
+                  "descripcion": "IMG 1883"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1886.JPG.jpeg",
+                  "descripcion": "IMG 1886"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1992.JPG.jpeg",
+                  "descripcion": "IMG 1992"
+                },
+                {
+                  "id": 8,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1996.JPG.jpeg",
+                  "descripcion": "IMG 1996"
+                },
+                {
+                  "id": 9,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_1997.JPG.jpeg",
+                  "descripcion": "IMG 1997"
+                },
+                {
+                  "id": 10,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_2001.JPG.jpeg",
+                  "descripcion": "IMG 2001"
+                },
+                {
+                  "id": 11,
+                  "url": "/images/NORTE/Entrerríos - Labores - San José de la Montana/actividades/Contruccion de obras tranversales/IMG_2007.JPG.jpeg",
+                  "descripcion": "IMG 2007"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -1717,7 +1976,83 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0068.jpg",
+                  "descripcion": "IMG-20260521-WA0068"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0069.jpg",
+                  "descripcion": "IMG-20260521-WA0069"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0070.jpg",
+                  "descripcion": "IMG-20260521-WA0070"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0071.jpg",
+                  "descripcion": "IMG-20260521-WA0071"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0072.jpg",
+                  "descripcion": "IMG-20260521-WA0072"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0074.jpg",
+                  "descripcion": "IMG-20260521-WA0074"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0075.jpg",
+                  "descripcion": "IMG-20260521-WA0075"
+                },
+                {
+                  "id": 8,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0076.jpg",
+                  "descripcion": "IMG-20260521-WA0076"
+                },
+                {
+                  "id": 9,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0077.jpg",
+                  "descripcion": "IMG-20260521-WA0077"
+                },
+                {
+                  "id": 10,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0078.jpg",
+                  "descripcion": "IMG-20260521-WA0078"
+                },
+                {
+                  "id": 11,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0080.jpg",
+                  "descripcion": "IMG-20260521-WA0080"
+                },
+                {
+                  "id": 12,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/TimePhoto_20260519_152328.jpg",
+                  "descripcion": "TimePhoto 20260519 152328"
+                },
+                {
+                  "id": 13,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/TimePhoto_20260519_152343.jpg",
+                  "descripcion": "TimePhoto 20260519 152343"
+                },
+                {
+                  "id": 14,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/TimePhoto_20260519_152838.jpg",
+                  "descripcion": "TimePhoto 20260519 152838"
+                },
+                {
+                  "id": 15,
+                  "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Topografia/IMG-20260521-WA0058.jpg",
+                  "descripcion": "IMG-20260521-WA0058"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -2570,7 +2905,43 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 1. Levantamiento ODT.jpg",
+                  "descripcion": "Fotografia 1"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 2. Levantamiento ODT.jpg",
+                  "descripcion": "Fotografia 2"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 3. Almacen.jpg",
+                  "descripcion": "Fotografia 3"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 4. Recoleccion Muestras Etapa 2.jpg",
+                  "descripcion": "Fotografia 4"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 5. Recoleccion Muestras Etapa 2.jpg",
+                  "descripcion": "Fotografia 5"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 6. Limpieza ODT.jpg",
+                  "descripcion": "Fotografia 6"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/limpieza de alcantarillas.jpg",
+                  "descripcion": "limpieza de alcantarillas"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -2893,7 +3264,33 @@
                   "completado": 9
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/exploracion-de-campo/WhatsApp Image 2026-05-28 at 3.08.06 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-28 at 3"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/filtro/WhatsApp Image 2026-05-28 at 3.08.04 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-28 at 3"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/filtro/WhatsApp Image 2026-05-28 at 3.08.05 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-28 at 3"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/limpieza-de-obras-transversales/WhatsApp Image 2026-05-28 at 3.08.05 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-28 at 3"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/limpieza-de-obras-transversales/WhatsApp Image 2026-05-28 at 3.08.06 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-28 at 3"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -3006,7 +3403,63 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/Bacheo.jpg",
+                  "descripcion": "Bacheo"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/bacheo1.jpg",
+                  "descripcion": "bacheo1"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/bacheo2.jpg",
+                  "descripcion": "bacheo2"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/Contruccion obras transversales.jpg",
+                  "descripcion": "Contruccion obras transversales"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/el tres - ensayos.jpg",
+                  "descripcion": "el tres - ensayos"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/ensayos.jpg",
+                  "descripcion": "ensayos"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/Limpieza de obras.jpg",
+                  "descripcion": "Limpieza de obras"
+                },
+                {
+                  "id": 8,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/pavarando - actividades de campo.jpg",
+                  "descripcion": "pavarando - actividades de campo"
+                },
+                {
+                  "id": 9,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/topo pavarando.jpg",
+                  "descripcion": "topo pavarando"
+                },
+                {
+                  "id": 10,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/Topografia.jpg",
+                  "descripcion": "Topografia"
+                },
+                {
+                  "id": 11,
+                  "url": "/images/URABÁ/San Pedro de Urabá - Necoclí/actividades/topografia2.jpg",
+                  "descripcion": "topografia2"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -3114,7 +3567,13 @@
                   "completado": 3
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/URABÁ/Mutata - Pavarando/actividades/Topografia/Imagen5.jpg",
+                  "descripcion": "Imagen5"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -3330,7 +3789,28 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen1.jpg",
+                  "descripcion": "Imagen1"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen2.jpg",
+                  "descripcion": "Imagen2"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen3.jpg",
+                  "descripcion": "Imagen3"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen4.jpg",
+                  "descripcion": "Imagen4"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",
@@ -3549,7 +4029,53 @@
                   "completado": 0
                 }
               ],
-              "imagenes": [],
+              "imagenes": [
+                {
+                  "id": 1,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Apiques/WhatsApp Image 2026-05-22 at 11.11.36 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                },
+                {
+                  "id": 2,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Apiques/WhatsApp Image 2026-05-22 at 11.11.36 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                },
+                {
+                  "id": 3,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Inspeccion alcatarillas/Inpeccion de alcantarillas.jpg",
+                  "descripcion": "Inpeccion de alcantarillas"
+                },
+                {
+                  "id": 4,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Inspeccion alcatarillas/WhatsApp Image 2026-05-22 at 11.13.05 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                },
+                {
+                  "id": 5,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Inspeccion alcatarillas/WhatsApp Image 2026-05-22 at 11.13.05 PM.jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                },
+                {
+                  "id": 6,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Topografia/Topografia.jpg",
+                  "descripcion": "Topografia"
+                },
+                {
+                  "id": 7,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Topografia/WhatsApp Image 2026-05-22 at 11.15.24 PM (1).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                },
+                {
+                  "id": 8,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Topografia/WhatsApp Image 2026-05-22 at 11.15.24 PM (2).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                },
+                {
+                  "id": 9,
+                  "url": "/images/MAGDALENA MEDIO/Remedios - La Y De La Virgen - Puerto Berrío/actividades/Topografia/WhatsApp Image 2026-05-22 at 11.15.24 PM (3).jpeg",
+                  "descripcion": "WhatsApp Image 2026-05-22 at 11"
+                }
+              ],
               "observaciones_tecnicas": [
                 "Se presentan demoras debido a las fuertes lluvias de la última semana.",
                 "El suministro de materiales se ha estabilizado.",

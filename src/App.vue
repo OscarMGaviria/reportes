@@ -1,6 +1,8 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import dbData from './data/db.json'
+import VueMultiselect from 'vue-multiselect'
+import 'vue-multiselect/dist/vue-multiselect.css'
 import ProgressSection from './components/ProgressSection.vue'
 import Activities from './components/Activities.vue'
 import PhotoGallery from './components/PhotoGallery.vue'
@@ -10,31 +12,62 @@ const showFilterModal = ref(false)
 const data = ref(dbData)
 const subregiones = computed(() => data.value.subregiones || [])
 
-const selectedSubregionName = ref(subregiones.value.length > 0 ? subregiones.value[0].nombre : null)
+const subregionActual = ref(subregiones.value.length > 0 ? subregiones.value[0] : null)
 
-const subregionActual = computed(() => {
-  return subregiones.value.find(s => s.nombre === selectedSubregionName.value)
+const circuitoActual = ref(null)
+const corteSeleccionado = ref(null)
+
+watch(circuitoActual, () => {
+  corteSeleccionado.value = null
 })
 
-const selectedCircuitoId = ref(null)
-
 watch(subregionActual, (newSubregion) => {
-  if (newSubregion && newSubregion.circuitos.length > 0) {
-    selectedCircuitoId.value = newSubregion.circuitos[0].id
+  if (newSubregion && newSubregion.circuitos && newSubregion.circuitos.length > 0) {
+    circuitoActual.value = newSubregion.circuitos[0]
   } else {
-    selectedCircuitoId.value = null
+    circuitoActual.value = null
   }
 }, { immediate: true })
 
-const circuitoActual = computed(() => {
-  if (!subregionActual.value) return null
-  return subregionActual.value.circuitos.find(c => c.id === selectedCircuitoId.value)
-})
+const weekLabel = (corte) => `Semana ${corte.semana} (${corte.fecha_corte})`
 
 const corteActual = computed(() => {
-  if (!circuitoActual.value || !circuitoActual.value.cortes_semanales.length) return null
-  // Obtener el corte con la semana mayor
-  return [...circuitoActual.value.cortes_semanales].sort((a, b) => b.semana - a.semana)[0]
+  if (!circuitoActual.value || !circuitoActual.value.cortes_semanales || !circuitoActual.value.cortes_semanales.length) return null
+  
+  // Obtener el corte seleccionado o el de la semana mayor por defecto
+  let corte = null
+  if (corteSeleccionado.value) {
+    corte = corteSeleccionado.value
+  } else {
+    corte = [...circuitoActual.value.cortes_semanales].sort((a, b) => b.semana - a.semana)[0]
+  }
+  
+  // Clonar para poder modificar los valores calculados
+  const corteProcesado = JSON.parse(JSON.stringify(corte))
+
+  // Calcular avance físico dinámico si hay valores
+  let sumaObraDirecta = 0
+  let sumaEjecutada = 0
+
+  if (corteProcesado.actividades_ejecutadas && corteProcesado.actividades_ejecutadas.length > 0) {
+    corteProcesado.actividades_ejecutadas.forEach(act => {
+      if (act.valor_total) {
+        sumaObraDirecta += act.valor_total
+        if (act.total > 0 && act.completado > 0) {
+          const proporcion = Math.min(act.completado / act.total, 1)
+          sumaEjecutada += proporcion * act.valor_total
+        }
+      }
+    })
+
+    if (sumaObraDirecta > 0) {
+      const avanceFisico = (sumaEjecutada / sumaObraDirecta) * 100
+      corteProcesado.fisico.ejecutado = parseFloat(avanceFisico.toFixed(1))
+      corteProcesado.fisico.avance = parseFloat(avanceFisico.toFixed(1))
+    }
+  }
+
+  return corteProcesado
 })
 
 const formatCurrency = (value) => {
@@ -52,20 +85,45 @@ const formatCurrency = (value) => {
           <button class="close-modal-btn" @click="showFilterModal = false">✕</button>
         </div>
         <div class="filter-modal-body">
-          <label class="filter-label">Subregión: 
-            <select v-model="selectedSubregionName" class="filter-select">
-              <option v-for="sub in subregiones" :key="sub.nombre" :value="sub.nombre">
-                {{ sub.nombre }}
-              </option>
-            </select>
-          </label>
-          <label v-if="subregionActual" class="filter-label">Circuito: 
-            <select v-model="selectedCircuitoId" class="filter-select">
-              <option v-for="c in subregionActual.circuitos" :key="c.id" :value="c.id">
-                {{ c.corredor_vial }}
-              </option>
-            </select>
-          </label>
+          <div class="filter-label">Subregión: 
+            <VueMultiselect
+              v-model="subregionActual"
+              :options="subregiones"
+              track-by="nombre"
+              label="nombre"
+              placeholder="Selecciona una subregión"
+              :searchable="true"
+              :show-labels="false"
+              :close-on-select="true"
+              class="custom-multiselect"
+            />
+          </div>
+          <div v-if="subregionActual" class="filter-label">Circuito: 
+            <VueMultiselect
+              v-model="circuitoActual"
+              :options="subregionActual.circuitos"
+              track-by="id"
+              label="corredor_vial"
+              placeholder="Selecciona un circuito"
+              :searchable="true"
+              :show-labels="false"
+              :close-on-select="true"
+              class="custom-multiselect"
+            />
+          </div>
+          <div v-if="circuitoActual" class="filter-label">Semana de Corte: 
+            <VueMultiselect
+              v-model="corteSeleccionado"
+              :options="circuitoActual.cortes_semanales"
+              :custom-label="weekLabel"
+              track-by="semana"
+              placeholder="Última semana por defecto"
+              :searchable="false"
+              :show-labels="false"
+              :close-on-select="true"
+              class="custom-multiselect"
+            />
+          </div>
         </div>
         <div class="filter-modal-footer">
           <button class="apply-filter-btn bg-dark-green" @click="showFilterModal = false">Aplicar y Cerrar</button>
@@ -79,40 +137,45 @@ const formatCurrency = (value) => {
         
         <!-- COLUMNA IZQUIERDA -->
         <div class="left-column">
-          <!-- HEADER -->
-          <header class="main-header">
-            <div class="header-titles">
-              <h1>INFORME DE AVANCE DE OBRA</h1>
-              <h2 class="text-green">Corredor vial {{ circuitoActual.corredor_vial }}</h2>
-              <p class="subtitle">Resumen ejecutivo y avance de actividades</p>
-            </div>
-            <div class="header-logo">
-              <button class="filter-btn" @click="showFilterModal = true" title="Filtrar">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-              </button>
-              <img src="/Logo-gob-antioquia-ant.png" alt="Logo Gobernación de Antioquia" />
-            </div>
-          </header>
+          <div style="display: flex; flex-direction: column; flex: 1.5; overflow: hidden;">
+            <!-- HEADER -->
+            <header class="main-header">
+              <div class="header-titles">
+                <h1>INFORME DE AVANCE DE OBRA</h1>
+                <h2 class="text-green">Corredor vial {{ circuitoActual.corredor_vial }}</h2>
+                <p class="subtitle">Resumen ejecutivo y avance de actividades</p>
+                <div v-if="corteActual" class="week-badge">
+                  Corte: Semana {{ corteActual.semana }} ({{ corteActual.fecha_corte }})
+                </div>
+              </div>
+              <div class="header-logo">
+                <button class="filter-btn" @click="showFilterModal = true" title="Filtrar">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+                </button>
+                <img src="/Logo-gob-antioquia-ant.png" alt="Logo Gobernación de Antioquia" />
+              </div>
+            </header>
 
-          <!-- VALOR DEL CONTRATO -->
-          <div class="contract-value bg-dark-green">
-            <span class="icon">📄</span>
-            <h2>Valor del contrato: $ {{ formatCurrency(circuitoActual.valor_contrato) }}</h2>
-          </div>
-          
-          <!-- RIBBON PROGRESS -->
-          <div style="display:flex; align-items:center; margin-top: 1vh;">
-            <div class="section-ribbon">
-              <span class="ribbon-icon">↗</span> Avance financiero y físico
+            <!-- VALOR DEL CONTRATO -->
+            <div class="contract-value bg-dark-green">
+              <span class="icon">📄</span>
+              <h2>Valor del contrato: $ {{ formatCurrency(circuitoActual.valor_contrato) }}</h2>
             </div>
-            <div class="ribbon-line"></div>
+            
+            <!-- RIBBON PROGRESS -->
+            <div style="display:flex; align-items:center; margin-top: 1vh;">
+              <div class="section-ribbon">
+                <span class="ribbon-icon">↗</span> Avance financiero y físico
+              </div>
+              <div class="ribbon-line"></div>
+            </div>
+            
+            <!-- PROGRESO (Financiero / Físico) -->
+            <ProgressSection :corte="corteActual" />
           </div>
-          
-          <!-- PROGRESO (Financiero / Físico) -->
-          <ProgressSection :corte="corteActual" />
           
           <!-- RIBBON ACTIVIDADES -->
-          <div class="section-ribbon" style="margin-top: 4vh;">
+          <div class="section-ribbon" style="margin-top: 1vh;">
             <span class="ribbon-icon">✓</span> Avance de actividades ejecutadas
           </div>
           <!-- ACTIVIDADES -->
@@ -121,16 +184,20 @@ const formatCurrency = (value) => {
 
         <!-- COLUMNA DERECHA -->
         <div class="right-column">
-          <div class="top-right-decoration"></div>
-          <!-- FOTOS -->
-          <PhotoGallery :imagenes="corteActual.imagenes" />
+          <div style="display: flex; flex-direction: column; flex: 1.5; overflow: hidden; position: relative;">
+            <div class="top-right-decoration"></div>
+            <!-- FOTOS -->
+            <PhotoGallery :imagenes="corteActual.imagenes" />
+          </div>
 
           <!-- RIBBON OBSERVACIONES -->
           <div class="section-ribbon" style="margin-top: 1vh;">
             <span class="ribbon-icon">✓</span> Dificultades y observaciones técnicas
           </div>
           <!-- OBSERVACIONES -->
-          <Observations :observaciones="corteActual.observaciones_tecnicas" :tipoEstructura="corteActual.tipo_estructura" />
+          <div style="display: flex; flex-direction: column; flex: 1; overflow: hidden;">
+            <Observations :observaciones="corteActual.observaciones_tecnicas" :tipoEstructura="corteActual.tipo_estructura" />
+          </div>
         </div>
 
       </div>
@@ -163,11 +230,14 @@ const formatCurrency = (value) => {
   width: 400px;
   max-width: 90vw;
   border-radius: 8px;
-  overflow: hidden;
+  /* overflow: hidden; removed to allow vue-multiselect dropdown to show outside */
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .filter-modal-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
   padding: 1.5vh 1.5vw;
   display: flex;
   justify-content: space-between;
@@ -197,21 +267,19 @@ const formatCurrency = (value) => {
   color: var(--color-text-main);
 }
 
-.filter-select {
-  margin-top: 0.5vh;
-  padding: 1vh;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  font-size: 1.5vh;
-  width: 100%;
-}
-
 .filter-modal-footer {
   padding: 1.5vh 1.5vw;
   background: var(--color-bg-light);
   display: flex;
   justify-content: flex-end;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
+
+.custom-multiselect {
+  margin-top: 0.5vh;
+}
+
 
 .apply-filter-btn {
   color: white;
@@ -317,6 +385,18 @@ const formatCurrency = (value) => {
   font-style: italic;
   font-size: 1.6vh;
   color: var(--color-text-muted);
+}
+
+.week-badge {
+  display: inline-block;
+  margin-top: 0.5vh;
+  padding: 0.3vh 1vw;
+  background-color: var(--color-bg-light);
+  color: var(--color-primary-dark);
+  border-radius: 4px;
+  font-size: 1.4vh;
+  font-weight: bold;
+  border: 1px solid var(--color-border);
 }
 
 .contract-value {

@@ -40,181 +40,22 @@ body {
   height: 100%;
 }
 
-/* Ribbons (Títulos con punta de flecha) */
-.section-ribbon {
-  display: inline-flex;
-  align-items: center;
-  background-color: var(--color-primary-dark);
-  color: white;
-  font-size: 1.8vh;
-  font-weight: bold;
-  padding: 0.6vh 1.5vw 0.6vh 0.5vw;
-  position: relative;
-  clip-path: polygon(0 0, calc(100% - 2vh) 0, 100% 50%, calc(100% - 2vh) 100%, 0 100%);
-  margin-bottom: 2vh;
-  z-index: 10;
-}
+/* Por debajo de este ancho el layout se apila en una sola columna y
+   deja de forzar todo dentro de una sola pantalla: se permite scroll
+   vertical para que nada quede recortado. */
+@media (max-width: 1024px) {
+  html, body {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 
-.section-ribbon .ribbon-icon {
-  background-color: white;
-  color: var(--color-primary-dark);
-  border-radius: 50%;
-  width: 3vh;
-  height: 3vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0.8vw;
-  border: 2px solid var(--color-primary-dark);
-}
-
-/* Cajas redondeadas generales */
-.card-container {
-  border: 2px solid var(--color-border);
-  border-radius: 12px;
-  position: relative;
-  background-color: white;
-  padding: 1.5vh 1.5vw;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Badge circular superpuesto en el borde superior */
-.card-top-badge {
-  position: absolute;
-  top: -1.8vh;
-  left: 1vw;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  gap: 0.5vw;
-  font-weight: bold;
-  color: var(--color-primary-dark);
-  font-size: 1.6vh;
-  padding: 0 0.5vw;
-}
-
-.card-top-badge .badge-icon {
-  background-color: var(--color-primary-dark);
-  color: white;
-  border-radius: 50%;
-  width: 3.5vh;
-  height: 3.5vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8vh;
-}
-
-/* Badge superpuesto en el borde inferior */
-.card-bottom-badge {
-  position: absolute;
-  bottom: -1.2vh;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: white;
-  border: 1px solid var(--color-border);
-  border-radius: 20px;
-  padding: 0.2vh 1.5vw;
-  display: flex;
-  align-items: center;
-  gap: 0.5vw;
-  font-size: 1.5vh;
-  font-weight: bold;
-  color: var(--color-primary);
-  white-space: nowrap;
-}
-
-.card-bottom-badge .status-icon {
-  background-color: var(--color-primary);
-  color: white;
-  border-radius: 50%;
-  width: 1.6vh;
-  height: 1.6vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1vh;
-}
-
-.text-green { color: var(--color-primary); }
-.text-blue { color: var(--color-accent-blue); }
-.text-dark-green { color: var(--color-primary-dark); }
-.bg-dark-green { background-color: var(--color-primary-dark); color: white; }
-.font-bold { font-weight: bold; }
-
-/* Progress bars */
-.progress-bar-bg {
-  background-color: #E5E7EB;
-  border-radius: 999px;
-  height: 1.2vh;
-  width: 100%;
-  overflow: hidden;
-}
-
-.progress-bar-fill {
-  height: 100%;
-  border-radius: 999px;
-}
-.progress-fill-blue { background-color: var(--color-accent-blue); }
-.progress-fill-dark-green { background-color: var(--color-primary-dark); }
-.progress-fill-light-green { background-color: #7AA980; }
-
-/* Custom Modern Styles for Vue-Multiselect */
-.multiselect {
-  min-height: 44px;
-  cursor: pointer;
-}
-
-.multiselect__tags {
-  border: 1px solid var(--color-border) !important;
-  border-radius: 8px !important;
-  padding: 10px 40px 0 12px !important;
-  min-height: 44px !important;
-  background: #fdfdfd;
-  transition: all 0.2s ease;
-}
-
-:root {
-  /* Paleta Primaria (Guía Institucional) */
-  --color-primary-dark: #265541; /* Verde proporcionado por el usuario */
-  --color-primary: #018d38; /* Verde claro institucional */
-  --color-primary-light: #e6f4ea; /* Verde muy claro para fondos */
-  
-  /* Paleta Secundaria */
-  --color-accent-blue: #3561ab;
-  --color-accent-blue-light: #8fcaf0;
-  --color-accent-orange: #f28e18;
-  --color-accent-yellow: #ffde00;
-  
-  --color-bg-light: #f3f4f6;
-  --color-text-main: #374151;
-  --color-text-muted: #6b7280;
-  --color-border: #d1d5db;
-  --color-bg: #FFFFFF;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
-
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  background-color: var(--color-bg);
-  color: var(--color-text-main);
-  line-height: 1.2;
-}
-
-#app {
-  height: 100%;
+  #app {
+    height: auto;
+    min-height: 100%;
+  }
 }
 
 /* Ribbons (Títulos con punta de flecha) */

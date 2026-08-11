@@ -7,8 +7,10 @@ import ProgressSection from './components/ProgressSection.vue'
 import Activities from './components/Activities.vue'
 import PhotoGallery from './components/PhotoGallery.vue'
 import Observations from './components/Observations.vue'
+import GanttDashboard from './components/GanttDashboard.vue'
 
 const showFilterModal = ref(false)
+const showGanttModal = ref(false)
 const data = ref(dbData)
 const subregiones = computed(() => data.value.subregiones || [])
 
@@ -134,74 +136,83 @@ const formatCurrency = (value) => {
     <!-- MAIN DASHBOARD -->
     <main v-if="corteActual" class="dashboard-container">
       <div class="dashboard-grid">
-        
-        <!-- COLUMNA IZQUIERDA -->
-        <div class="left-column">
-          <div style="display: flex; flex-direction: column; flex: 1.5; overflow: hidden;">
-            <!-- HEADER -->
-            <header class="main-header">
-              <div class="header-titles">
-                <h1>INFORME DE AVANCE DE OBRA</h1>
-                <h2 class="text-green">Corredor vial {{ circuitoActual.corredor_vial }}</h2>
-                <p class="subtitle">Resumen ejecutivo y avance de actividades</p>
-                <div v-if="corteActual" class="week-badge">
-                  Corte: Semana {{ corteActual.semana }} ({{ corteActual.fecha_corte }})
-                </div>
-              </div>
-              <div class="header-logo">
-                <button class="filter-btn" @click="showFilterModal = true" title="Filtrar">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-                </button>
-                <img src="/Logo-gob-antioquia-ant.png" alt="Logo Gobernación de Antioquia" />
-              </div>
-            </header>
 
-            <!-- VALOR DEL CONTRATO -->
-            <div class="contract-value bg-dark-green">
-              <span class="icon">📄</span>
-              <h2>Valor del contrato: $ {{ formatCurrency(circuitoActual.valor_contrato) }}</h2>
-            </div>
-            
-            <!-- RIBBON PROGRESS -->
-            <div style="display:flex; align-items:center; margin-top: 1vh;">
-              <div class="section-ribbon">
-                <span class="ribbon-icon">↗</span> Avance financiero y físico
+        <!-- FILA 1 IZQUIERDA: header + contrato + progreso -->
+        <div class="grid-cell grid-top-left">
+          <!-- HEADER -->
+          <header class="main-header">
+            <div class="header-titles">
+              <h1>INFORME DE AVANCE DE OBRA</h1>
+              <h2 class="text-green">Corredor vial {{ circuitoActual.corredor_vial }}</h2>
+              <p class="subtitle">Resumen ejecutivo y avance de actividades</p>
+              <div v-if="corteActual" class="week-badge">
+                Corte: Semana {{ corteActual.semana }} ({{ corteActual.fecha_corte }})
               </div>
-              <div class="ribbon-line"></div>
             </div>
-            
-            <!-- PROGRESO (Financiero / Físico) -->
-            <ProgressSection :corte="corteActual" />
+            <div class="header-logo">
+              <button class="gantt-btn bg-dark-green" @click="showGanttModal = true" title="Ver Gantt 18 Meses">
+                📊 Gantt 18 Meses
+              </button>
+              <button class="filter-btn" @click="showFilterModal = true" title="Filtrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+              </button>
+              <img src="/Logo-gob-antioquia-ant.png" alt="Logo Gobernación de Antioquia" />
+            </div>
+          </header>
+
+          <!-- VALOR DEL CONTRATO -->
+          <div class="contract-value bg-dark-green">
+            <span class="icon">📄</span>
+            <h2>Valor del contrato: $ {{ formatCurrency(circuitoActual.valor_contrato) }}</h2>
           </div>
-          
-          <!-- RIBBON ACTIVIDADES -->
-          <div class="section-ribbon" style="margin-top: 1vh;">
-            <span class="ribbon-icon">✓</span> Avance de actividades ejecutadas
+
+          <!-- RIBBON PROGRESS -->
+          <div class="ribbon-row">
+            <div class="section-ribbon">
+              <span class="ribbon-icon">↗</span> Avance financiero y físico
+            </div>
+            <div class="ribbon-line"></div>
           </div>
-          <!-- ACTIVIDADES -->
+
+          <!-- PROGRESO (Financiero / Físico) -->
+          <ProgressSection :corte="corteActual" />
+        </div>
+
+        <!-- FILA 2 IZQUIERDA: ribbon actividades -->
+        <div class="section-ribbon grid-cell grid-ribbon-left">
+          <span class="ribbon-icon">✓</span> Avance de actividades ejecutadas
+        </div>
+
+        <!-- FILA 3 IZQUIERDA: actividades -->
+        <div class="grid-cell grid-bottom-left">
           <Activities :actividades="corteActual.actividades_ejecutadas" />
         </div>
 
-        <!-- COLUMNA DERECHA -->
-        <div class="right-column">
-          <div style="display: flex; flex-direction: column; flex: 1.5; overflow: hidden; position: relative;">
-            <div class="top-right-decoration"></div>
-            <!-- FOTOS -->
-            <PhotoGallery :imagenes="corteActual.imagenes" />
-          </div>
+        <!-- FILA 1 DERECHA: fotos -->
+        <div class="grid-cell grid-top-right">
+          <div class="top-right-decoration"></div>
+          <PhotoGallery :imagenes="corteActual.imagenes" />
+        </div>
 
-          <!-- RIBBON OBSERVACIONES -->
-          <div class="section-ribbon" style="margin-top: 1vh;">
-            <span class="ribbon-icon">✓</span> Dificultades y observaciones técnicas
-          </div>
-          <!-- OBSERVACIONES -->
-          <div style="display: flex; flex-direction: column; flex: 1; overflow: hidden;">
-            <Observations :observaciones="corteActual.observaciones_tecnicas" :tipoEstructura="corteActual.tipo_estructura" />
-          </div>
+        <!-- FILA 2 DERECHA: ribbon observaciones -->
+        <div class="section-ribbon grid-cell grid-ribbon-right">
+          <span class="ribbon-icon">✓</span> Dificultades y observaciones técnicas
+        </div>
+
+        <!-- FILA 3 DERECHA: observaciones -->
+        <div class="grid-cell grid-bottom-right">
+          <Observations :observaciones="corteActual.observaciones_tecnicas" :tipoEstructura="corteActual.tipo_estructura || []" />
         </div>
 
       </div>
     </main>
+
+    <!-- GANTT MODAL -->
+    <GanttDashboard 
+      v-if="showGanttModal && circuitoActual" 
+      :circuitoNombre="circuitoActual.corredor_vial"
+      @close="showGanttModal = false" 
+    />
   </div>
 </template>
 
@@ -309,17 +320,50 @@ const formatCurrency = (value) => {
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
+/* Grid de 2 columnas x 3 filas compartidas: las filas de "ribbon" y de
+   contenido inferior quedan alineadas entre columna izquierda y derecha
+   porque ambas usan las mismas pistas de fila (grid-row), no un cálculo
+   de flex independiente por columna. */
 .dashboard-grid {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
-  gap: 2vw;
+  grid-template-rows: minmax(0, 1.5fr) auto minmax(0, 1fr);
+  column-gap: 2vw;
+  row-gap: 1vh;
   height: 100%;
 }
 
-.left-column, .right-column {
+.grid-top-left { grid-column: 1; grid-row: 1; }
+.grid-ribbon-left { grid-column: 1; grid-row: 2; }
+.grid-bottom-left { grid-column: 1; grid-row: 3; }
+
+.grid-top-right { grid-column: 2; grid-row: 1; }
+.grid-ribbon-right { grid-column: 2; grid-row: 2; }
+.grid-bottom-right { grid-column: 2; grid-row: 3; }
+
+.grid-cell {
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.grid-top-left, .grid-top-right, .grid-bottom-left, .grid-bottom-right {
   display: flex;
   flex-direction: column;
-  height: 100%;
+}
+
+.grid-top-right {
+  position: relative;
+}
+
+.grid-ribbon-left, .grid-ribbon-right {
+  margin: 0;
+}
+
+.ribbon-row {
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
 }
 
 .main-header {
@@ -363,6 +407,25 @@ const formatCurrency = (value) => {
 .filter-btn svg {
   width: 2.5vh;
   height: 2.5vh;
+}
+
+.gantt-btn {
+  color: white;
+  border: none;
+  padding: 1vh 1.5vw;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.8vh;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.gantt-btn:hover {
+  transform: scale(1.05);
 }
 
 .header-logo img {
@@ -426,5 +489,59 @@ const formatCurrency = (value) => {
   background-color: var(--color-border);
   margin-left: -1vw;
   margin-bottom: 2vh;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .dashboard-wrapper {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .dashboard-container {
+    overflow: visible;
+    padding: 2vh 4vw;
+  }
+
+  .dashboard-grid {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 3vh;
+  }
+
+  .grid-cell {
+    overflow: visible;
+  }
+
+  .main-header {
+    flex-wrap: wrap;
+  }
+
+  .main-header h1 {
+    font-size: clamp(1.4rem, 5vw, 2.2rem);
+  }
+
+  .main-header h2 {
+    font-size: clamp(1.1rem, 3.2vw, 1.5rem);
+  }
+
+  .main-header .subtitle {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+  }
+
+  .contract-value h2 {
+    font-size: clamp(1.1rem, 3.5vw, 1.6rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .filter-modal-body {
+    padding: 2vh 4vw;
+  }
+
+  .header-logo img {
+    max-height: 6vh;
+  }
 }
 </style>

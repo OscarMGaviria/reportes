@@ -38,7 +38,8 @@ const getStatus = (act) => {
 
 <style scoped>
 .activities-card {
-  flex: 1; 
+  flex: 1;
+  min-height: 0;
   padding: 1.5vh;
   overflow: hidden;
 }
@@ -119,5 +120,24 @@ const getStatus = (act) => {
   font-weight: bold;
   margin-left: 0.5vw;
   border: 1px solid #fca5a5;
+}
+
+@media (max-width: 1024px) {
+  .activities-card {
+    overflow: visible;
+  }
+
+  .activities-grid {
+    column-count: 1;
+    height: auto;
+  }
+
+  .act-details {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+  }
+
+  .act-progress {
+    font-size: clamp(0.75rem, 1.8vw, 0.9rem);
+  }
 }
 </style>

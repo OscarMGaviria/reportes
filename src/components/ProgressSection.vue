@@ -153,4 +153,30 @@ const formatCurrency = (value) => {
 
 .text-dark-green { color: var(--color-primary-dark); }
 .text-light-green { color: #7AA980; }
+
+@media (max-width: 1024px) {
+  .progress-section {
+    grid-template-columns: 1fr;
+    gap: 2vh;
+  }
+
+  .progress-card {
+    min-height: auto;
+    padding-top: 3vh;
+  }
+
+  .data-row {
+    font-size: clamp(0.85rem, 1.8vw, 1rem);
+  }
+
+  .percentage {
+    width: auto;
+    min-width: 3.5em;
+  }
+
+  .percentage-only {
+    width: auto;
+    min-width: 3em;
+  }
+}
 </style>

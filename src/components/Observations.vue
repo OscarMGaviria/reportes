@@ -48,4 +48,14 @@ const props = defineProps({
   margin-top: 0.4vh;
 }
 .dot-green { background-color: var(--color-primary); }
+
+@media (max-width: 1024px) {
+  .obs-card {
+    padding: 2vh 4vw;
+  }
+
+  .obs-list li {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+  }
+}
 </style>

@@ -1,0 +1,34 @@
+{
+  "financiero": {
+    "anticipo": { "valor": 0, "porcentaje": 0 },
+    "programado": { "valor": 0, "porcentaje": 0 },
+    "ejecutado": { "valor": 0, "porcentaje": 0 },
+    "avance": { "valor": 0, "porcentaje": 0 },
+    "estado": "En ejecución"
+  },
+  "fisico": {
+    "programado": 0,
+    "ejecutado": 0,
+    "avance": 0,
+    "estado": "En ejecución"
+  },
+  "actividades_ejecutadas": [
+    { "nombre": "Topografía", "unidad": "km", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Exploración Geotécnica", "unidad": "und", "total": 5, "completado": 0, "valor_total": 0 },
+    { "nombre": "Obras Transversales", "unidad": "und", "total": 0, "completado": 0, "valor_total": 0, "sub_actividades": [
+      { "nombre": "Limpieza", "unidad": "und", "total": 6, "completado": 0 },
+      { "nombre": "Remplazo", "unidad": "und", "total": 0, "completado": 0 },
+      { "nombre": "Nuevas", "unidad": "und", "total": 0, "completado": 0 }
+    ]},
+    { "nombre": "Construcción de Filtro para Cunetas", "unidad": "km", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Construcción de Disipadores", "unidad": "und", "total": 5, "completado": 0, "valor_total": 0 },
+    { "nombre": "Estabilización", "unidad": "km", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Construcción de Cuneta", "unidad": "km", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Construcción de Bordillos", "unidad": "km", "total": 0.2, "completado": 0, "valor_total": 0 },
+    { "nombre": "Señalización Vial", "unidad": "km", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Plan de Manejo Ambiental, Social y SST", "unidad": "Estimado", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Plan de Manejo de Tránsito (PMT)", "unidad": "Estimado", "total": 1, "completado": 0, "valor_total": 0 },
+    { "nombre": "Caracterización Vial", "unidad": "km", "total": 1, "completado": 0, "valor_total": 0 }
+  ],
+  "observaciones_tecnicas": []
+}

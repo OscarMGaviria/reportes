@@ -1,4 +1,6 @@
 <script setup>
+import { Check } from 'lucide-vue-next'
+
 const props = defineProps({
   corte: { type: Object, required: true }
 })
@@ -18,30 +20,28 @@ const formatCurrency = (value) => {
       
       <div class="progress-data">
         <div class="data-row" v-if="corte.financiero.anticipo">
-          <div class="label"><span class="dot dot-blue"></span> Anticipo</div>
+          <div class="label"><span class="dot dot-gray"></span> Anticipo</div>
           <div class="value">$ {{ formatCurrency(corte.financiero.anticipo.valor) }}</div>
-          <div class="percentage text-blue font-bold">{{ corte.financiero.anticipo.porcentaje }}%</div>
+          <div class="percentage font-bold">{{ corte.financiero.anticipo.porcentaje }}%</div>
         </div>
         <div class="data-row">
-          <div class="label"><span class="dot dot-blue"></span> Programado</div>
+          <div class="label"><span class="dot dot-gray"></span> Programado</div>
           <div class="value">$ {{ formatCurrency(corte.financiero.programado.valor) }}</div>
-          <div class="percentage text-blue font-bold">{{ corte.financiero.programado.porcentaje }}%</div>
+          <div class="percentage font-bold">{{ corte.financiero.programado.porcentaje }}%</div>
         </div>
         <div class="data-row">
-          <div class="label"><span class="dot dot-dark-green"></span> Ejecutado</div>
+          <div class="label"><span class="dot dot-gray"></span> Ejecutado</div>
           <div class="value">$ {{ formatCurrency(corte.financiero.ejecutado.valor) }}</div>
-          <div class="percentage text-dark-green font-bold">{{ corte.financiero.ejecutado.porcentaje }}%</div>
+          <div class="percentage font-bold">{{ corte.financiero.ejecutado.porcentaje }}%</div>
         </div>
         <div class="data-row">
-          <div class="label"><span class="dot dot-light-green"></span> Avance</div>
+          <div class="label"><span class="dot dot-gray"></span> Avance</div>
           <div class="value">$ {{ formatCurrency(corte.financiero.avance.valor) }}</div>
-          <div class="percentage text-light-green font-bold">{{ corte.financiero.avance.porcentaje }}%</div>
+          <div class="percentage font-bold">{{ corte.financiero.avance.porcentaje }}%</div>
         </div>
       </div>
       
-      <div class="card-bottom-badge">
-        <span class="status-icon">✓</span> {{ corte.financiero.estado }}
-      </div>
+
     </div>
 
     <!-- Físico -->
@@ -52,47 +52,45 @@ const formatCurrency = (value) => {
       
       <div class="progress-data">
         <div class="data-row">
-          <div class="label"><span class="dot dot-blue"></span> Programado</div>
-          <div class="value percentage-only text-blue font-bold">{{ corte.fisico.programado }}%</div>
+          <div class="label"><span class="dot dot-gray"></span> Programado</div>
+          <div class="percentage-only font-bold">{{ corte.fisico.programado }}%</div>
           <div class="bar-container">
-            <div class="progress-bar-bg"><div class="progress-bar-fill progress-fill-blue" :style="{ width: corte.fisico.programado + '%' }"></div></div>
+            <div class="progress-bar-bg"><div class="progress-bar-fill progress-fill-dark-green" :style="{ width: corte.fisico.programado + '%' }"></div></div>
           </div>
         </div>
         <div class="data-row">
-          <div class="label"><span class="dot dot-dark-green"></span> Ejecutado</div>
-          <div class="value percentage-only text-dark-green font-bold">{{ corte.fisico.ejecutado }}%</div>
+          <div class="label"><span class="dot dot-gray"></span> Ejecutado</div>
+          <div class="percentage-only font-bold">{{ corte.fisico.ejecutado }}%</div>
           <div class="bar-container">
             <div class="progress-bar-bg"><div class="progress-bar-fill progress-fill-dark-green" :style="{ width: corte.fisico.ejecutado + '%' }"></div></div>
           </div>
         </div>
         <div class="data-row">
-          <div class="label"><span class="dot dot-light-green"></span> Avance</div>
-          <div class="value percentage-only text-light-green font-bold">{{ corte.fisico.avance }}%</div>
+          <div class="label"><span class="dot dot-gray"></span> Avance</div>
+          <div class="percentage-only font-bold">{{ corte.fisico.avance }}%</div>
           <div class="bar-container">
-            <div class="progress-bar-bg"><div class="progress-bar-fill progress-fill-light-green" :style="{ width: corte.fisico.avance + '%' }"></div></div>
+            <div class="progress-bar-bg"><div class="progress-bar-fill progress-fill-dark-green" :style="{ width: corte.fisico.avance + '%' }"></div></div>
           </div>
         </div>
       </div>
       
-      <div class="card-bottom-badge">
-        <span class="status-icon">✓</span> {{ corte.fisico.estado }}
-      </div>
+
     </div>
   </div>
 </template>
 
 <style scoped>
 .progress-section {
-  flex: 0 0 auto; 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  flex: 1; 
+  min-height: 0;
+  display: flex;
   gap: 1.5vw;
 }
 
 .progress-card {
+  flex: 1;
   padding-top: 5vh;
   padding-bottom: 3.5vh;
-  min-height: 24vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,33 +148,10 @@ const formatCurrency = (value) => {
 .dot-blue { background-color: var(--color-accent-blue); }
 .dot-dark-green { background-color: var(--color-primary-dark); }
 .dot-light-green { background-color: #7AA980; }
+.dot-gray { background-color: #6b7280; }
 
 .text-dark-green { color: var(--color-primary-dark); }
 .text-light-green { color: #7AA980; }
 
-@media (max-width: 1024px) {
-  .progress-section {
-    grid-template-columns: 1fr;
-    gap: 2vh;
-  }
 
-  .progress-card {
-    min-height: auto;
-    padding-top: 3vh;
-  }
-
-  .data-row {
-    font-size: clamp(0.85rem, 1.8vw, 1rem);
-  }
-
-  .percentage {
-    width: auto;
-    min-width: 3.5em;
-  }
-
-  .percentage-only {
-    width: auto;
-    min-width: 3em;
-  }
-}
 </style>

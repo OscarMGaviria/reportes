@@ -200,35 +200,5 @@ const closeModal = () => {
   font-size: 1.8vh;
 }
 
-@media (max-width: 1024px) {
-  .photo-gallery {
-    overflow: visible;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: none;
-  }
 
-  .img-wrapper {
-    aspect-ratio: 4 / 3;
-  }
-
-  .photo-desc {
-    font-size: clamp(0.7rem, 1.8vw, 0.85rem);
-  }
-
-  .modal-content {
-    width: 92vw;
-    height: auto;
-    max-height: 90vh;
-  }
-
-  .enlarged-img {
-    max-height: 65vh;
-  }
-}
-
-@media (max-width: 600px) {
-  .photo-gallery {
-    grid-template-columns: 1fr;
-  }
-}
 </style>

@@ -1,14 +1,38 @@
 <script setup>
+import { computed } from 'vue'
+
 const props = defineProps({
   observaciones: { type: Array, required: true },
-  tipoEstructura: { type: Array, required: true }
+  tipoEstructura: { type: Array, required: false }
+})
+
+const splitObservaciones = computed(() => {
+  if (!props.observaciones) return []
+  let result = []
+  props.observaciones.forEach(obs => {
+    if (typeof obs === 'string') {
+      // Dividir primero por saltos de línea
+      let lines = obs.split(/\n+/)
+      lines.forEach(line => {
+        // Luego dividir por punto seguido de un espacio y una letra mayúscula
+        let sentences = line.split(/(?<=\.)\s+(?=[A-Z¿¡])/)
+        sentences.forEach(s => {
+          let trimmed = s.trim()
+          if (trimmed) {
+            result.push(trimmed)
+          }
+        })
+      })
+    }
+  })
+  return result
 })
 </script>
 
 <template>
   <div class="card-container obs-card">
     <ul class="obs-list">
-      <li v-for="(obs, index) in observaciones" :key="index">
+      <li v-for="(obs, index) in splitObservaciones" :key="index">
         <span class="bullet dot-green"></span>
         <span>{{ obs }}</span>
       </li>
@@ -18,10 +42,12 @@ const props = defineProps({
 
 <style scoped>
 .obs-card {
-  flex: 0.8;
+  flex: 1;
+  min-height: 0;
   padding: 2vh 1.5vw;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .obs-list {
@@ -49,13 +75,5 @@ const props = defineProps({
 }
 .dot-green { background-color: var(--color-primary); }
 
-@media (max-width: 1024px) {
-  .obs-card {
-    padding: 2vh 4vw;
-  }
 
-  .obs-list li {
-    font-size: clamp(0.85rem, 2vw, 1rem);
-  }
-}
 </style>

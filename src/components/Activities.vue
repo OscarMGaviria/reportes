@@ -1,6 +1,28 @@
 <script setup>
+import { computed } from 'vue'
+import { Check, AlertCircle } from 'lucide-vue-next'
+
 const props = defineProps({
   actividades: { type: Array, required: true }
+})
+
+const displayActivities = computed(() => {
+  return (props.actividades || [])
+    .filter(act => {
+      const nom = act.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      return !nom.includes('caracterizacion vial') 
+          && !nom.includes('manejo ambiental')
+          && !nom.includes('manejo de transito')
+    })
+    .map(act => {
+      const isObrasTransversales = act.nombre.includes('Obras Transversales')
+      return {
+        ...act,
+        displayName: act.nombre,
+        isObrasTransversales,
+        isMocked: act.total === 0 && act.completado === 0 && !act.valor_total
+      }
+    })
 })
 
 const formatNumber = (num) => {
@@ -8,6 +30,7 @@ const formatNumber = (num) => {
 }
 
 const getStatus = (act) => {
+  if (act.isMocked) return 'pending'
   if (act.completado === undefined || act.total === undefined || act.total === 0) return 'not-started'
   if (act.completado > act.total) return 'exceeded'
   if (act.completado === act.total) return 'completed'
@@ -19,17 +42,40 @@ const getStatus = (act) => {
 <template>
   <div class="card-container activities-card">
     <div class="activities-grid">
-      <div v-for="(act, index) in actividades" :key="index" class="activity-item">
+      <div v-for="(act, index) in displayActivities" :key="index" class="activity-item">
         <div class="status-icon" :class="getStatus(act) === 'exceeded' ? 'completed' : getStatus(act)">
-          {{ (getStatus(act) === 'completed' || getStatus(act) === 'exceeded') ? '✓' : '!' }}
+          <Check v-if="getStatus(act) === 'completed' || getStatus(act) === 'exceeded'" :size="14" />
+          <AlertCircle v-else :size="14" />
         </div>
 
         <div class="act-details">
-          <div class="act-name">{{ act.nombre }}: <span v-if="act.porcentaje !== undefined" class="text-green font-bold">{{ act.porcentaje }}%</span></div>
-          <div v-if="act.completado !== undefined" class="act-progress">
-            <span class="font-bold" :class="getStatus(act) === 'exceeded' ? 'text-red' : 'text-blue'">{{ formatNumber(act.completado) }} {{ act.unidad }}</span> / {{ formatNumber(act.total) }} {{ act.unidad }}
-            <span v-if="getStatus(act) === 'exceeded'" class="exceeded-badge">¡Supera la meta!</span>
-          </div>
+          <template v-if="act.isObrasTransversales">
+            <div class="act-name">{{ act.displayName }}<span v-if="!act.isMocked">: <span class="text-green font-bold">{{ act.porcentaje }}</span></span></div>
+            <div class="act-progress-group">
+              <div class="act-progress">
+                <span class="font-bold" :class="getStatus(act) === 'exceeded' ? 'text-red' : 'text-blue'">
+                  {{ act.isMocked ? '0,00' : formatNumber(act.completado) }} {{ act.unidad }}
+                </span> / {{ act.isMocked ? '0,00' : formatNumber(act.total) }} {{ act.unidad }} - Limpieza
+                <span v-if="!act.isMocked && getStatus(act) === 'exceeded'" class="exceeded-badge">¡Supera la meta!</span>
+              </div>
+              <div class="act-progress">
+                <span class="font-bold text-blue">0,00 und</span> / 0,00 und - Remplazo
+              </div>
+              <div class="act-progress">
+                <span class="font-bold text-blue">0,00 und</span> / 0,00 und - Nuevas
+              </div>
+            </div>
+          </template>
+          
+          <template v-else>
+            <div class="act-name">{{ act.displayName }}<span v-if="!act.isMocked">: <span class="text-green font-bold">{{ act.porcentaje }}</span></span></div>
+            <div class="act-progress">
+              <span class="font-bold" :class="getStatus(act) === 'exceeded' ? 'text-red' : 'text-blue'">
+                {{ act.isMocked ? '0,00' : formatNumber(act.completado) }} {{ act.unidad }}
+              </span> / {{ act.isMocked ? '0,00' : formatNumber(act.total) }} {{ act.unidad }}
+              <span v-if="!act.isMocked && getStatus(act) === 'exceeded'" class="exceeded-badge">¡Supera la meta!</span>
+            </div>
+          </template>
         </div>
       </div>
     </div>
@@ -40,13 +86,13 @@ const getStatus = (act) => {
 .activities-card {
   flex: 1;
   min-height: 0;
-  padding: 1.5vh;
+  padding: 1vh;
   overflow: hidden;
 }
 
 .activities-grid {
   column-count: 2;
-  column-gap: 3.5vw;
+  column-gap: 2vw;
   column-rule: 2px solid var(--color-border);
   height: 100%;
 }
@@ -54,47 +100,54 @@ const getStatus = (act) => {
 .activity-item {
   display: flex;
   align-items: center;
-  gap: 1vw;
+  gap: 0.8vw;
   padding: 0.5vh 0;
   border-bottom: 1px solid #f0f0f0;
   break-inside: avoid;
-  margin-bottom: 1.5vh;
+  margin-bottom: 1.2vh;
 }
 
 .status-icon {
   border-radius: 50%;
-  width: 2.2vh;
-  height: 2.2vh;
+  width: 2vh;
+  height: 2vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2vh;
+  font-size: 1vh;
   flex-shrink: 0;
   color: white;
   font-weight: bold;
 }
 
 .status-icon.completed {
-  background-color: var(--color-primary);
+  background-color: #16a34a; /* Verde */
 }
 
 .status-icon.in-progress {
-  background-color: #f59e0b; /* Amarillo/Naranja */
+  background-color: #f59e0b; /* Naranja */
 }
 
-.status-icon.not-started {
-  background-color: #ef4444; /* Rojo */
+.status-icon.not-started,
+.status-icon.pending {
+  background-color: #9ca3af; /* Gris */
 }
 
 .status-icon.exceeded {
-  background-color: #dc2626; /* Rojo Oscuro */
+  background-color: #16a34a; /* Verde */
   font-size: 1vh;
 }
 
 
 
+.act-progress-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vh;
+}
+
 .act-details {
-  font-size: 1.5vh;
+  font-size: 1.35vh;
   line-height: 1.3;
 }
 
@@ -104,7 +157,7 @@ const getStatus = (act) => {
 
 .act-progress {
   color: var(--color-text-muted);
-  font-size: 1.35vh;
+  font-size: 1.2vh;
 }
 
 .text-red {
@@ -122,22 +175,5 @@ const getStatus = (act) => {
   border: 1px solid #fca5a5;
 }
 
-@media (max-width: 1024px) {
-  .activities-card {
-    overflow: visible;
-  }
 
-  .activities-grid {
-    column-count: 1;
-    height: auto;
-  }
-
-  .act-details {
-    font-size: clamp(0.85rem, 2vw, 1rem);
-  }
-
-  .act-progress {
-    font-size: clamp(0.75rem, 1.8vw, 0.9rem);
-  }
-}
 </style>

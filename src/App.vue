@@ -1,15 +1,16 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import dbData from './data/db.json'
+import plantilla from './data/plantilla.json'
 import VueMultiselect from 'vue-multiselect'
 import 'vue-multiselect/dist/vue-multiselect.css'
+import { CalendarRange, Filter, TrendingUp, Check } from 'lucide-vue-next'
 import ProgressSection from './components/ProgressSection.vue'
 import Activities from './components/Activities.vue'
 import PhotoGallery from './components/PhotoGallery.vue'
 import Observations from './components/Observations.vue'
 import GanttDashboard from './components/GanttDashboard.vue'
 
-const showFilterModal = ref(false)
 const showGanttModal = ref(false)
 const data = ref(dbData)
 const subregiones = computed(() => data.value.subregiones || [])
@@ -45,28 +46,74 @@ const corteActual = computed(() => {
   }
   
   // Clonar para poder modificar los valores calculados
+  const baseTemplate = JSON.parse(JSON.stringify(plantilla))
   const corteProcesado = JSON.parse(JSON.stringify(corte))
 
+  // MERGE ESTRUCTURAL
+  const norm = (str) => str ? str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : ""
+  
+  if (corteProcesado.actividades_ejecutadas) {
+    baseTemplate.actividades_ejecutadas.forEach(baseAct => {
+      let match = null
+      if (baseAct.nombre === 'Obras Transversales') {
+        match = corteProcesado.actividades_ejecutadas.find(a => norm(a.nombre).includes('obras transversales'))
+      } else if (baseAct.nombre === 'Estabilización') {
+        match = corteProcesado.actividades_ejecutadas.find(a => norm(a.nombre).includes('estabilizacion'))
+      } else {
+        match = corteProcesado.actividades_ejecutadas.find(a => norm(a.nombre).includes(norm(baseAct.nombre)))
+      }
+      
+      if (match) {
+        Object.assign(baseAct, match)
+      }
+    })
+  }
+  
+  corteProcesado.actividades_ejecutadas = baseTemplate.actividades_ejecutadas
+  
+  if (!corteProcesado.financiero) corteProcesado.financiero = baseTemplate.financiero
+  if (!corteProcesado.fisico) corteProcesado.fisico = baseTemplate.fisico
+  if (!corteProcesado.observaciones_tecnicas || corteProcesado.observaciones_tecnicas.length === 0) {
+    corteProcesado.observaciones_tecnicas = baseTemplate.observaciones_tecnicas
+  }
+
   // Calcular avance físico dinámico si hay valores
-  let sumaObraDirecta = 0
+  let sumaProgramadoTotal = 0
+  let sumaBaseAnticipo = 0
   let sumaEjecutada = 0
 
   if (corteProcesado.actividades_ejecutadas && corteProcesado.actividades_ejecutadas.length > 0) {
     corteProcesado.actividades_ejecutadas.forEach(act => {
       if (act.valor_total) {
-        sumaObraDirecta += act.valor_total
-        if (act.total > 0 && act.completado > 0) {
+        sumaProgramadoTotal += act.valor_total
+        
+        const esCaracterizacion = act.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes('caracterizacion vial')
+        
+        if (!esCaracterizacion) {
+          sumaBaseAnticipo += act.valor_total
+        }
+        
+        if (act.total > 0 && act.completado > 0 && !esCaracterizacion) {
           const proporcion = Math.min(act.completado / act.total, 1)
           sumaEjecutada += proporcion * act.valor_total
         }
       }
     })
 
-    if (sumaObraDirecta > 0) {
-      const avanceFisico = (sumaEjecutada / sumaObraDirecta) * 100
+    if (sumaBaseAnticipo > 0) {
+      const avanceFisico = (sumaEjecutada / sumaBaseAnticipo) * 100
       corteProcesado.fisico.ejecutado = parseFloat(avanceFisico.toFixed(1))
       corteProcesado.fisico.avance = parseFloat(avanceFisico.toFixed(1))
     }
+    
+    // Regla de Negocio: Programado es la sumatoria de todas las actividades (incluyendo Caracterización)
+    corteProcesado.financiero.programado.valor = sumaProgramadoTotal
+    // Regla de Negocio: Anticipo es el 15% del Programado, excluyendo Caracterización Vial
+    corteProcesado.financiero.anticipo.valor = sumaBaseAnticipo * 0.15
+    
+    const valorContrato = circuitoActual.value.valor_contrato || 1
+    corteProcesado.financiero.programado.porcentaje = parseFloat(((sumaProgramadoTotal / valorContrato) * 100).toFixed(1))
+    corteProcesado.financiero.anticipo.porcentaje = parseFloat(((corteProcesado.financiero.anticipo.valor / valorContrato) * 100).toFixed(1))
   }
 
   return corteProcesado
@@ -79,59 +126,60 @@ const formatCurrency = (value) => {
 
 <template>
   <div class="dashboard-wrapper">
-    <!-- FILTER MODAL -->
-    <div v-if="showFilterModal" class="filter-modal-overlay" @click="showFilterModal = false">
-      <div class="filter-modal" @click.stop>
-        <div class="filter-modal-header bg-dark-green">
-          <h3 style="color: white; margin: 0;">Filtros de Búsqueda</h3>
-          <button class="close-modal-btn" @click="showFilterModal = false">✕</button>
+    <!-- APP TOPBAR -->
+    <header class="app-topbar bg-dark-green">
+      <div class="topbar-logo-area">
+        <span class="topbar-title">Reportes de Obras</span>
+      </div>
+      
+      <div class="topbar-filters">
+        <div class="header-filter-item">
+          <VueMultiselect
+            v-model="subregionActual"
+            :options="subregiones"
+            track-by="nombre"
+            label="nombre"
+            placeholder="Subregión"
+            :searchable="true"
+            :show-labels="false"
+            :close-on-select="true"
+            class="header-multiselect"
+          />
         </div>
-        <div class="filter-modal-body">
-          <div class="filter-label">Subregión: 
-            <VueMultiselect
-              v-model="subregionActual"
-              :options="subregiones"
-              track-by="nombre"
-              label="nombre"
-              placeholder="Selecciona una subregión"
-              :searchable="true"
-              :show-labels="false"
-              :close-on-select="true"
-              class="custom-multiselect"
-            />
-          </div>
-          <div v-if="subregionActual" class="filter-label">Circuito: 
-            <VueMultiselect
-              v-model="circuitoActual"
-              :options="subregionActual.circuitos"
-              track-by="id"
-              label="corredor_vial"
-              placeholder="Selecciona un circuito"
-              :searchable="true"
-              :show-labels="false"
-              :close-on-select="true"
-              class="custom-multiselect"
-            />
-          </div>
-          <div v-if="circuitoActual" class="filter-label">Semana de Corte: 
-            <VueMultiselect
-              v-model="corteSeleccionado"
-              :options="circuitoActual.cortes_semanales"
-              :custom-label="weekLabel"
-              track-by="semana"
-              placeholder="Última semana por defecto"
-              :searchable="false"
-              :show-labels="false"
-              :close-on-select="true"
-              class="custom-multiselect"
-            />
-          </div>
+        <div v-if="subregionActual" class="header-filter-item">
+          <VueMultiselect
+            v-model="circuitoActual"
+            :options="subregionActual.circuitos"
+            track-by="id"
+            label="corredor_vial"
+            placeholder="Circuito"
+            :searchable="true"
+            :show-labels="false"
+            :close-on-select="true"
+            class="header-multiselect"
+          />
         </div>
-        <div class="filter-modal-footer">
-          <button class="apply-filter-btn bg-dark-green" @click="showFilterModal = false">Aplicar y Cerrar</button>
+        <div v-if="circuitoActual" class="header-filter-item">
+          <VueMultiselect
+            v-model="corteSeleccionado"
+            :options="circuitoActual.cortes_semanales"
+            :custom-label="weekLabel"
+            track-by="semana"
+            placeholder="Semana de Corte"
+            :searchable="false"
+            :show-labels="false"
+            :close-on-select="true"
+            class="header-multiselect"
+          />
         </div>
       </div>
-    </div>
+
+      <div class="topbar-actions">
+        <button class="topbar-btn" @click="showGanttModal = true" title="Ver Gantt 18 Meses">
+          <CalendarRange :size="20" />
+        </button>
+      </div>
+    </header>
 
     <!-- MAIN DASHBOARD -->
     <main v-if="corteActual" class="dashboard-container">
@@ -144,48 +192,37 @@ const formatCurrency = (value) => {
             <div class="header-titles">
               <h1>INFORME DE AVANCE DE OBRA</h1>
               <h2 class="text-green">Corredor vial {{ circuitoActual.corredor_vial }}</h2>
-              <p class="subtitle">Resumen ejecutivo y avance de actividades</p>
-              <div v-if="corteActual" class="week-badge">
-                Corte: Semana {{ corteActual.semana }} ({{ corteActual.fecha_corte }})
-              </div>
             </div>
             <div class="header-logo">
-              <button class="gantt-btn bg-dark-green" @click="showGanttModal = true" title="Ver Gantt 18 Meses">
-                📊 Gantt 18 Meses
-              </button>
-              <button class="filter-btn" @click="showFilterModal = true" title="Filtrar">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-              </button>
               <img src="/Logo-gob-antioquia-ant.png" alt="Logo Gobernación de Antioquia" />
             </div>
           </header>
 
           <!-- VALOR DEL CONTRATO -->
           <div class="contract-value bg-dark-green">
-            <span class="icon">📄</span>
             <h2>Valor del contrato: $ {{ formatCurrency(circuitoActual.valor_contrato) }}</h2>
           </div>
 
-          <!-- RIBBON PROGRESS -->
+          <!-- RIBBON ACTIVIDADES -->
           <div class="ribbon-row">
             <div class="section-ribbon">
-              <span class="ribbon-icon">↗</span> Avance financiero y físico
+              <span class="ribbon-icon">✓</span> Avance de actividades ejecutadas
             </div>
             <div class="ribbon-line"></div>
           </div>
 
-          <!-- PROGRESO (Financiero / Físico) -->
-          <ProgressSection :corte="corteActual" />
-        </div>
-
-        <!-- FILA 2 IZQUIERDA: ribbon actividades -->
-        <div class="section-ribbon grid-cell grid-ribbon-left">
-          <span class="ribbon-icon">✓</span> Avance de actividades ejecutadas
-        </div>
-
-        <!-- FILA 3 IZQUIERDA: actividades -->
-        <div class="grid-cell grid-bottom-left">
+          <!-- ACTIVIDADES -->
           <Activities :actividades="corteActual.actividades_ejecutadas" />
+        </div>
+
+        <!-- FILA 2 IZQUIERDA: ribbon progreso -->
+        <div class="section-ribbon grid-cell grid-ribbon-left">
+          <span class="ribbon-icon">↗</span> Avance financiero y físico
+        </div>
+
+        <!-- FILA 3 IZQUIERDA: progreso -->
+        <div class="grid-cell grid-bottom-left">
+          <ProgressSection :corte="corteActual" />
         </div>
 
         <!-- FILA 1 DERECHA: fotos -->
@@ -196,7 +233,7 @@ const formatCurrency = (value) => {
 
         <!-- FILA 2 DERECHA: ribbon observaciones -->
         <div class="section-ribbon grid-cell grid-ribbon-right">
-          <span class="ribbon-icon">✓</span> Dificultades y observaciones técnicas
+          <span class="ribbon-icon"><Check :size="14" /></span> Dificultades y observaciones técnicas
         </div>
 
         <!-- FILA 3 DERECHA: observaciones -->
@@ -219,87 +256,15 @@ const formatCurrency = (value) => {
 <style scoped>
 .dashboard-wrapper {
   height: 100vh;
+  min-width: 1200px;
+  min-height: 700px;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   background-color: white;
 }
 
-/* Modal de filtros */
-.filter-modal-overlay {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2000;
-  backdrop-filter: blur(3px);
-}
 
-.filter-modal {
-  background: white;
-  width: 400px;
-  max-width: 90vw;
-  border-radius: 8px;
-  /* overflow: hidden; removed to allow vue-multiselect dropdown to show outside */
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-.filter-modal-header {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-
-  padding: 1.5vh 1.5vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.close-modal-btn {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 2vh;
-  cursor: pointer;
-}
-
-.filter-modal-body {
-  padding: 2vh 1.5vw;
-  display: flex;
-  flex-direction: column;
-  gap: 2vh;
-}
-
-.filter-label {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.6vh;
-  font-weight: bold;
-  color: var(--color-text-main);
-}
-
-.filter-modal-footer {
-  padding: 1.5vh 1.5vw;
-  background: var(--color-bg-light);
-  display: flex;
-  justify-content: flex-end;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
-.custom-multiselect {
-  margin-top: 0.5vh;
-}
-
-
-.apply-filter-btn {
-  color: white;
-  border: none;
-  padding: 1vh 2vw;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-}
 
 .dashboard-container {
   flex: 1;
@@ -326,8 +291,8 @@ const formatCurrency = (value) => {
    de flex independiente por columna. */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
-  grid-template-rows: minmax(0, 1.5fr) auto minmax(0, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto minmax(0, 1fr);
   column-gap: 2vw;
   row-gap: 1vh;
   height: 100%;
@@ -341,10 +306,18 @@ const formatCurrency = (value) => {
 .grid-ribbon-right { grid-column: 2; grid-row: 2; }
 .grid-bottom-right { grid-column: 2; grid-row: 3; }
 
+.grid-bottom-left {
+  overflow: visible; /* Allow overlapping badges */
+}
+
 .grid-cell {
   min-height: 0;
   min-width: 0;
   overflow: hidden;
+}
+
+.grid-bottom-left, .grid-bottom-right {
+  padding-top: 2vh;
 }
 
 .grid-top-left, .grid-top-right, .grid-bottom-left, .grid-bottom-right {
@@ -378,6 +351,78 @@ const formatCurrency = (value) => {
   flex: 1;
 }
 
+/* ===== APP TOPBAR ===== */
+.app-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8vh 2vw; /* Altura reducida */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: white;
+  z-index: 10;
+}
+
+.topbar-logo-area {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  flex: 0 0 auto;
+}
+
+.topbar-filters {
+  display: flex;
+  gap: 1vw;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
+.header-filter-item {
+  width: 12vw;
+  min-width: 130px;
+}
+
+/* Custom styling to make VueMultiselect fit in the dark green header */
+.header-multiselect :deep(.multiselect__tags) {
+  min-height: 3.5vh;
+  padding: 0.5vh 3vw 0 1vw;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.header-multiselect:hover :deep(.multiselect__tags) {
+  background: rgba(255, 255, 255, 0.25);
+}
+.header-multiselect :deep(.multiselect__select) {
+  height: 3.5vh;
+  padding: 0;
+}
+.header-multiselect :deep(.multiselect__select::before) {
+  border-color: rgba(255, 255, 255, 0.8) transparent transparent;
+}
+.header-multiselect :deep(.multiselect__placeholder) {
+  margin-bottom: 0;
+  padding-top: 0.2vh;
+  font-size: 1.4vh;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+.header-multiselect :deep(.multiselect__single),
+.header-multiselect :deep(.multiselect__input) {
+  margin-bottom: 0;
+  padding-top: 0.2vh;
+  font-size: 1.4vh;
+  color: #ffffff;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
 .header-logo {
   flex: 0 0 auto;
   display: flex;
@@ -385,52 +430,38 @@ const formatCurrency = (value) => {
   gap: 1.5vw;
 }
 
-.filter-btn {
-  background: var(--color-primary-dark);
-  color: white;
-  border: none;
-  width: 5vh;
-  height: 5vh;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  transition: transform 0.2s;
-}
-
-.filter-btn:hover {
-  transform: scale(1.05);
-}
-
-.filter-btn svg {
-  width: 2.5vh;
-  height: 2.5vh;
-}
-
-.gantt-btn {
-  color: white;
-  border: none;
-  padding: 1vh 1.5vw;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1.8vh;
-  display: flex;
-  align-items: center;
-  gap: 0.5vw;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  transition: transform 0.2s;
-}
-
-.gantt-btn:hover {
-  transform: scale(1.05);
-}
-
 .header-logo img {
   max-height: 8vh;
   object-fit: contain;
+}
+
+.topbar-title {
+  font-weight: bold;
+  font-size: 2.2vh;
+  letter-spacing: 0.5px;
+}
+
+.topbar-actions {
+  display: flex;
+  gap: 1vw;
+}
+
+.topbar-btn {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.8vh;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.topbar-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
 }
 
 .main-header h1 {
@@ -491,57 +522,5 @@ const formatCurrency = (value) => {
   margin-bottom: 2vh;
 }
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 1024px) {
-  .dashboard-wrapper {
-    height: auto;
-    min-height: 100vh;
-  }
 
-  .dashboard-container {
-    overflow: visible;
-    padding: 2vh 4vw;
-  }
-
-  .dashboard-grid {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    gap: 3vh;
-  }
-
-  .grid-cell {
-    overflow: visible;
-  }
-
-  .main-header {
-    flex-wrap: wrap;
-  }
-
-  .main-header h1 {
-    font-size: clamp(1.4rem, 5vw, 2.2rem);
-  }
-
-  .main-header h2 {
-    font-size: clamp(1.1rem, 3.2vw, 1.5rem);
-  }
-
-  .main-header .subtitle {
-    font-size: clamp(0.8rem, 2vw, 1rem);
-  }
-
-  .contract-value h2 {
-    font-size: clamp(1.1rem, 3.5vw, 1.6rem);
-  }
-}
-
-@media (max-width: 600px) {
-  .filter-modal-body {
-    padding: 2vh 4vw;
-  }
-
-  .header-logo img {
-    max-height: 6vh;
-  }
-}
 </style>

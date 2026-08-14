@@ -1,0 +1,82 @@
+[
+  {
+    "id_corte": "C38-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Topografía completada 10/10 km. Exploración completada 40/40. Diseño geométrico 6 km entregados, últimos 4 km en revisión. Alternativa 2 aprobada en comité (SIF, RENTAN, Interventoría, Contratista). Pendiente autorización SIF área financiera. Conformación 3/10 km.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/URABÁ/Mutata - Pavarando/actividades/Topografia/Imagen5.jpg",
+        "descripcion": "Imagen5"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 10
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 40
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 14
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 3
+      }
+    ]
+  }
+]

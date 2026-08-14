@@ -1,0 +1,200 @@
+[
+  {
+    "id_corte": "C8-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Topografía 10/25,49 km. Exploración geotécnica 96/98 apiques. Limpieza OT últimos 10 km: 0/16. Constructor prepara entrega de diseño de estructura tras resultados de ensayos.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 10
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 96
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C8-SEM2",
+    "semana": 2,
+    "fecha_corte": "2026-07-31",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "NOTA: después de la entrega de los resultados de ensayos de los 10 km iniciales, el constructor prepara la entrega del diseño de la estructura de soporte.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/ORIENTE/Abejorral - La Frontera/Limpieza Alcantarilla.jpg",
+        "descripcion": "Limpieza Alcantarilla"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 10
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 96
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C8-SEM3",
+    "semana": 3,
+    "fecha_corte": "2026-08-06",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "A la fecha el contratista no ha presentado diseño topografico de via existente del tramo LA FRONTERA -ABEJORRAL.\nNOTA: después de la entrega de los resultados de ensayos de los 10 km iniciales, el cosntructor prepara la entrega del diseño de la estructura de soporte, a la fecha este no se ha presentado.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 10.0
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 96
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 18
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

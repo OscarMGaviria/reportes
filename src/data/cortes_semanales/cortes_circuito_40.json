@@ -1,0 +1,97 @@
+[
+  {
+    "id_corte": "C40-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Tramitando modificatorio por cambio de coordenadas de puntos de intervención. Solo posicionamiento y mojonamiento topográfico. Exploración 44/88. Limpieza OT 38/100. Fase exploratoria 5 km inició 09/07/2026.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen1.jpg",
+        "descripcion": "Imagen1"
+      },
+      {
+        "id": 2,
+        "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen2.jpg",
+        "descripcion": "Imagen2"
+      },
+      {
+        "id": 3,
+        "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen3.jpg",
+        "descripcion": "Imagen3"
+      },
+      {
+        "id": 4,
+        "url": "/images/URABÁ/San Pedro - El Tres - Turbo/actividades/Limpieza de alcantarillas/Imagen4.jpg",
+        "descripcion": "Imagen4"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 44
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 38
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

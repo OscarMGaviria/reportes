@@ -1,0 +1,112 @@
+[
+  {
+    "id_corte": "C22-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Estructura aprobada para 13,25 km con dosificación de Cal para suelo existente. Aún no se define dosificación de Cemento para Material Granular de Préstamo. Topografía 20/23,46 km. Exploración 96/98. Contratista solicitó reunión para alternativa sin Cal.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 1. Levantamiento ODT.jpg",
+        "descripcion": "Fotografia 1"
+      },
+      {
+        "id": 2,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 2. Levantamiento ODT.jpg",
+        "descripcion": "Fotografia 2"
+      },
+      {
+        "id": 3,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 3. Almacen.jpg",
+        "descripcion": "Fotografia 3"
+      },
+      {
+        "id": 4,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 4. Recoleccion Muestras Etapa 2.jpg",
+        "descripcion": "Fotografia 4"
+      },
+      {
+        "id": 5,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 5. Recoleccion Muestras Etapa 2.jpg",
+        "descripcion": "Fotografia 5"
+      },
+      {
+        "id": 6,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/Fotografia 6. Limpieza ODT.jpg",
+        "descripcion": "Fotografia 6"
+      },
+      {
+        "id": 7,
+        "url": "/images/NORDESTE/Caramanta - Cristales - San Roque/actividades/limpieza de alcantarillas.jpg",
+        "descripcion": "limpieza de alcantarillas"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 20
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 96
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 89
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

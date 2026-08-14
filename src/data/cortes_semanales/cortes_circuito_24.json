@@ -1,0 +1,220 @@
+[
+  {
+    "id_corte": "C24-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Hasta el momento no se cuenta con diseños entregados por parte del Contratista.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Se requiere que el contratista presente información de apiques y topografía y con ello avanzar en el diseño y fórmula de trabajo.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "No se cuenta con diseños entregados por parte del Contratista. Se requiere presentación de apiques y topografía para avanzar en diseño y fórmula de trabajo. Topografía 3,3/19,22 km. Exploración 41/77 apiques. Limpieza OT 54/150, inventario en elaboración.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Hasta el momento no se cuenta con diseños entregados por parte del Contratista. Se requiere que el contratista presente información de apiques y topografía y con ello avanzar en el diseño y fórmula de trabajo.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 3.3
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 41
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 54
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C24-SEM2",
+    "semana": 2,
+    "fecha_corte": "2026-07-31",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Hasta el momento no se cuenta con diseños entregados por parte del Contratista. Se requiere que el contratista presente información de apiques y topografía y con ello avanzar en el diseño y fórmula de trabajo.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Limpieza de Obras Transversales: (70/130) Inventario en elaboración.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/ORIENTE/Sonsón - Aguadas (Puente San Rafael)/Limpieza Alcantarillas.jpg",
+        "descripcion": "Limpieza Alcantarillas"
+      },
+      {
+        "id": 2,
+        "url": "/images/ORIENTE/Sonsón - Aguadas (Puente San Rafael)/Topografia.jpg",
+        "descripcion": "Topografia"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 5.75
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 41
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 70
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C24-SEM3",
+    "semana": 3,
+    "fecha_corte": "2026-08-06",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "NOTA: Finalizaron los apiques, toma de muestras y ensayos PDC en este corredor. Se esta pendiente de resultados de laboratorio por parte de EVALTEC.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Hasta el momento no se cuenta con diseños entregados por parte del Contratista. Se requiere que el contratista presente información de apiques y con ello avanzar en el diseño y fórmula de trabajo.\nNOTA TOPOGRAFÍA: Contratista hizo entrega de topografía k0+000 a k1+850 la cual es revisada por topogafía de interventoría. En esta propueta el constructor partió de suponer una velocidad de 30 km/h y pendiente transversal de 3 %. Se buscará definir modo de aprobación y/o liberación de esta propuesta de definición de rasante en el marco del mejoramiento en ejecución",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 6.0
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 41
+      },
+      {
+        "id_actividad": "MANTENIMIENTO_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 105
+      }
+    ]
+  }
+]

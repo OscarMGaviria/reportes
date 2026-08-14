@@ -1,0 +1,431 @@
+[
+  {
+    "id_circuito": 3,
+    "id_subregion": "SUR",
+    "corredor_vial": "Valparaíso - Támesis",
+    "municipio": "TÁMESIS",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+      "numero_contrato": "",
+      "valor_total": 72870090400,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 7,
+    "id_subregion": "SUR",
+    "corredor_vial": "Abejorral - Santa Barbara",
+    "municipio": "MONTEBELLO",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+      "numero_contrato": "",
+      "valor_total": 72870090400,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 10,
+    "id_subregion": "SUR",
+    "corredor_vial": "Andes - San José - Pueblo Rico",
+    "municipio": "ANDES",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+      "numero_contrato": "",
+      "valor_total": 72870090400,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 23,
+    "id_subregion": "SUR",
+    "corredor_vial": "Salgar - La Quiebra - Concordia",
+    "municipio": "SALGAR",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+      "numero_contrato": "",
+      "valor_total": 72870090400,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 42,
+    "id_subregion": "SUR",
+    "corredor_vial": "Titiribi - Armenia",
+    "municipio": "TITIRIBÍ",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA MM 2025",
+      "numero_contrato": "",
+      "valor_total": 72870090400,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 5,
+    "id_subregion": "NOR",
+    "corredor_vial": "Carolina del Príncipe - Angostura",
+    "municipio": "ANGOSTURA",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+      "numero_contrato": "",
+      "valor_total": 124487403196,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 12,
+    "id_subregion": "NOR",
+    "corredor_vial": "Sopetrán - Horizontes - Belmira",
+    "municipio": "BELMIRA",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+      "numero_contrato": "",
+      "valor_total": 124487403196,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 15,
+    "id_subregion": "NOR",
+    "corredor_vial": "Entrerríos - Labores - San José de la Montana",
+    "municipio": "BELMIRA",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+      "numero_contrato": "",
+      "valor_total": 124487403196,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 21,
+    "id_subregion": "NOR",
+    "corredor_vial": "El Guayabo - El Salto - Partidas a Guadalupe",
+    "municipio": "GOMEZ PLATA",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+      "numero_contrato": "",
+      "valor_total": 124487403196,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 34,
+    "id_subregion": "NOR",
+    "corredor_vial": "Alto del Cardal - Toledo",
+    "municipio": "SAN ANDRÉS DE CUERQUIA",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+      "numero_contrato": "",
+      "valor_total": 124487403196,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 36,
+    "id_subregion": "NOR",
+    "corredor_vial": "Santa Rosa - Carolina del Príncipe",
+    "municipio": "CAROLINA",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS ANTIOQUIA NORTE",
+      "numero_contrato": "",
+      "valor_total": 124487403196,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 6,
+    "id_subregion": "ORI",
+    "corredor_vial": "Abejorral - Santa Barbara",
+    "municipio": "ABEJORRAL",
+    "contrato": {
+      "contratista": "CONSORCIO ANTIOQUIA ORIENTE",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 8,
+    "id_subregion": "ORI",
+    "corredor_vial": "Abejorral - La Frontera",
+    "municipio": "ABEJORRAL",
+    "contrato": {
+      "contratista": "CONSORCIO ANTIOQUIA ORIENTE",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 18,
+    "id_subregion": "ORI",
+    "corredor_vial": "San Vicente - El Peñol",
+    "municipio": "EL PEÑOL",
+    "contrato": {
+      "contratista": "CONSORCIO VÍAS ORIENTE (CONCRECIVIL S.A.S BIC 50% - CONINGECON S.A.S 50%)",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 20,
+    "id_subregion": "ORI",
+    "corredor_vial": "La Quiebra - Santa Ana",
+    "municipio": "GRANADA",
+    "contrato": {
+      "contratista": "CONSORCIO ANTIOQUIA GRUPO 3",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 24,
+    "id_subregion": "ORI",
+    "corredor_vial": "Sonsón - Aguadas (Puente San Rafael)",
+    "municipio": "SONSÓN",
+    "contrato": {
+      "contratista": "CONSORCIO ANTIOQUIA GRUPO 3",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 28,
+    "id_subregion": "ORI",
+    "corredor_vial": "San Rafael - San Roque - Santo Domingo - Alejandría",
+    "municipio": "ALEJANDRÍA",
+    "contrato": {
+      "contratista": "POR DEFINIR (RENTAN)",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 43,
+    "id_subregion": "ORI",
+    "corredor_vial": "Guarne - Yolombal",
+    "municipio": "GUARNE",
+    "contrato": {
+      "contratista": "CONSORCIO VÍAS ORIENTE (CONCRECIVIL S.A.S BIC 50% - CONINGECON S.A.S 50%)",
+      "numero_contrato": "",
+      "valor_total": 108554215084.00002,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 22,
+    "id_subregion": "NOR",
+    "corredor_vial": "Caramanta - Cristales - San Roque",
+    "municipio": "SAN ROQUE",
+    "contrato": {
+      "contratista": "CONSORCIO CONSTRUCCIONES 11 SAN ROQUE",
+      "numero_contrato": "",
+      "valor_total": 57385592096,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 29,
+    "id_subregion": "NOR",
+    "corredor_vial": "San Rafael - San Roque - Santo Domingo - Alejandría",
+    "municipio": "SAN ROQUE",
+    "contrato": {
+      "contratista": "CONSORCIO CONSTRUCCIONES 11 SAN ROQUE",
+      "numero_contrato": "",
+      "valor_total": 57385592096,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 32,
+    "id_subregion": "NOR",
+    "corredor_vial": "Amalfi - Portachuelos - Santa Isabel",
+    "municipio": "AMALFI",
+    "contrato": {
+      "contratista": "CONSORCIO CONSTRUCCIONES 11 SAN ROQUE",
+      "numero_contrato": "",
+      "valor_total": 57385592096,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 25,
+    "id_subregion": "BAJ",
+    "corredor_vial": "Cáceres - La Chilona",
+    "municipio": "CÁCERES",
+    "contrato": {
+      "contratista": "CONSORCIO VIAS 7PD",
+      "numero_contrato": "",
+      "valor_total": 26362070969,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 26,
+    "id_subregion": "URA",
+    "corredor_vial": "San Pedro de Urabá - Necoclí",
+    "municipio": "NECOCLÍ",
+    "contrato": {
+      "contratista": "CONSORCIO URABÁ 25",
+      "numero_contrato": "",
+      "valor_total": 144973755369,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 38,
+    "id_subregion": "URA",
+    "corredor_vial": "Mutata - Pavarando",
+    "municipio": "MUTATÁ",
+    "contrato": {
+      "contratista": "CONSORCIO URABÁ 25",
+      "numero_contrato": "",
+      "valor_total": 144973755369,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 39,
+    "id_subregion": "URA",
+    "corredor_vial": "San Pedro de Urabá - Arboletes",
+    "municipio": "ARBOLETES",
+    "contrato": {
+      "contratista": "CONSORCIO URABÁ 25",
+      "numero_contrato": "",
+      "valor_total": 144973755369,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 40,
+    "id_subregion": "URA",
+    "corredor_vial": "San Pedro - El Tres - Turbo",
+    "municipio": "TURBO",
+    "contrato": {
+      "contratista": "CONSORCIO URABÁ 25",
+      "numero_contrato": "",
+      "valor_total": 144973755369,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 31,
+    "id_subregion": "MAG",
+    "corredor_vial": "La Ye - Yondó",
+    "municipio": "YONDÓ",
+    "contrato": {
+      "contratista": "CONSORCIO MAGDALENA 787",
+      "numero_contrato": "",
+      "valor_total": 28215102057,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 33,
+    "id_subregion": "MAG",
+    "corredor_vial": "Remedios - La Y De La Virgen - Puerto Berrío",
+    "municipio": "PUERTO BERRIO",
+    "contrato": {
+      "contratista": "CONSORCIO MAGDALENA 787",
+      "numero_contrato": "",
+      "valor_total": 29043301088,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 101,
+    "id_subregion": "OCC",
+    "corredor_vial": "Miserenga - Ebejico",
+    "municipio": "VARIOS",
+    "contrato": {
+      "contratista": "CONSORCIO LOTE 2 OCCIDENTE",
+      "numero_contrato": "POR DEFINIR",
+      "valor_total": 104855613958,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 102,
+    "id_subregion": "OCC",
+    "corredor_vial": "Frontino - Nutibara",
+    "municipio": "VARIOS",
+    "contrato": {
+      "contratista": "CONSORCIO LOTE 2 OCCIDENTE",
+      "numero_contrato": "POR DEFINIR",
+      "valor_total": 104855613958,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 103,
+    "id_subregion": "OCC",
+    "corredor_vial": "Ebejico - Heliconia - Medellin",
+    "municipio": "VARIOS",
+    "contrato": {
+      "contratista": "CONSORCIO LOTE 2 OCCIDENTE",
+      "numero_contrato": "POR DEFINIR",
+      "valor_total": 104855613958,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 104,
+    "id_subregion": "OCC",
+    "corredor_vial": "Titiribi - Armenia",
+    "municipio": "VARIOS",
+    "contrato": {
+      "contratista": "CONSORCIO LOTE 2 OCCIDENTE",
+      "numero_contrato": "POR DEFINIR",
+      "valor_total": 104855613958,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  },
+  {
+    "id_circuito": 105,
+    "id_subregion": "OCC",
+    "corredor_vial": "Sopetran - Belmira - Horizontes",
+    "municipio": "VARIOS",
+    "contrato": {
+      "contratista": "CONSORCIO LOTE 2 OCCIDENTE",
+      "numero_contrato": "POR DEFINIR",
+      "valor_total": 104855613958,
+      "fecha_inicio": "",
+      "fecha_fin": ""
+    }
+  }
+]

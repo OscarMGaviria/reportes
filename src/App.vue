@@ -1,7 +1,9 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
-import dbData from './data/db.json'
-import plantilla from './data/plantilla.json'
+import subregionesData from './data/subregiones.json'
+import circuitosData from './data/circuitos_maestros.json'
+import presupuestosData from './data/presupuestos_y_cronograma_base.json'
+import catalogoData from './data/catalogo_actividades.json'
 import VueMultiselect from 'vue-multiselect'
 import 'vue-multiselect/dist/vue-multiselect.css'
 import { CalendarRange, Filter, TrendingUp, Check } from 'lucide-vue-next'
@@ -11,12 +13,27 @@ import PhotoGallery from './components/PhotoGallery.vue'
 import Observations from './components/Observations.vue'
 import GanttDashboard from './components/GanttDashboard.vue'
 
+// Import all weekly reports
+const cortesModules = import.meta.glob('./data/cortes_semanales/*.json', { eager: true, import: 'default' })
+
 const showGanttModal = ref(false)
-const data = ref(dbData)
-const subregiones = computed(() => data.value.subregiones || [])
+
+const subregiones = computed(() => {
+  return subregionesData.map(sub => {
+    const circuitos = circuitosData.filter(c => c.id_subregion === sub.id_subregion).map(c => {
+      const cortes = cortesModules[`./data/cortes_semanales/cortes_circuito_${c.id_circuito}.json`] || []
+      return {
+        ...c,
+        id: c.id_circuito,
+        valor_contrato: c.contrato.valor_total,
+        cortes_semanales: cortes
+      }
+    })
+    return { ...sub, circuitos }
+  })
+})
 
 const subregionActual = ref(subregiones.value.length > 0 ? subregiones.value[0] : null)
-
 const circuitoActual = ref(null)
 const corteSeleccionado = ref(null)
 
@@ -35,86 +52,153 @@ watch(subregionActual, (newSubregion) => {
 const weekLabel = (corte) => `Semana ${corte.semana} (${corte.fecha_corte})`
 
 const corteActual = computed(() => {
-  if (!circuitoActual.value || !circuitoActual.value.cortes_semanales || !circuitoActual.value.cortes_semanales.length) return null
+  if (!circuitoActual.value) return null
   
-  // Obtener el corte seleccionado o el de la semana mayor por defecto
-  let corte = null
-  if (corteSeleccionado.value) {
-    corte = corteSeleccionado.value
-  } else {
-    corte = [...circuitoActual.value.cortes_semanales].sort((a, b) => b.semana - a.semana)[0]
-  }
+  let corteRaw = corteSeleccionado.value
   
-  // Clonar para poder modificar los valores calculados
-  const baseTemplate = JSON.parse(JSON.stringify(plantilla))
-  const corteProcesado = JSON.parse(JSON.stringify(corte))
-
-  // MERGE ESTRUCTURAL
-  const norm = (str) => str ? str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") : ""
-  
-  if (corteProcesado.actividades_ejecutadas) {
-    baseTemplate.actividades_ejecutadas.forEach(baseAct => {
-      let match = null
-      if (baseAct.nombre === 'Obras Transversales') {
-        match = corteProcesado.actividades_ejecutadas.find(a => norm(a.nombre).includes('obras transversales'))
-      } else if (baseAct.nombre === 'Estabilización') {
-        match = corteProcesado.actividades_ejecutadas.find(a => norm(a.nombre).includes('estabilizacion'))
-      } else {
-        match = corteProcesado.actividades_ejecutadas.find(a => norm(a.nombre).includes(norm(baseAct.nombre)))
+  if (!corteRaw) {
+    if (circuitoActual.value.cortes_semanales && circuitoActual.value.cortes_semanales.length > 0) {
+      corteRaw = [...circuitoActual.value.cortes_semanales].sort((a, b) => b.semana - a.semana)[0]
+    } else {
+      corteRaw = {
+        semana: 0,
+        fecha_corte: 'Línea Base',
+        seguimiento_general: {
+          financiero: { porcentaje_programado: 0, porcentaje_ejecutado: 0 },
+          fisico: { porcentaje_programado: 0, porcentaje_ejecutado: 0 },
+          cronograma: { estado: 'Sin iniciar' }
+        },
+        seguimiento_actividades: [],
+        registro_fotografico: [],
+        dificultades_y_observaciones: []
       }
-      
-      if (match) {
-        Object.assign(baseAct, match)
-      }
-    })
-  }
-  
-  corteProcesado.actividades_ejecutadas = baseTemplate.actividades_ejecutadas
-  
-  if (!corteProcesado.financiero) corteProcesado.financiero = baseTemplate.financiero
-  if (!corteProcesado.fisico) corteProcesado.fisico = baseTemplate.fisico
-  if (!corteProcesado.observaciones_tecnicas || corteProcesado.observaciones_tecnicas.length === 0) {
-    corteProcesado.observaciones_tecnicas = baseTemplate.observaciones_tecnicas
-  }
-
-  // Calcular avance físico dinámico si hay valores
-  let sumaProgramadoTotal = 0
-  let sumaBaseAnticipo = 0
-  let sumaEjecutada = 0
-
-  if (corteProcesado.actividades_ejecutadas && corteProcesado.actividades_ejecutadas.length > 0) {
-    corteProcesado.actividades_ejecutadas.forEach(act => {
-      if (act.valor_total) {
-        sumaProgramadoTotal += act.valor_total
-        
-        const esCaracterizacion = act.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes('caracterizacion vial')
-        
-        if (!esCaracterizacion) {
-          sumaBaseAnticipo += act.valor_total
-        }
-        
-        if (act.total > 0 && act.completado > 0 && !esCaracterizacion) {
-          const proporcion = Math.min(act.completado / act.total, 1)
-          sumaEjecutada += proporcion * act.valor_total
-        }
-      }
-    })
-
-    if (sumaBaseAnticipo > 0) {
-      const avanceFisico = (sumaEjecutada / sumaBaseAnticipo) * 100
-      corteProcesado.fisico.ejecutado = parseFloat(avanceFisico.toFixed(1))
-      corteProcesado.fisico.avance = parseFloat(avanceFisico.toFixed(1))
     }
-    
-    // Regla de Negocio: Programado es la sumatoria de todas las actividades (incluyendo Caracterización)
-    corteProcesado.financiero.programado.valor = sumaProgramadoTotal
-    // Regla de Negocio: Anticipo es el 15% del Programado, excluyendo Caracterización Vial
-    corteProcesado.financiero.anticipo.valor = sumaBaseAnticipo * 0.15
-    
-    const valorContrato = circuitoActual.value.valor_contrato || 1
-    corteProcesado.financiero.programado.porcentaje = parseFloat(((sumaProgramadoTotal / valorContrato) * 100).toFixed(1))
-    corteProcesado.financiero.anticipo.porcentaje = parseFloat(((corteProcesado.financiero.anticipo.valor / valorContrato) * 100).toFixed(1))
   }
+  
+  // Extraemos las actividades directamente del presupuesto base
+  const idCircuito = circuitoActual.value.id;
+  const presupuestoBase = presupuestosData.find(p => p.id_circuito === idCircuito);
+  const actividadesProgramadas = presupuestoBase ? presupuestoBase.actividades_programadas : [];
+
+  // Calcular "Programado" como la suma del presupuesto base de todas las actividades
+  const valorProgramadoTotal = actividadesProgramadas.reduce((sum, ap) => sum + (ap.valor_total_esperado || 0), 0);
+  
+  // Financial calculations
+  const valorAnticipo = 0.15 * valorProgramadoTotal;
+  const anticipoPorc = 15.0; // Siempre es 15% del total programado
+  
+  // Ejecutado: "valor ingresado por acta (ahora miramos como lo agregamos)"
+  // Por ahora lo dejamos en 0 para la semana 0, o usamos el porcentaje reportado
+  const porcEjecFin = corteRaw.seguimiento_general?.financiero?.porcentaje_ejecutado || 0;
+  const valorEjecFin = (porcEjecFin / 100) * valorProgramadoTotal; 
+  
+  const avanceFinPorc = valorProgramadoTotal > 0 ? (valorEjecFin / valorProgramadoTotal) * 100 : 0;
+  
+  const corteProcesado = {
+    semana: corteRaw.semana,
+    fecha_corte: corteRaw.fecha_corte,
+    financiero: {
+      programado: { porcentaje: "100.0", valor: valorProgramadoTotal },
+      ejecutado: { porcentaje: porcEjecFin.toFixed(1), valor: valorEjecFin },
+      anticipo: { porcentaje: anticipoPorc.toFixed(1), valor: valorAnticipo },
+      avance: { porcentaje: avanceFinPorc.toFixed(1), valor: valorEjecFin }
+    },
+    fisico: {
+      programado: (corteRaw.seguimiento_general?.fisico?.porcentaje_programado || 0).toFixed(1),
+      ejecutado: (corteRaw.seguimiento_general?.fisico?.porcentaje_ejecutado || 0).toFixed(1),
+      avance: ((corteRaw.seguimiento_general?.fisico?.porcentaje_programado || 0) > 0 
+                ? ((corteRaw.seguimiento_general?.fisico?.porcentaje_ejecutado || 0) / (corteRaw.seguimiento_general?.fisico?.porcentaje_programado || 1) * 100) 
+                : 0).toFixed(1),
+      estado: corteRaw.seguimiento_general?.cronograma?.estado || 'En ejecución'
+    },
+    actividades_ejecutadas: [],
+    imagenes: corteRaw.registro_fotografico || [],
+    observaciones_tecnicas: (corteRaw.dificultades_y_observaciones || []).map(obs => obs.descripcion)
+  }
+
+  // Base definition
+  const categoriasProg = {
+    'Topografía': { nombre: 'Topografía', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'Exploración de campo': { nombre: 'Exploración de campo', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'CONSTRUCCIÓN DE ALCANTARILLAS': { nombre: 'Construcción de alcantarillas', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'CONSTRUCCIÓN DE DISIPADORES': { nombre: 'Construcción de disipadores', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'CONSTRUCCIÓN DE FILTROS PARA CUNETAS': { nombre: 'Construcción de filtros para cunetas', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'ESTABILIZACION CON MATERIAL GRANULAR': { nombre: 'Estabilización con material granular', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'CONSTRUCCIÓN DE CUNETAS': { nombre: 'Construcción de cunetas', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'CONSTRUCCIÓN DE BORDILLOS': { nombre: 'Construcción de bordillos', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 },
+    'SEÑALIZACIÓN VIAL': { nombre: 'Señalización vial', unidad: 'Glb', total: 100, completado: 0, valor_total: 0 }
+  };
+  
+  // Custom quantities per circuit
+  if (idCircuito === 101) { // Miserenga - Ebejico
+    categoriasProg['Topografía'].total = 1000; categoriasProg['Topografía'].unidad = 'm';
+    categoriasProg['Exploración de campo'].total = 4; categoriasProg['Exploración de campo'].unidad = 'und';
+    
+    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].unidad = 'und';
+    // Sum of sub-items total for overall tracking
+    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].total = 18; 
+    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].subItems = [
+      { nombre: 'Limpieza', completado: 0, total: 6 },
+      { nombre: 'Remplazar', completado: 0, total: 6 },
+      { nombre: 'Nuevas', completado: 0, total: 6 }
+    ];
+
+    categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].total = 5; categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].unidad = 'und';
+    categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].total = 1000; categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].unidad = 'm';
+    categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].total = 1000; categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].unidad = 'm';
+    categoriasProg['CONSTRUCCIÓN DE CUNETAS'].total = 1000; categoriasProg['CONSTRUCCIÓN DE CUNETAS'].unidad = 'm';
+    categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].total = 200; categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].unidad = 'm';
+    categoriasProg['SEÑALIZACIÓN VIAL'].total = 1000; categoriasProg['SEÑALIZACIÓN VIAL'].unidad = 'm';
+  } else if (idCircuito === 102) { // Frontino - Nutibara
+    categoriasProg['Topografía'].total = 25000; categoriasProg['Topografía'].unidad = 'm';
+    categoriasProg['Exploración de campo'].total = 100; categoriasProg['Exploración de campo'].unidad = 'und';
+    
+    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].unidad = 'und';
+    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].total = 102; 
+    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].subItems = [
+      { nombre: 'Limpieza', completado: 0, total: 34 },
+      { nombre: 'Remplazar', completado: 0, total: 34 },
+      { nombre: 'Nuevas', completado: 0, total: 34 }
+    ];
+
+    categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].total = 77; categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].unidad = 'und';
+    categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].total = 25000; categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].unidad = 'm';
+    categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].total = 25000; categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].unidad = 'm';
+    categoriasProg['CONSTRUCCIÓN DE CUNETAS'].total = 25000; categoriasProg['CONSTRUCCIÓN DE CUNETAS'].unidad = 'm';
+    categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].total = 5000; categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].unidad = 'm';
+    categoriasProg['SEÑALIZACIÓN VIAL'].total = 25000; categoriasProg['SEÑALIZACIÓN VIAL'].unidad = 'm';
+  }
+
+  if (actividadesProgramadas) {
+    actividadesProgramadas.forEach(ap => {
+      const catObj = catalogoData.find(c => c.id_actividad === ap.id_actividad);
+      if (catObj) {
+        let catName = catObj.categoria;
+        if (catName === 'CONSTRUCCIÓN DE CUNETA') catName = 'CONSTRUCCIÓN DE CUNETAS';
+        
+        if (categoriasProg[catName]) {
+          categoriasProg[catName].valor_total += (ap.valor_total_esperado || 0);
+        }
+      }
+    });
+  }
+
+  // Ahora procesamos el progreso de la semana actual
+  if (corteRaw.seguimiento_actividades && corteRaw.seguimiento_actividades.length > 0) {
+    corteRaw.seguimiento_actividades.forEach(sa => {
+      const catObj = catalogoData.find(c => c.id_actividad === sa.id_actividad);
+      if (catObj) {
+        let catName = catObj.categoria;
+        if (catName === 'CONSTRUCCIÓN DE CUNETA') catName = 'CONSTRUCCIÓN DE CUNETAS';
+        
+        if (categoriasProg[catName]) {
+          // Weighted completion based on value could be calculated here.
+        }
+      }
+    });
+  }
+  
+  corteProcesado.actividades_ejecutadas = Object.values(categoriasProg);
 
   return corteProcesado
 })
@@ -129,7 +213,7 @@ const formatCurrency = (value) => {
     <!-- APP TOPBAR -->
     <header class="app-topbar bg-dark-green">
       <div class="topbar-logo-area">
-        <span class="topbar-title">Reportes de Obras</span>
+        <span class="topbar-title">Contrato de Estabilización Vial</span>
       </div>
       
       <div class="topbar-filters">
@@ -378,36 +462,38 @@ const formatCurrency = (value) => {
 }
 
 .header-filter-item {
-  width: 12vw;
-  min-width: 130px;
+  width: 18vw;
+  min-width: 180px;
 }
 
 /* Custom styling to make VueMultiselect fit in the dark green header */
 .header-multiselect :deep(.multiselect__tags) {
-  min-height: 3.5vh;
-  padding: 0.5vh 3vw 0 1vw;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
-  transition: all 0.2s;
+  min-height: 4vh;
+  padding: 0.6vh 2.5vw 0 1.2vw;
+  border-radius: 50px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  color: #1e293b;
+  transition: all 0.2s ease;
   cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 .header-multiselect:hover :deep(.multiselect__tags) {
-  background: rgba(255, 255, 255, 0.25);
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 .header-multiselect :deep(.multiselect__select) {
-  height: 3.5vh;
+  height: 4vh;
   padding: 0;
 }
 .header-multiselect :deep(.multiselect__select::before) {
-  border-color: rgba(255, 255, 255, 0.8) transparent transparent;
+  border-color: #64748b transparent transparent;
 }
 .header-multiselect :deep(.multiselect__placeholder) {
   margin-bottom: 0;
   padding-top: 0.2vh;
   font-size: 1.4vh;
-  color: rgba(255, 255, 255, 0.7);
+  color: #64748b;
   font-weight: 500;
 }
 .header-multiselect :deep(.multiselect__single),
@@ -415,12 +501,13 @@ const formatCurrency = (value) => {
   margin-bottom: 0;
   padding-top: 0.2vh;
   font-size: 1.4vh;
-  color: #ffffff;
+  color: #1e293b;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
+  background: transparent;
 }
 
 .header-logo {
@@ -437,7 +524,7 @@ const formatCurrency = (value) => {
 
 .topbar-title {
   font-weight: bold;
-  font-size: 2.2vh;
+  font-size: 1.8vh;
   letter-spacing: 0.5px;
 }
 

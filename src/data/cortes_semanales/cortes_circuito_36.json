@@ -1,0 +1,147 @@
+[
+  {
+    "id_corte": "C36-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0068.jpg",
+        "descripcion": "IMG-20260521-WA0068"
+      },
+      {
+        "id": 2,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0069.jpg",
+        "descripcion": "IMG-20260521-WA0069"
+      },
+      {
+        "id": 3,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0070.jpg",
+        "descripcion": "IMG-20260521-WA0070"
+      },
+      {
+        "id": 4,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0071.jpg",
+        "descripcion": "IMG-20260521-WA0071"
+      },
+      {
+        "id": 5,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0072.jpg",
+        "descripcion": "IMG-20260521-WA0072"
+      },
+      {
+        "id": 6,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0074.jpg",
+        "descripcion": "IMG-20260521-WA0074"
+      },
+      {
+        "id": 7,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0075.jpg",
+        "descripcion": "IMG-20260521-WA0075"
+      },
+      {
+        "id": 8,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0076.jpg",
+        "descripcion": "IMG-20260521-WA0076"
+      },
+      {
+        "id": 9,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0077.jpg",
+        "descripcion": "IMG-20260521-WA0077"
+      },
+      {
+        "id": 10,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0078.jpg",
+        "descripcion": "IMG-20260521-WA0078"
+      },
+      {
+        "id": 11,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/IMG-20260521-WA0080.jpg",
+        "descripcion": "IMG-20260521-WA0080"
+      },
+      {
+        "id": 12,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/TimePhoto_20260519_152328.jpg",
+        "descripcion": "TimePhoto 20260519 152328"
+      },
+      {
+        "id": 13,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/TimePhoto_20260519_152343.jpg",
+        "descripcion": "TimePhoto 20260519 152343"
+      },
+      {
+        "id": 14,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Limpieza de alcantarillas/TimePhoto_20260519_152838.jpg",
+        "descripcion": "TimePhoto 20260519 152838"
+      },
+      {
+        "id": 15,
+        "url": "/images/NORTE/Santa Rosa - Carolina del Príncipe/actividades/Topografia/IMG-20260521-WA0058.jpg",
+        "descripcion": "IMG-20260521-WA0058"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

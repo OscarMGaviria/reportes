@@ -1,0 +1,102 @@
+[
+  {
+    "id_corte": "C25-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Estructura aprobada para 0,750 km (tramo de prueba). Aún no se define dosificación de Cemento para Material Granular de Préstamo. Topografía completada 25/25 km. Conformación 9/25 km. Filtros 1,5/25 km. Estabilización mat. existente 0,2/25 km. Contratista solicitó cambio de estabilización con material existente por material suministrado.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/exploracion-de-campo/WhatsApp Image 2026-05-28 at 3.08.06 PM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-28 at 3"
+      },
+      {
+        "id": 2,
+        "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/filtro/WhatsApp Image 2026-05-28 at 3.08.04 PM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-28 at 3"
+      },
+      {
+        "id": 3,
+        "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/filtro/WhatsApp Image 2026-05-28 at 3.08.05 PM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-28 at 3"
+      },
+      {
+        "id": 4,
+        "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/limpieza-de-obras-transversales/WhatsApp Image 2026-05-28 at 3.08.05 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-28 at 3"
+      },
+      {
+        "id": 5,
+        "url": "/images/BAJO CAUCA/Cáceres - La Chilona/actividades/limpieza-de-obras-transversales/WhatsApp Image 2026-05-28 at 3.08.06 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-28 at 3"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 25
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 16
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 110
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 1.5
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 9
+      }
+    ]
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id_circuito": 101,
+    "meta_financiera_total": 1219292958.0,
+    "actividades_programadas": [
+      {
+        "id_actividad": "MACRO-PMA",
+        "cantidad_total": 1,
+        "valor_total_esperado": 33016917
+      },
+      {
+        "id_actividad": "MACRO-PMT",
+        "cantidad_total": 1,
+        "valor_total_esperado": 61822034
+      },
+      {
+        "id_actividad": "MACRO-CARAC",
+        "cantidad_total": 1,
+        "valor_total_esperado": 1055961
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_total": 24.0,
+        "valor_total_esperado": 5537064.0
+      },
+      {
+        "id_actividad": "2.14.1",
+        "cantidad_total": 30.0,
+        "valor_total_esperado": 1811310.0
+      },
+      {
+        "id_actividad": "4.1.8",
+        "cantidad_total": 204.0,
+        "valor_total_esperado": 11048844.0
+      },
+      {
+        "id_actividad": "4.2.2",
+        "cantidad_total": 66.0,
+        "valor_total_esperado": 2148498.0
+      },
+      {
+        "id_actividad": "5.1.7",
+        "cantidad_total": 24.0,
+        "valor_total_esperado": 2606448.0
+      },
+      {
+        "id_actividad": "6.2.4",
+        "cantidad_total": 6.0,
+        "valor_total_esperado": 5051268.0
+      },
+      {
+        "id_actividad": "6.2.24",
+        "cantidad_total": 53.0,
+        "valor_total_esperado": 65702828.0
+      },
+      {
+        "id_actividad": "8.1",
+        "cantidad_total": 48.0,
+        "valor_total_esperado": 6727200.0
+      },
+      {
+        "id_actividad": "8.27",
+        "cantidad_total": 36.0,
+        "valor_total_esperado": 83046924.0
+      },
+      {
+        "id_actividad": "10.1",
+        "cantidad_total": 2904.0,
+        "valor_total_esperado": 27550248.0
+      },
+      {
+        "id_actividad": "13.1",
+        "cantidad_total": 1296.0,
+        "valor_total_esperado": 2634768.0
+      },
+      {
+        "id_actividad": "4.1.8_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 174.0,
+        "valor_total_esperado": 9424014.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 80.0,
+        "valor_total_esperado": 8688160.0
+      },
+      {
+        "id_actividad": "6.2.50",
+        "cantidad_total": 100.0,
+        "valor_total_esperado": 103897600.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 2802.0,
+        "valor_total_esperado": 26582574.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 4320.0,
+        "valor_total_esperado": 8782560.0
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_total": 1000.0,
+        "valor_total_esperado": 143027000.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+        "cantidad_total": 19440.0,
+        "valor_total_esperado": 39521520.0
+      },
+      {
+        "id_actividad": "4.1.2",
+        "cantidad_total": 16.0,
+        "valor_total_esperado": 836512.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_BORDILLOS",
+        "cantidad_total": 4.0,
+        "valor_total_esperado": 434408.0
+      },
+      {
+        "id_actividad": "14.3",
+        "cantidad_total": 200.0,
+        "valor_total_esperado": 23021800.0
+      },
+      {
+        "id_actividad": "4.1.9",
+        "cantidad_total": 180.0,
+        "valor_total_esperado": 6018540.0
+      },
+      {
+        "id_actividad": "6.1.18.1",
+        "cantidad_total": 35.0,
+        "valor_total_esperado": 1441055.0
+      },
+      {
+        "id_actividad": "8.18",
+        "cantidad_total": 30.0,
+        "valor_total_esperado": 30599010.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_DISIPADORES",
+        "cantidad_total": 170.0,
+        "valor_total_esperado": 1612790.0
+      },
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_total": 105.0,
+        "valor_total_esperado": 1966440.0
+      },
+      {
+        "id_actividad": "5.1.2",
+        "cantidad_total": 105.0,
+        "valor_total_esperado": 17025330.0
+      },
+      {
+        "id_actividad": "5.2.16",
+        "cantidad_total": 1400.0,
+        "valor_total_esperado": 82972400.0
+      },
+      {
+        "id_actividad": "5.2.13",
+        "cantidad_total": 260.0,
+        "valor_total_esperado": 14232920.0
+      },
+      {
+        "id_actividad": "4.1.95",
+        "cantidad_total": 208.0,
+        "valor_total_esperado": 5796128.0
+      },
+      {
+        "id_actividad": "4.3.8",
+        "cantidad_total": 208.0,
+        "valor_total_esperado": 2298192.0
+      },
+      {
+        "id_actividad": "5.1.15",
+        "cantidad_total": 640.0,
+        "valor_total_esperado": 74128640.0
+      },
+      {
+        "id_actividad": "7.1.1",
+        "cantidad_total": 5000.0,
+        "valor_total_esperado": 26995000.0
+      },
+      {
+        "id_actividad": "7.1.12.2",
+        "cantidad_total": 5000.0,
+        "valor_total_esperado": 113940000.0
+      },
+      {
+        "id_actividad": "13.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+        "cantidad_total": 86548.5,
+        "valor_total_esperado": 175953101.0
+      },
+      {
+        "id_actividad": "13.2",
+        "cantidad_total": 1575.0,
+        "valor_total_esperado": 3201975.0
+      },
+      {
+        "id_actividad": "12.1",
+        "cantidad_total": 3000.0,
+        "valor_total_esperado": 10332000.0
+      },
+      {
+        "id_actividad": "12.9",
+        "cantidad_total": 5.0,
+        "valor_total_esperado": 4352225.0
+      }
+    ]
+  },
+  {
+    "id_circuito": 102,
+    "meta_financiera_total": 33497913644.0,
+    "actividades_programadas": [
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_total": 25000,
+        "valor_total_esperado": 18141304676
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_total": 102,
+        "valor_total_esperado": 3567628925
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_total": 25000,
+        "valor_total_esperado": 5624939000
+      },
+      {
+        "id_actividad": "6.2.50",
+        "cantidad_total": 25000,
+        "valor_total_esperado": 4163474519
+      },
+      {
+        "id_actividad": "4.1.9",
+        "cantidad_total": 77,
+        "valor_total_esperado": 524283533
+      },
+      {
+        "id_actividad": "4.1.2",
+        "cantidad_total": 5000,
+        "valor_total_esperado": 607318000
+      },
+      {
+        "id_actividad": "12.1",
+        "cantidad_total": 25000,
+        "valor_total_esperado": 367105625
+      },
+      {
+        "id_actividad": "MACRO-PMA",
+        "cantidad_total": 1,
+        "valor_total_esperado": 232478312
+      },
+      {
+        "id_actividad": "MACRO-PMT",
+        "cantidad_total": 1,
+        "valor_total_esperado": 236983041
+      },
+      {
+        "id_actividad": "MACRO-CARAC",
+        "cantidad_total": 1,
+        "valor_total_esperado": 26399025
+      }
+    ]
+  },
+  {
+    "id_circuito": 103,
+    "meta_financiera_total": 30788329885.0,
+    "actividades_programadas": [
+      {
+        "id_actividad": "MACRO-PMA",
+        "cantidad_total": 1,
+        "valor_total_esperado": 243833071
+      },
+      {
+        "id_actividad": "MACRO-PMT",
+        "cantidad_total": 1,
+        "valor_total_esperado": 209492241
+      },
+      {
+        "id_actividad": "MACRO-CARAC",
+        "cantidad_total": 28.76,
+        "valor_total_esperado": 30369438
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_total": 179.0,
+        "valor_total_esperado": 41297269.0
+      },
+      {
+        "id_actividad": "2.14.1",
+        "cantidad_total": 228.0,
+        "valor_total_esperado": 13765956.0
+      },
+      {
+        "id_actividad": "4.1.8",
+        "cantidad_total": 5202.0,
+        "valor_total_esperado": 281745522.0
+      },
+      {
+        "id_actividad": "4.2.2",
+        "cantidad_total": 1683.0,
+        "valor_total_esperado": 54786699.0
+      },
+      {
+        "id_actividad": "5.1.7",
+        "cantidad_total": 612.0,
+        "valor_total_esperado": 66464424.0
+      },
+      {
+        "id_actividad": "6.2.4",
+        "cantidad_total": 153.0,
+        "valor_total_esperado": 128807334.0
+      },
+      {
+        "id_actividad": "6.2.24",
+        "cantidad_total": 1348.0,
+        "valor_total_esperado": 1671083248.0
+      },
+      {
+        "id_actividad": "8.1",
+        "cantidad_total": 828.0,
+        "valor_total_esperado": 116044200.0
+      },
+      {
+        "id_actividad": "8.27",
+        "cantidad_total": 918.0,
+        "valor_total_esperado": 2117696562.0
+      },
+      {
+        "id_actividad": "10.1",
+        "cantidad_total": 74052.0,
+        "valor_total_esperado": 702531324.0
+      },
+      {
+        "id_actividad": "13.1",
+        "cantidad_total": 39780.0,
+        "valor_total_esperado": 80872740.0
+      },
+      {
+        "id_actividad": "4.1.8_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 4999.0,
+        "valor_total_esperado": 270750839.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 2301.0,
+        "valor_total_esperado": 249893202.0
+      },
+      {
+        "id_actividad": "6.2.50",
+        "cantidad_total": 2876.0,
+        "valor_total_esperado": 2988094976.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 80530.0,
+        "valor_total_esperado": 763988110.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 149565.0,
+        "valor_total_esperado": 304065645.0
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_total": 28760.0,
+        "valor_total_esperado": 4113456520.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+        "cantidad_total": 672984.0,
+        "valor_total_esperado": 1368176472.0
+      },
+      {
+        "id_actividad": "4.1.2",
+        "cantidad_total": 460.0,
+        "valor_total_esperado": 24049720.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_BORDILLOS",
+        "cantidad_total": 115.0,
+        "valor_total_esperado": 12489230.0
+      },
+      {
+        "id_actividad": "14.3",
+        "cantidad_total": 5752.0,
+        "valor_total_esperado": 662106968.0
+      },
+      {
+        "id_actividad": "4.1.9",
+        "cantidad_total": 603.0,
+        "valor_total_esperado": 20298212.0
+      },
+      {
+        "id_actividad": "6.1.18.1",
+        "cantidad_total": 805.0,
+        "valor_total_esperado": 33144265.0
+      },
+      {
+        "id_actividad": "8.18",
+        "cantidad_total": 690.0,
+        "valor_total_esperado": 703777230.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_DISIPADORES",
+        "cantidad_total": 3910.0,
+        "valor_total_esperado": 37094170.0
+      },
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_total": 3020.0,
+        "valor_total_esperado": 56558560.0
+      },
+      {
+        "id_actividad": "5.1.2",
+        "cantidad_total": 3020.0,
+        "valor_total_esperado": 489680920.0
+      },
+      {
+        "id_actividad": "5.2.16",
+        "cantidad_total": 40264.0,
+        "valor_total_esperado": 2386286224.0
+      },
+      {
+        "id_actividad": "5.2.13",
+        "cantidad_total": 7478.0,
+        "valor_total_esperado": 409360676.0
+      },
+      {
+        "id_actividad": "4.1.95",
+        "cantidad_total": 5982.0,
+        "valor_total_esperado": 166694412.0
+      },
+      {
+        "id_actividad": "4.3.8",
+        "cantidad_total": 5982.0,
+        "valor_total_esperado": 66095118.0
+      },
+      {
+        "id_actividad": "5.1.15",
+        "cantidad_total": 18406.0,
+        "valor_total_esperado": 2131893356.0
+      },
+      {
+        "id_actividad": "7.1.1",
+        "cantidad_total": 143800.0,
+        "valor_total_esperado": 776376200.0
+      },
+      {
+        "id_actividad": "7.1.12.2",
+        "cantidad_total": 143800.0,
+        "valor_total_esperado": 3276914400.0
+      },
+      {
+        "id_actividad": "13.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+        "cantidad_total": 1575423.85,
+        "valor_total_esperado": 3202836687.0
+      },
+      {
+        "id_actividad": "13.2",
+        "cantidad_total": 45300.0,
+        "valor_total_esperado": 92094900.0
+      },
+      {
+        "id_actividad": "12.1",
+        "cantidad_total": 86280.0,
+        "valor_total_esperado": 297148320.0
+      },
+      {
+        "id_actividad": "12.9",
+        "cantidad_total": 145.0,
+        "valor_total_esperado": 126214525.0
+      }
+    ]
+  },
+  {
+    "id_circuito": 104,
+    "meta_financiera_total": 5156733791.0,
+    "actividades_programadas": [
+      {
+        "id_actividad": "MACRO-PMA",
+        "cantidad_total": 1,
+        "valor_total_esperado": 110835670
+      },
+      {
+        "id_actividad": "MACRO-PMT",
+        "cantidad_total": 1,
+        "valor_total_esperado": 132518461
+      },
+      {
+        "id_actividad": "MACRO-CARAC",
+        "cantidad_total": 5,
+        "valor_total_esperado": 5279805
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_total": 24.0,
+        "valor_total_esperado": 5537064.0
+      },
+      {
+        "id_actividad": "2.14.1",
+        "cantidad_total": 30.0,
+        "valor_total_esperado": 1811310.0
+      },
+      {
+        "id_actividad": "4.1.8",
+        "cantidad_total": 680.0,
+        "valor_total_esperado": 36829480.0
+      },
+      {
+        "id_actividad": "4.2.2",
+        "cantidad_total": 220.0,
+        "valor_total_esperado": 7161660.0
+      },
+      {
+        "id_actividad": "5.1.7",
+        "cantidad_total": 80.0,
+        "valor_total_esperado": 8688160.0
+      },
+      {
+        "id_actividad": "6.2.4",
+        "cantidad_total": 20.0,
+        "valor_total_esperado": 16837560.0
+      },
+      {
+        "id_actividad": "6.2.24",
+        "cantidad_total": 176.0,
+        "valor_total_esperado": 218182976.0
+      },
+      {
+        "id_actividad": "8.1",
+        "cantidad_total": 120.0,
+        "valor_total_esperado": 16818000.0
+      },
+      {
+        "id_actividad": "8.27",
+        "cantidad_total": 120.0,
+        "valor_total_esperado": 276823080.0
+      },
+      {
+        "id_actividad": "10.1",
+        "cantidad_total": 9660.0,
+        "valor_total_esperado": 91634160.0
+      },
+      {
+        "id_actividad": "13.1",
+        "cantidad_total": 4616.0,
+        "valor_total_esperado": 9384328.0
+      },
+      {
+        "id_actividad": "4.1.8_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 869.0,
+        "valor_total_esperado": 47065909.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 400.0,
+        "valor_total_esperado": 43440800.0
+      },
+      {
+        "id_actividad": "6.2.50",
+        "cantidad_total": 500.0,
+        "valor_total_esperado": 519488000.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 14002.0,
+        "valor_total_esperado": 132836974.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 23080.0,
+        "valor_total_esperado": 46921640.0
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_total": 5000.0,
+        "valor_total_esperado": 715135000.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+        "cantidad_total": 103860.0,
+        "valor_total_esperado": 211147380.0
+      },
+      {
+        "id_actividad": "4.1.2",
+        "cantidad_total": 80.0,
+        "valor_total_esperado": 4182560.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_BORDILLOS",
+        "cantidad_total": 20.0,
+        "valor_total_esperado": 2172040.0
+      },
+      {
+        "id_actividad": "14.3",
+        "cantidad_total": 1000.0,
+        "valor_total_esperado": 115109000.0
+      },
+      {
+        "id_actividad": "4.1.9",
+        "cantidad_total": 79.0,
+        "valor_total_esperado": 2659377.0
+      },
+      {
+        "id_actividad": "6.1.18.1",
+        "cantidad_total": 105.0,
+        "valor_total_esperado": 4323165.0
+      },
+      {
+        "id_actividad": "8.18",
+        "cantidad_total": 90.0,
+        "valor_total_esperado": 91797030.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_DISIPADORES",
+        "cantidad_total": 170.0,
+        "valor_total_esperado": 1612790.0
+      },
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_total": 525.0,
+        "valor_total_esperado": 9832200.0
+      },
+      {
+        "id_actividad": "5.1.2",
+        "cantidad_total": 525.0,
+        "valor_total_esperado": 85126650.0
+      },
+      {
+        "id_actividad": "5.2.16",
+        "cantidad_total": 7000.0,
+        "valor_total_esperado": 414862000.0
+      },
+      {
+        "id_actividad": "5.2.13",
+        "cantidad_total": 1300.0,
+        "valor_total_esperado": 71164600.0
+      },
+      {
+        "id_actividad": "4.1.95",
+        "cantidad_total": 1040.0,
+        "valor_total_esperado": 28980640.0
+      },
+      {
+        "id_actividad": "4.3.8",
+        "cantidad_total": 1040.0,
+        "valor_total_esperado": 11490960.0
+      },
+      {
+        "id_actividad": "5.1.15",
+        "cantidad_total": 3200.0,
+        "valor_total_esperado": 370643200.0
+      },
+      {
+        "id_actividad": "7.1.1",
+        "cantidad_total": 25000.0,
+        "valor_total_esperado": 134975000.0
+      },
+      {
+        "id_actividad": "7.1.12.2",
+        "cantidad_total": 25000.0,
+        "valor_total_esperado": 569700000.0
+      },
+      {
+        "id_actividad": "13.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+        "cantidad_total": 243135.39,
+        "valor_total_esperado": 494294162.0
+      },
+      {
+        "id_actividad": "13.2",
+        "cantidad_total": 7875.0,
+        "valor_total_esperado": 16009875.0
+      },
+      {
+        "id_actividad": "12.1",
+        "cantidad_total": 15000.0,
+        "valor_total_esperado": 51660000.0
+      },
+      {
+        "id_actividad": "12.9",
+        "cantidad_total": 25.0,
+        "valor_total_esperado": 21761125.0
+      }
+    ]
+  },
+  {
+    "id_circuito": 105,
+    "meta_financiera_total": 35237877929.0,
+    "actividades_programadas": [
+      {
+        "id_actividad": "MACRO-PMA",
+        "cantidad_total": 1,
+        "valor_total_esperado": 304537083
+      },
+      {
+        "id_actividad": "MACRO-PMT",
+        "cantidad_total": 1,
+        "valor_total_esperado": 291964641
+      },
+      {
+        "id_actividad": "MACRO-CARAC",
+        "cantidad_total": 35.19,
+        "valor_total_esperado": 37159268
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_total": 34.0,
+        "valor_total_esperado": 7844174.0
+      },
+      {
+        "id_actividad": "2.14.1",
+        "cantidad_total": 210.0,
+        "valor_total_esperado": 12679170.0
+      },
+      {
+        "id_actividad": "4.1.8",
+        "cantidad_total": 5984.0,
+        "valor_total_esperado": 324099424.0
+      },
+      {
+        "id_actividad": "4.2.2",
+        "cantidad_total": 1936.0,
+        "valor_total_esperado": 63022608.0
+      },
+      {
+        "id_actividad": "5.1.7",
+        "cantidad_total": 704.0,
+        "valor_total_esperado": 76455808.0
+      },
+      {
+        "id_actividad": "6.2.4",
+        "cantidad_total": 176.0,
+        "valor_total_esperado": 148170528.0
+      },
+      {
+        "id_actividad": "6.2.24",
+        "cantidad_total": 1551.0,
+        "valor_total_esperado": 1922737476.0
+      },
+      {
+        "id_actividad": "8.1",
+        "cantidad_total": 1056.0,
+        "valor_total_esperado": 147998400.0
+      },
+      {
+        "id_actividad": "8.27",
+        "cantidad_total": 1056.0,
+        "valor_total_esperado": 2436043104.0
+      },
+      {
+        "id_actividad": "10.1",
+        "cantidad_total": 85184.0,
+        "valor_total_esperado": 808140608.0
+      },
+      {
+        "id_actividad": "13.1",
+        "cantidad_total": 30131.0,
+        "valor_total_esperado": 61256323.0
+      },
+      {
+        "id_actividad": "4.1.8_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 6116.0,
+        "valor_total_esperado": 331248676.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 2815.0,
+        "valor_total_esperado": 305714630.0
+      },
+      {
+        "id_actividad": "6.2.50",
+        "cantidad_total": 3519.0,
+        "valor_total_esperado": 3656156544.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 98534.0,
+        "valor_total_esperado": 934792058.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_total": 120482.0,
+        "valor_total_esperado": 244939906.0
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_total": 35190.0,
+        "valor_total_esperado": 5033120130.0
+      },
+      {
+        "id_actividad": "13.1_CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+        "cantidad_total": 542207.52,
+        "valor_total_esperado": 1102307888.0
+      },
+      {
+        "id_actividad": "4.1.2",
+        "cantidad_total": 563.0,
+        "valor_total_esperado": 29434766.0
+      },
+      {
+        "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_BORDILLOS",
+        "cantidad_total": 141.0,
+        "valor_total_esperado": 15312882.0
+      },
+      {
+        "id_actividad": "14.3",
+        "cantidad_total": 7038.0,
+        "valor_total_esperado": 810137142.0
+      },
+      {
+        "id_actividad": "4.1.9",
+        "cantidad_total": 2772.0,
+        "valor_total_esperado": 93314516.0
+      },
+      {
+        "id_actividad": "6.1.18.1",
+        "cantidad_total": 924.0,
+        "valor_total_esperado": 38043852.0
+      },
+      {
+        "id_actividad": "8.18",
+        "cantidad_total": 792.0,
+        "valor_total_esperado": 807813864.0
+      },
+      {
+        "id_actividad": "10.1_CONSTRUCCIÓN_DE_DISIPADORES",
+        "cantidad_total": 4488.0,
+        "valor_total_esperado": 42577656.0
+      },
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_total": 3695.0,
+        "valor_total_esperado": 69199960.0
+      },
+      {
+        "id_actividad": "5.1.2",
+        "cantidad_total": 3695.0,
+        "valor_total_esperado": 599129470.0
+      },
+      {
+        "id_actividad": "5.2.16",
+        "cantidad_total": 49266.0,
+        "valor_total_esperado": 2919798756.0
+      },
+      {
+        "id_actividad": "5.2.13",
+        "cantidad_total": 9149.0,
+        "valor_total_esperado": 500834558.0
+      },
+      {
+        "id_actividad": "4.1.95",
+        "cantidad_total": 7320.0,
+        "valor_total_esperado": 203979120.0
+      },
+      {
+        "id_actividad": "4.3.8",
+        "cantidad_total": 7320.0,
+        "valor_total_esperado": 80878680.0
+      },
+      {
+        "id_actividad": "5.1.15",
+        "cantidad_total": 22521.0,
+        "valor_total_esperado": 2608517346.0
+      },
+      {
+        "id_actividad": "7.1.1",
+        "cantidad_total": 175950.0,
+        "valor_total_esperado": 949954050.0
+      },
+      {
+        "id_actividad": "7.1.12.2",
+        "cantidad_total": 175950.0,
+        "valor_total_esperado": 4009548600.0
+      },
+      {
+        "id_actividad": "13.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+        "cantidad_total": 1269269.2,
+        "valor_total_esperado": 2580424284.0
+      },
+      {
+        "id_actividad": "13.2",
+        "cantidad_total": 55425.0,
+        "valor_total_esperado": 112679025.0
+      },
+      {
+        "id_actividad": "12.1",
+        "cantidad_total": 105570.0,
+        "valor_total_esperado": 363583080.0
+      },
+      {
+        "id_actividad": "12.9",
+        "cantidad_total": 175.0,
+        "valor_total_esperado": 152327875.0
+      }
+    ]
+  }
+]

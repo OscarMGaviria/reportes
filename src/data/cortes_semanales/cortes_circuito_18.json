@@ -1,0 +1,230 @@
+[
+  {
+    "id_corte": "C18-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Aún no se ha iniciado la rocería del tramo que se va a estabilizar inicialmente. Definido que será ejecutada por RENTAN.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El levantamiento topográfico avanzó hasta K15+138. Continúan labores con material en márgenes reportado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Desarrollo en sentido El Peñol hacia San Vicente. Tramo inicial K15+138-K18+150. Rocería pendiente (RENTAN). Ampliación y corte de taludes K5+700-K15+000 con material en márgenes. Tramo a estabilizar ~12,5 km (5,4 km en pavimento flexible). Exploración geotécnica completada.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente, dado que el tramo inicial a estabilizar (K15+138 - K18+150) está en jurisdicción de El Peñol. Aún no se ha iniciado la rocería del tramo que se va a estabilizar inicialmente. Quedó definido que esta actividad será ejecutada por RENTAN y está por iniciar. El levantamiento topográfico avanzó de abscisa final a menores hasta la abscisa K15+138, dado que se evidencia la ampliación y corte de taludes desde el K5+700 hasta el K15+000 aproximadamente. A la fecha estas labores continúan en ejecución con permanencia de material depositado en márgenes de la vía. Situación reportada por el Contructor quien está atento a que se le haga entrega del tramo para avanzar con actividades de topografía, inventario, limpieza y mantenimiento de obras transversales. El tramo vial para estabilizar tiene una longitud aproximada de 12,5 km, dado que se tienen 5,4 km en pavimento flexible dentro de este corredor.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 4.0
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 12.5
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 5
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C18-SEM2",
+    "semana": 2,
+    "fecha_corte": "2026-07-31",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "El desarrollo de las actividades dentro del corredor se ejecutarán en sentido El Peñol hacia San Vicente, dado que el tramo inicial a estabilizar (K15+138 - K18+150) está en jurisdicción de El Peñol.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Aún no se ha iniciado la rocería del tramo que se va a estabilizar inicialmente. Quedó definido que esta actividad será ejecutada por RENTAN. La Entidad anunció que esta actividad iniciaría la próxima semana (primera semana de agosto).",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El levantamiento topográfico de la vía quedó suspendido hasta la abscisa K15+138, dado que la Alcaldía Municipal de San Vicente se encuentra realizando ampliación y corte de taludes desde el K5+700 hasta el K15+000 aproximadamente.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El tramo vial para estabilizar tiene una longitud aproximada de 12,7 km, dado que se tienen 5.4 km en pavimento flexible dentro de este corredor.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "NOTA: El Contratista presentará información de diseño para la correspondiente revisión del asesor de interventoría para luego remitirla al asesor de Gobernación y con ello solicitar reunión para presentar alternativa de tratamiento para los primeros tres kilómetros (K18+150 - K15+138)",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/ORIENTE/San Vicente - El Peñol/Limpieza.jpg",
+        "descripcion": "Limpieza"
+      },
+      {
+        "id": 2,
+        "url": "/images/ORIENTE/San Vicente - El Peñol/Topografia.jpg",
+        "descripcion": "Topografia"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 3.5
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 12.7
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 5
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C18-SEM3",
+    "semana": 3,
+    "fecha_corte": "2026-08-06",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se ha iniciado la rocería del tramo que se estabilizará inicialmente. Esta actividad es ejecutada por RENTAN. Se inició por el K0+000 en jurisdicción del municipio de SanVicente por lo que se les solicitó arrancar desde el Peñol. El levantamiento topográfico de la vía quedó suspendido hasta la abscisa K15+138, dado que la Alcaldía Municipal de San Vicente se encuentra realizando ampliación y corte de taludes desde el K5+700 hasta el K15+000 aproximadamente. El tramo vial para estabilizar tiene una longitud aproximada de 12,7 km, dado que se tienen 5.4 km en pavimento flexible dentro de este corredor.\nNOTA: El Contratista entregó a Interventoría resultado de ensayos y diseño de los primeros tres kilómetros (K18+150 - K15+138). Se estima que la proxima semana se realice reunión entre diseñadores.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 3.5
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 12.7
+      },
+      {
+        "id_actividad": "MANTENIMIENTO_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 7
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

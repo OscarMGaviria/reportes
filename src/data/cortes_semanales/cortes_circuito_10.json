@@ -1,0 +1,187 @@
+[
+  {
+    "id_corte": "C10-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Pendiente pronunciamiento SIF sobre diseño 5,0 km iniciales y finales. Topografía y exploración completadas. Limpieza OT 120/229. Excavación franja recuperación sección: 2,0 km. Rocería 5,0 km iniciales y 5,0 km finales. 65% OT requiere reemplazo. Instalada 1 tubería 36\" de reemplazo. 256m tuberías acueductos veredales identificados.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 4.21.39 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 4"
+      },
+      {
+        "id": 2,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 4.21.40 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 4"
+      },
+      {
+        "id": 3,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 4.21.40 PM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 4"
+      },
+      {
+        "id": 4,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.13.15 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 9"
+      },
+      {
+        "id": 5,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.14.05 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 9"
+      },
+      {
+        "id": 6,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.14.05 AM (3).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 9"
+      },
+      {
+        "id": 7,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-11 at 9.14.05 AM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 9"
+      },
+      {
+        "id": 8,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.57 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 9,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.57 AM (2).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 10,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.58 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 11,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.59 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 12,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.59 AM (2).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 13,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-13 at 7.53.59 AM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 14,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-14 at 8.20.48 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-14 at 8"
+      },
+      {
+        "id": 15,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Limpieza de alcantarillas/WhatsApp Image 2026-05-15 at 3.07.17 PM (2).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-15 at 3"
+      },
+      {
+        "id": 16,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/punto critico/WhatsApp Image 2026-05-11 at 4.21.37 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 4"
+      },
+      {
+        "id": 17,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/punto critico/WhatsApp Image 2026-05-11 at 4.21.37 PM (2).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-11 at 4"
+      },
+      {
+        "id": 18,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-13 at 7.53.53 AM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 19,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-13 at 7.53.54 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-13 at 7"
+      },
+      {
+        "id": 20,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-14 at 8.20.49 AM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-14 at 8"
+      },
+      {
+        "id": 21,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-15 at 3.07.19 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-15 at 3"
+      },
+      {
+        "id": 22,
+        "url": "/images/SUROESTE/Andes - San José - Pueblo Rico/actividades/Topografia/WhatsApp Image 2026-05-15 at 8.08.18 AM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-15 at 8"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 22.4
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 22.4
+      },
+      {
+        "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 120
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

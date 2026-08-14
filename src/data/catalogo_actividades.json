@@ -1,0 +1,660 @@
+[
+  {
+    "id_actividad": "2.8",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Demolición de estructuras (Concreto reforzado). Incluye cargue, transporte y disposición de los materiales provenientes de la demolición.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "2.14.1",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Retiro de tubería existente de 36\", sin excavación",
+    "unidad": "m",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.1.8",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Excavación para estructuras varias en material común en seco. Incluye entibado. Incluye transporte y disposición final de los materiales.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.2.2",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Lleno manual compactado con material proveniente de la excavación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado. Incluye selección, acarreo interno y compactación del material.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "5.1.7",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, colocación y compactación de subbase granular para cimentación de tubería y lleno de zanjas, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "6.2.4",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Concreto Clase E (17.5 MPa). Elementos varios.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "6.2.24",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, transporte y colocación de Concreto Clase C (28 MPa) para Muros, disipadores, aletas y estribos. Incluye impermeabilizante, formaleta para acabado a la vista, desmoldante, y todos los demás elementos necesarios para su correcta construcción y funcionamiento",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "8.1",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Mantenimiento de obras de drenaje existentes. Incluye limpieza, desmonte vegetación, resane estructura, obras menores.",
+    "unidad": "m",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "8.27",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, transporte y colocación de Tubería PVC Alcantarillado pared interior lisa y exterior corrugada o equivalente unión mecánica de 900 mm (36\")",
+    "unidad": "m",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "10.1",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, transporte y colocación de Acero de refuerzo fy=420 Mpa (Grado 60)",
+    "unidad": "kg",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "13.1",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Transporte de materiales de afirmado, sub-base, base y mezcla asfáltica para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "6.2.50",
+    "categoria": "CONSTRUCCIÓN DE CUNETA",
+    "descripcion": "Concreto Clase C (28 MPa). Cunetas.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "8.13.1",
+    "categoria": "CONSTRUCCIÓN DE FILTRO PARA CUNETAS",
+    "descripcion": "Suministro e instalación de dren francés de zanja de 0.4 m x 0.9 m, con Geotextil NT2500 y Grava de 3/4\". Incluye tubería de 4\" perforada para drenes. Incluye excavación, transporte de material de excavación, cargue y disposición final del material sobrante.",
+    "unidad": "m",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "13.9",
+    "categoria": "CONSTRUCCIÓN DE FILTRO PARA CUNETAS",
+    "descripcion": "Transporte de materiales pétreos para distancias superiores a 1000 m medidos a partir de 100 m. Material medido en planta",
+    "unidad": "m3-km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.1.2",
+    "categoria": "CONSTRUCCIÓN DE BORDILLOS",
+    "descripcion": "Excavación manual en material común. Incluye cargue, transporte y disposición final del material sobrante.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "14.3",
+    "categoria": "CONSTRUCCIÓN DE BORDILLOS",
+    "descripcion": "Suministro, transporte e instalación de Bordillo barrera recto 15x35x80 prefabricado para pompeyano, rebajes, entre otros",
+    "unidad": "m",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.1.9",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Excavación para estructuras varias en material común en seco sin entibado. Incluye transporte y disposición final de los materiales.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "6.1.18.1",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Concreto Clase F (14 MPa). Solados de E=0.05 m",
+    "unidad": "m2",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "8.18",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Disipadores de energía y sedimentador en Concreto Clase H (Ciclópeo con concreto clase D - 21 MPa)",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.1.1",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Excavación en material común de la explanación, canales y préstamos. Incluye cargue y disposición final del material sobrante. No incluye transporte.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "5.1.2",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Suministro, colocación, conformación y compactación de afirmado para Bacheo, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "5.2.16",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Proceso de estabilización con material tratado con cemento. Incluye colocación y compactación de la mezcla con cemento y todo lo necesario para su correcta instalación. El suministro de cemento será pagado en su respectivo ítem.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "5.2.13",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Proceso de estabilización con material tratado con cal. Incluye colocación y compactación de la mezcla con cal y todo lo necesario para su correcta instalación. El suministro de la cal será pagado en su respectivo ítem.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.1.96",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Excavación en material común de la explanación con motoniveladora. Incluye cargue y tranporte del material al sitio de acopio especificado.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "4.3.8",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Disposición de material para conformación de la calzada. incluye transporte descargue y regado del material. No incluye compactación ni material para la conformación.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "5.1.15",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Suministro de sub-base granular, medido suelto. No incluye nivelación, compactación, limpieza ni transporte del material, los cuales serán pagados en su respectivo ítem.",
+    "unidad": "m3",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "7.1.1",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Suministro, transporte y aplicación de emulsión asfáltica catiónica de rompimiento lento C.R.L. para imprimación de superficie a pavimentar según normas para la construcción de pavimentos del INVIAS 420-22. Incluye todo lo necesario para su correcta construcción y funcionamiento. Incluye recuperación de superficie y riego inicial con carrotanque.",
+    "unidad": "m2",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "7.1.12.2",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Tratamiento superficial doble con emulsión CRR-2M.",
+    "unidad": "m2",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "13.2",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Transporte de sobrantes provenientes de la excavación, canales, préstamos para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "12.1",
+    "categoria": "SEÑALIZACIÓN VIAL",
+    "descripcion": "Suministro, transporte y aplicación con pintura acrílica en frio reflectorizada con microesferas de vidrio para línea de demarcación en pavimento.",
+    "unidad": "m",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "12.9",
+    "categoria": "SEÑALIZACIÓN VIAL",
+    "descripcion": "Suministro, transporte e instalación de señal vertical de 75cmx75cm doble (SP/SR/SI), en lámina galvanizada calibre 16, reflectivo tipo IX, estructura metálica tipo pedestal compuesto por un paral en ángulo de 2\"x2\"x1/4\" y brazos en ángulo 2\"x2\"x1/8\"",
+    "unidad": "Und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "TOPOGRAFÍA",
+    "categoria": "GENERAL",
+    "descripcion": "Topografía",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "EXPLORACIÓN_DE_CAMPO",
+    "categoria": "GENERAL",
+    "descripcion": "Exploración de campo",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONSTRUCCIÓN_DE_ALCANTARILLAS__LIMPIEZA",
+    "categoria": "GENERAL",
+    "descripcion": "Construcción de alcantarillas / Limpieza",
+    "unidad": "und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+    "categoria": "GENERAL",
+    "descripcion": "Construcción de filtro para cunetas",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+    "categoria": "GENERAL",
+    "descripcion": "Construcción de cuneta",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONSTRUCCIÓN_DE_DISIPADORES",
+    "categoria": "GENERAL",
+    "descripcion": "Construcción de disipadores",
+    "unidad": "und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONSTRUCCIÓN_DE_BORDILLOS",
+    "categoria": "GENERAL",
+    "descripcion": "Construcción de bordillos",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "ESTABILIZACIÓN_CON_MATERIAL_GRANULAR",
+    "categoria": "GENERAL",
+    "descripcion": "Estabilización con material granular",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "SEÑALIZACIÓN_VIAL",
+    "categoria": "GENERAL",
+    "descripcion": "Señalización vial",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "EXPLORACIÓN_GEOTÉCNICA",
+    "categoria": "GENERAL",
+    "descripcion": "Exploración Geotécnica",
+    "unidad": "und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "OBRAS_TRANSVERSALES",
+    "categoria": "GENERAL",
+    "descripcion": "Obras Transversales",
+    "unidad": "und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "ESTABILIZACIÓN",
+    "categoria": "GENERAL",
+    "descripcion": "Estabilización",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "PLAN_DE_MANEJO_AMBIENTAL_SOCIAL_Y_SST",
+    "categoria": "GENERAL",
+    "descripcion": "Plan de Manejo Ambiental, Social y SST",
+    "unidad": "Estimado",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "PLAN_DE_MANEJO_DE_TRÁNSITO_PMT",
+    "categoria": "GENERAL",
+    "descripcion": "Plan de Manejo de Tránsito (PMT)",
+    "unidad": "Estimado",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CARACTERIZACIÓN_VIAL",
+    "categoria": "GENERAL",
+    "descripcion": "Caracterización Vial",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "LIMPIEZA_DE_OBRAS_TRANSVERSALES",
+    "categoria": "GENERAL",
+    "descripcion": "Limpieza de Obras Transversales",
+    "unidad": "und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONSTRUCCIÓN_DE_FILTROS",
+    "categoria": "GENERAL",
+    "descripcion": "Construcción de filtros",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
+    "categoria": "GENERAL",
+    "descripcion": "Conformación y adecuación",
+    "unidad": "km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "MANTENIMIENTO_DE_OBRAS_TRANSVERSALES",
+    "categoria": "GENERAL",
+    "descripcion": "Mantenimiento de Obras Transversales",
+    "unidad": "und",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "MACRO-PMA",
+    "categoria": "GENERAL",
+    "descripcion": "PLAN DE MANEJO AMBIENTAL, SOCIAL Y SST",
+    "unidad": "Estimado",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "MACRO-PMT",
+    "categoria": "GENERAL",
+    "descripcion": "PLAN DE MANEJO DE TRANSITO (PMT)",
+    "unidad": "Estimado",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "MACRO-CARAC",
+    "categoria": "GENERAL",
+    "descripcion": "CARACTERIZACION VIAL",
+    "unidad": "Km",
+    "valor_unitario": 0
+  },
+  {
+    "id_actividad": "5.1.7_2",
+    "categoria": "CONSTRUCCIÓN DE BORDILLOS",
+    "descripcion": "Suministro, colocación y compactación de subbase granular para cimentación de tubería y lleno de zanjas, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 108602.0
+  },
+  {
+    "id_actividad": "4.1.95",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Excavación en material común de la explanación con motoniveladora. Incluye cargue y transporte del material al sitio de acopio especificado.",
+    "unidad": "m3",
+    "valor_unitario": 27866.0
+  },
+  {
+    "id_actividad": "13.1_2",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Transporte de materiales de afirmado, sub-base, base y mezcla asfáltica para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 2033.0
+  },
+  {
+    "id_actividad": "2.8_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Demolición de estructuras (Concreto reforzado). Incluye cargue, transporte y disposición de los materiales provenientes de la demolición.",
+    "unidad": "m3",
+    "valor_unitario": 230711.0
+  },
+  {
+    "id_actividad": "2.14.1_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Retiro de tubería existente de 36\", sin excavación",
+    "unidad": "m",
+    "valor_unitario": 60377.0
+  },
+  {
+    "id_actividad": "4.1.8_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Excavación para estructuras varias en material común en seco. Incluye entibado. Incluye transporte y disposición final de los materiales.",
+    "unidad": "m3",
+    "valor_unitario": 54161.0
+  },
+  {
+    "id_actividad": "4.2.2_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Lleno manual compactado con material proveniente de la excavación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado. Incluye selección, acarreo interno y compactación del material.",
+    "unidad": "m3",
+    "valor_unitario": 32553.0
+  },
+  {
+    "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, colocación y compactación de subbase granular para cimentación de tubería y lleno de zanjas, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 108602.0
+  },
+  {
+    "id_actividad": "6.2.4_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Concreto Clase E (17.5 MPa). Elementos varios.",
+    "unidad": "m3",
+    "valor_unitario": 841878.0
+  },
+  {
+    "id_actividad": "6.2.24_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, transporte y colocación de Concreto Clase C (28 MPa) para Muros, disipadores, aletas y estribos. Incluye impermeabilizante, formaleta para acabado a la vista, desmoldante, y todos los demás elementos necesarios para su correcta construcción y funcionamiento",
+    "unidad": "m3",
+    "valor_unitario": 1239676.0
+  },
+  {
+    "id_actividad": "8.1_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Mantenimiento de obras de drenaje existentes. Incluye limpieza, desmonte vegetación, resane estructura, obras menores.",
+    "unidad": "m",
+    "valor_unitario": 140150.0
+  },
+  {
+    "id_actividad": "8.27_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, transporte y colocación de Tubería PVC Alcantarillado pared interior lisa y exterior corrugada o equivalente unión mecánica de 900 mm (36\")",
+    "unidad": "m",
+    "valor_unitario": 2306859.0
+  },
+  {
+    "id_actividad": "10.1_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Suministro, transporte y colocación de Acero de refuerzo fy=420 Mpa (Grado 60)",
+    "unidad": "kg",
+    "valor_unitario": 9487.0
+  },
+  {
+    "id_actividad": "13.1_CONSTRUCCIÓN_DE_ALCANTARILLAS",
+    "categoria": "CONSTRUCCIÓN DE ALCANTARILLAS",
+    "descripcion": "Transporte de materiales de afirmado, sub-base, base y mezcla asfáltica para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 2033.0
+  },
+  {
+    "id_actividad": "4.1.8_CONSTRUCCIÓN_DE_CUNETA",
+    "categoria": "CONSTRUCCIÓN DE CUNETA",
+    "descripcion": "Excavación para estructuras varias en material común en seco. Incluye entibado. Incluye transporte y disposición final de los materiales.",
+    "unidad": "m3",
+    "valor_unitario": 54161.0
+  },
+  {
+    "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_CUNETA",
+    "categoria": "CONSTRUCCIÓN DE CUNETA",
+    "descripcion": "Suministro, colocación y compactación de subbase granular para cimentación de tubería y lleno de zanjas, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 108602.0
+  },
+  {
+    "id_actividad": "6.2.50_CONSTRUCCIÓN_DE_CUNETA",
+    "categoria": "CONSTRUCCIÓN DE CUNETA",
+    "descripcion": "Concreto Clase C (28 MPa). Cunetas.",
+    "unidad": "m3",
+    "valor_unitario": 1038976.0
+  },
+  {
+    "id_actividad": "10.1_CONSTRUCCIÓN_DE_CUNETA",
+    "categoria": "CONSTRUCCIÓN DE CUNETA",
+    "descripcion": "Suministro, transporte y colocación de Acero de refuerzo fy=420 Mpa (Grado 60)",
+    "unidad": "kg",
+    "valor_unitario": 9487.0
+  },
+  {
+    "id_actividad": "13.1_CONSTRUCCIÓN_DE_CUNETA",
+    "categoria": "CONSTRUCCIÓN DE CUNETA",
+    "descripcion": "Transporte de materiales de afirmado, sub-base, base y mezcla asfáltica para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 2033.0
+  },
+  {
+    "id_actividad": "8.13.1_CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+    "categoria": "CONSTRUCCIÓN DE FILTRO PARA CUNETAS",
+    "descripcion": "Suministro e instalación de dren francés de zanja de 0.4 m x 0.9 m, con Geotextil NT2500 y Grava de 3/4\". Incluye tubería de 4\" perforada para drenes. Incluye excavación, transporte de material de excavación, cargue y disposición final del material sobrante.",
+    "unidad": "m",
+    "valor_unitario": 143027.0
+  },
+  {
+    "id_actividad": "13.1_CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+    "categoria": "CONSTRUCCIÓN DE FILTRO PARA CUNETAS",
+    "descripcion": "Transporte de materiales de afirmado, sub-base, base y mezcla asfáltica para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 2033.0
+  },
+  {
+    "id_actividad": "4.1.2_CONSTRUCCIÓN_DE_BORDILLOS",
+    "categoria": "CONSTRUCCIÓN DE BORDILLOS",
+    "descripcion": "Excavación manual en material común. Incluye cargue, transporte y disposición final del material sobrante.",
+    "unidad": "m3",
+    "valor_unitario": 52282.0
+  },
+  {
+    "id_actividad": "5.1.7_CONSTRUCCIÓN_DE_BORDILLOS",
+    "categoria": "CONSTRUCCIÓN DE BORDILLOS",
+    "descripcion": "Suministro, colocación y compactación de subbase granular para cimentación de tubería y lleno de zanjas, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 108602.0
+  },
+  {
+    "id_actividad": "14.3_CONSTRUCCIÓN_DE_BORDILLOS",
+    "categoria": "CONSTRUCCIÓN DE BORDILLOS",
+    "descripcion": "Suministro, transporte e instalación de Bordillo barrera recto 15x35x80 prefabricado para pompeyano, rebajes, entre otros",
+    "unidad": "m",
+    "valor_unitario": 115109.0
+  },
+  {
+    "id_actividad": "4.1.9_CONSTRUCCIÓN_DE_DISIPADORES",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Excavación para estructuras varias en material común en seco sin entibado. Incluye transporte y disposición final de los materiales.",
+    "unidad": "m3",
+    "valor_unitario": 33663.0
+  },
+  {
+    "id_actividad": "6.1.18.1_CONSTRUCCIÓN_DE_DISIPADORES",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Concreto Clase F (14 MPa). Solados de E=0.05 m",
+    "unidad": "m2",
+    "valor_unitario": 41173.0
+  },
+  {
+    "id_actividad": "8.18_CONSTRUCCIÓN_DE_DISIPADORES",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Disipadores de energía y sedimentador en Concreto Clase H (Ciclópeo con concreto clase D - 21 MPa)",
+    "unidad": "m3",
+    "valor_unitario": 1019967.0
+  },
+  {
+    "id_actividad": "10.1_CONSTRUCCIÓN_DE_DISIPADORES",
+    "categoria": "CONSTRUCCIÓN DE DISIPADORES",
+    "descripcion": "Suministro, transporte y colocación de Acero de refuerzo fy=420 Mpa (Grado 60)",
+    "unidad": "kg",
+    "valor_unitario": 9487.0
+  },
+  {
+    "id_actividad": "4.1.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Excavación en material común de la explanación, canales y préstamos. Incluye cargue y disposición final del material sobrante. No incluye transporte.",
+    "unidad": "m3",
+    "valor_unitario": 18728.0
+  },
+  {
+    "id_actividad": "5.1.2_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Suministro, colocación, conformación y compactación de afirmado para Bacheo, no incluye transporte. Compactación hasta obtener una densidad mínima del 95%, de la obtenida en el ensayo del Proctor modificado.",
+    "unidad": "m3",
+    "valor_unitario": 162146.0
+  },
+  {
+    "id_actividad": "5.2.16_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Proceso de estabilización con material tratado con cemento. Incluye colocación y compactación de la mezcla con cemento y todo lo necesario para su correcta instalación. El suministro de cemento será pagado en su respectivo ítem.",
+    "unidad": "m3",
+    "valor_unitario": 59266.0
+  },
+  {
+    "id_actividad": "5.2.13_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Proceso de estabilización con material tratado con cal. Incluye colocación y compactación de la mezcla con cal y todo lo necesario para su correcta instalación. El suministro de la cal será pagado en su respectivo ítem.",
+    "unidad": "m3",
+    "valor_unitario": 54742.0
+  },
+  {
+    "id_actividad": "4.1.95_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Excavación en material común de la explanación con motoniveladora. Incluye cargue y transporte del material al sitio de acopio especificado.",
+    "unidad": "m3",
+    "valor_unitario": 27866.0
+  },
+  {
+    "id_actividad": "4.3.8_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Disposición de material para conformación de la calzada. incluye transporte descargue y regado del material. No incluye compactación ni material para la conformación.",
+    "unidad": "m3",
+    "valor_unitario": 11049.0
+  },
+  {
+    "id_actividad": "5.1.15_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Suministro de sub-base granular, medido suelto. No incluye nivelación, compactación, limpieza ni transporte del material, los cuales serán pagados en su respectivo ítem.",
+    "unidad": "m3",
+    "valor_unitario": 115826.0
+  },
+  {
+    "id_actividad": "7.1.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Suministro, transporte y aplicación de emulsión asfáltica catiónica de rompimiento lento C.R.L. para imprimación de superficie a pavimentar según normas para la construcción de pavimentos del INVIAS 420-22. Incluye todo lo necesario para su correcta construcción y funcionamiento. Incluye recuperación de superficie y riego inicial con carrotanque.",
+    "unidad": "m2",
+    "valor_unitario": 5399.0
+  },
+  {
+    "id_actividad": "7.1.12.2_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Tratamiento superficial doble con emulsión CRR-2M.",
+    "unidad": "m2",
+    "valor_unitario": 22788.0
+  },
+  {
+    "id_actividad": "13.1_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Transporte de materiales de afirmado, sub-base, base y mezcla asfáltica para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 2033.0
+  },
+  {
+    "id_actividad": "13.2_ESTABILIZACION_CON_MATERIAL_GRANULAR",
+    "categoria": "ESTABILIZACION CON MATERIAL GRANULAR",
+    "descripcion": "Transporte de sobrantes provenientes de la excavación, canales, préstamos para distancias superiores a 1000 m medidos a partir de 100 m. Material compacto (Incluye 30% de expansión).",
+    "unidad": "m3-Km",
+    "valor_unitario": 2033.0
+  },
+  {
+    "id_actividad": "12.1_SEÑALIZACIÓN_VIAL",
+    "categoria": "SEÑALIZACIÓN VIAL",
+    "descripcion": "Suministro, transporte y aplicación con pintura acrílica en frio reflectorizada con microesferas de vidrio para línea de demarcación en pavimento.",
+    "unidad": "m",
+    "valor_unitario": 3444.0
+  },
+  {
+    "id_actividad": "12.9_SEÑALIZACIÓN_VIAL",
+    "categoria": "SEÑALIZACIÓN VIAL",
+    "descripcion": "Suministro, transporte e instalación de señal vertical de 75cmx75cm doble (SP/SR/SI), en lámina galvanizada calibre 16, reflectivo tipo IX, estructura metálica tipo pedestal compuesto por un paral en ángulo de 2\"x2\"x1/4\" y brazos en ángulo 2\"x2\"x1/8\"",
+    "unidad": "Und",
+    "valor_unitario": 870445.0
+  }
+]

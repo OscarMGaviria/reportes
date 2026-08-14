@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
 import { calculateGanttData } from '../utils/constructionLogic'
-import actividadesData from '../data/actividades.json'
 
 const props = defineProps({
   circuitoNombre: {
@@ -26,10 +25,8 @@ const months = [
 const todayPercentage = 35; 
 
 onMounted(() => {
-  if (actividadesData && actividadesData.circuitos) {
-    processedData.value = calculateGanttData(actividadesData.circuitos)
-    filtrarCircuito()
-  }
+  processedData.value = calculateGanttData([])
+  filtrarCircuito()
 })
 
 watch(() => props.circuitoNombre, () => {

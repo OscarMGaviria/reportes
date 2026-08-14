@@ -49,20 +49,13 @@ const getStatus = (act) => {
         </div>
 
         <div class="act-details">
-          <template v-if="act.isObrasTransversales">
+          <template v-if="act.subItems && act.subItems.length > 0">
             <div class="act-name">{{ act.displayName }}<span v-if="!act.isMocked">: <span class="text-green font-bold">{{ act.porcentaje }}</span></span></div>
             <div class="act-progress-group">
-              <div class="act-progress">
-                <span class="font-bold" :class="getStatus(act) === 'exceeded' ? 'text-red' : 'text-blue'">
-                  {{ act.isMocked ? '0,00' : formatNumber(act.completado) }} {{ act.unidad }}
-                </span> / {{ act.isMocked ? '0,00' : formatNumber(act.total) }} {{ act.unidad }} - Limpieza
-                <span v-if="!act.isMocked && getStatus(act) === 'exceeded'" class="exceeded-badge">¡Supera la meta!</span>
-              </div>
-              <div class="act-progress">
-                <span class="font-bold text-blue">0,00 und</span> / 0,00 und - Remplazo
-              </div>
-              <div class="act-progress">
-                <span class="font-bold text-blue">0,00 und</span> / 0,00 und - Nuevas
+              <div v-for="(sub, sIdx) in act.subItems" :key="sIdx" class="act-progress">
+                <span class="font-bold text-blue">
+                  {{ act.isMocked ? '0,00' : formatNumber(sub.completado) }} {{ act.unidad }}
+                </span> / {{ act.isMocked ? '0,00' : formatNumber(sub.total) }} {{ act.unidad }} - {{ sub.nombre }}
               </div>
             </div>
           </template>

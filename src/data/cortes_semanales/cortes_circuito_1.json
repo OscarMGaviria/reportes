@@ -1,0 +1,226 @@
+[
+  {
+    "id_corte": "C1-SEM2",
+    "semana": 2,
+    "fecha_corte": "2023-11-03",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 30,
+        "porcentaje_ejecutado": 35
+      },
+      "financiero": {
+        "porcentaje_programado": 30,
+        "porcentaje_ejecutado": 36
+      },
+      "cronograma": {
+        "estado": "Ejecución adelantada",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Avance a buen ritmo debido al buen clima.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "Se requiere maquinaria adicional en el K3+500.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 7
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_DE_CAMPO",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 42
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_ALCANTARILLAS__LIMPIEZA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 158
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_DISIPADORES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_BORDILLOS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "ESTABILIZACIÓN_CON_MATERIAL_GRANULAR",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 25
+      },
+      {
+        "id_actividad": "SEÑALIZACIÓN_VIAL",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  },
+  {
+    "id_corte": "C1-SEM1",
+    "semana": 1,
+    "fecha_corte": "2026-07-24",
+    "seguimiento_general": {
+      "fisico": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "financiero": {
+        "porcentaje_programado": 0,
+        "porcentaje_ejecutado": 0
+      },
+      "cronograma": {
+        "estado": "En ejecución",
+        "dias_desviacion": 0
+      }
+    },
+    "dificultades_y_observaciones": [
+      {
+        "tipo": "Observación",
+        "descripcion": "Se presentan demoras debido a las fuertes lluvias de la última semana.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "El suministro de materiales se ha estabilizado.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "A la espera de aprobación de diseño modificado en el km 15.",
+        "impacto_dias": 0
+      },
+      {
+        "tipo": "Observación",
+        "descripcion": "NO SE CUENTA CON ESTRUCTURA APROBADA. A la espera de reunión con especialistas SIF. Conformación completada 25/25 km. OT construidas 64/94, pendientes 7 por trámite ocupación de cauce.",
+        "impacto_dias": 0
+      }
+    ],
+    "registro_fotografico": [
+      {
+        "id": 1,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 7"
+      },
+      {
+        "id": 2,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (2).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 7"
+      },
+      {
+        "id": 3,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (3).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 7"
+      },
+      {
+        "id": 4,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM (4).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 7"
+      },
+      {
+        "id": 5,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.32.40 PM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 7"
+      },
+      {
+        "id": 6,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 7.36.47 PM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 7"
+      },
+      {
+        "id": 7,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Conformacion de via/WhatsApp Image 2026-05-21 at 9.15.48 AM.jpeg",
+        "descripcion": "WhatsApp Image 2026-05-21 at 9"
+      },
+      {
+        "id": 8,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Construccion de alcantarillas/WhatsApp Image 2026-05-19 at 5.27.54 PM (1).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-19 at 5"
+      },
+      {
+        "id": 9,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Construccion de alcantarillas/WhatsApp Image 2026-05-19 at 5.27.54 PM (2).jpeg",
+        "descripcion": "WhatsApp Image 2026-05-19 at 5"
+      },
+      {
+        "id": 10,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Topografia/topografia.jpg",
+        "descripcion": "topografia"
+      },
+      {
+        "id": 11,
+        "url": "/images/OCCIDENTE/Frontino - Nutibara/actividades/Topografia/topografia2.jpg",
+        "descripcion": "topografia2"
+      }
+    ],
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "TOPOGRAFÍA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "EXPLORACIÓN_DE_CAMPO",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_ALCANTARILLAS__LIMPIEZA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_FILTRO_PARA_CUNETAS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_CUNETA",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_DISIPADORES",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "CONSTRUCCIÓN_DE_BORDILLOS",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "ESTABILIZACIÓN_CON_MATERIAL_GRANULAR",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "SEÑALIZACIÓN_VIAL",
+        "cantidad_ejecutada_semana": 0,
+        "cantidad_ejecutada_acumulada": 0
+      }
+    ]
+  }
+]

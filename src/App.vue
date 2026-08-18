@@ -4,6 +4,7 @@ import subregionesData from './data/subregiones.json'
 import circuitosData from './data/circuitos_maestros.json'
 import presupuestosData from './data/presupuestos_y_cronograma_base.json'
 import catalogoData from './data/catalogo_actividades.json'
+import metasData from './data/metas_fisicas.json'
 import VueMultiselect from 'vue-multiselect'
 import 'vue-multiselect/dist/vue-multiselect.css'
 import { CalendarRange, Filter, TrendingUp, Check } from 'lucide-vue-next'
@@ -130,43 +131,57 @@ const corteActual = computed(() => {
   };
   
   // Custom quantities per circuit
-  if (idCircuito === 101) { // Miserenga - Ebejico
-    categoriasProg['Topografía'].total = 1000; categoriasProg['Topografía'].unidad = 'm';
-    categoriasProg['Exploración de campo'].total = 4; categoriasProg['Exploración de campo'].unidad = 'und';
-    
-    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].unidad = 'und';
-    // Sum of sub-items total for overall tracking
-    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].total = 18; 
-    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].subItems = [
-      { nombre: 'Limpieza', completado: 0, total: 6 },
-      { nombre: 'Remplazar', completado: 0, total: 6 },
-      { nombre: 'Nuevas', completado: 0, total: 6 }
-    ];
-
-    categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].total = 5; categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].unidad = 'und';
-    categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].total = 1000; categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].unidad = 'm';
-    categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].total = 1000; categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].unidad = 'm';
-    categoriasProg['CONSTRUCCIÓN DE CUNETAS'].total = 1000; categoriasProg['CONSTRUCCIÓN DE CUNETAS'].unidad = 'm';
-    categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].total = 200; categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].unidad = 'm';
-    categoriasProg['SEÑALIZACIÓN VIAL'].total = 1000; categoriasProg['SEÑALIZACIÓN VIAL'].unidad = 'm';
-  } else if (idCircuito === 102) { // Frontino - Nutibara
-    categoriasProg['Topografía'].total = 25000; categoriasProg['Topografía'].unidad = 'm';
-    categoriasProg['Exploración de campo'].total = 100; categoriasProg['Exploración de campo'].unidad = 'und';
-    
-    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].unidad = 'und';
-    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].total = 102; 
-    categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].subItems = [
-      { nombre: 'Limpieza', completado: 0, total: 34 },
-      { nombre: 'Remplazar', completado: 0, total: 34 },
-      { nombre: 'Nuevas', completado: 0, total: 34 }
-    ];
-
-    categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].total = 77; categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].unidad = 'und';
-    categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].total = 25000; categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].unidad = 'm';
-    categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].total = 25000; categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].unidad = 'm';
-    categoriasProg['CONSTRUCCIÓN DE CUNETAS'].total = 25000; categoriasProg['CONSTRUCCIÓN DE CUNETAS'].unidad = 'm';
-    categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].total = 5000; categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].unidad = 'm';
-    categoriasProg['SEÑALIZACIÓN VIAL'].total = 25000; categoriasProg['SEÑALIZACIÓN VIAL'].unidad = 'm';
+  const metasCircuito = metasData[idCircuito.toString()];
+  
+  if (metasCircuito) {
+    if (metasCircuito['Topografia']) {
+      categoriasProg['Topografía'].total = metasCircuito['Topografia'].total;
+      categoriasProg['Topografía'].unidad = metasCircuito['Topografia'].unidad;
+    }
+    if (metasCircuito['Exploracion de campo']) {
+      categoriasProg['Exploración de campo'].total = metasCircuito['Exploracion de campo'].total;
+      categoriasProg['Exploración de campo'].unidad = metasCircuito['Exploracion de campo'].unidad;
+    }
+    if (metasCircuito['Construcción de alcantarillas']) {
+      categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].total = metasCircuito['Construcción de alcantarillas'].total;
+      categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].unidad = metasCircuito['Construcción de alcantarillas'].unidad;
+      if (metasCircuito['Construcción de alcantarillas'].subItems) {
+        categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].subItems = metasCircuito['Construcción de alcantarillas'].subItems;
+      } else {
+        // Fallback or explicit subitems as requested by user
+        if (idCircuito === 101) {
+          categoriasProg['CONSTRUCCIÓN DE ALCANTARILLAS'].subItems = [
+            { nombre: 'Limpieza', completado: 0, total: 6 },
+            { nombre: 'Remplazar', completado: 0, total: 6 },
+            { nombre: 'Nuevas', completado: 0, total: 6 }
+          ];
+        }
+      }
+    }
+    if (metasCircuito['Construcción de disipadores']) {
+      categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].total = metasCircuito['Construcción de disipadores'].total;
+      categoriasProg['CONSTRUCCIÓN DE DISIPADORES'].unidad = metasCircuito['Construcción de disipadores'].unidad;
+    }
+    if (metasCircuito['Construcción de filtro para cunetas']) {
+      categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].total = metasCircuito['Construcción de filtro para cunetas'].total;
+      categoriasProg['CONSTRUCCIÓN DE FILTROS PARA CUNETAS'].unidad = metasCircuito['Construcción de filtro para cunetas'].unidad;
+    }
+    if (metasCircuito['Estabilización con material granular']) {
+      categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].total = metasCircuito['Estabilización con material granular'].total;
+      categoriasProg['ESTABILIZACION CON MATERIAL GRANULAR'].unidad = metasCircuito['Estabilización con material granular'].unidad;
+    }
+    if (metasCircuito['Construcción de cunetas']) {
+      categoriasProg['CONSTRUCCIÓN DE CUNETAS'].total = metasCircuito['Construcción de cunetas'].total;
+      categoriasProg['CONSTRUCCIÓN DE CUNETAS'].unidad = metasCircuito['Construcción de cunetas'].unidad;
+    }
+    if (metasCircuito['Construcción de bordillos']) {
+      categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].total = metasCircuito['Construcción de bordillos'].total;
+      categoriasProg['CONSTRUCCIÓN DE BORDILLOS'].unidad = metasCircuito['Construcción de bordillos'].unidad;
+    }
+    if (metasCircuito['Señalización vial']) {
+      categoriasProg['SEÑALIZACIÓN VIAL'].total = metasCircuito['Señalización vial'].total;
+      categoriasProg['SEÑALIZACIÓN VIAL'].unidad = metasCircuito['Señalización vial'].unidad;
+    }
   }
 
   if (actividadesProgramadas) {

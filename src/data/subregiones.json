@@ -1,6 +1,9 @@
 [
-  {
-    "id_subregion": "OCC",
-    "nombre": "OCCIDENTE"
-  }
+  { "id_subregion": "OCC", "nombre": "OCCIDENTE" },
+  { "id_subregion": "ORI", "nombre": "ORIENTE" },
+  { "id_subregion": "URA", "nombre": "URABÁ" },
+  { "id_subregion": "BAJ", "nombre": "BAJO CAUCA" },
+  { "id_subregion": "MAG", "nombre": "MAGDALENA MEDIO" },
+  { "id_subregion": "NOR", "nombre": "NORTE Y NORDESTE" },
+  { "id_subregion": "SUR", "nombre": "SUROESTE" }
 ]

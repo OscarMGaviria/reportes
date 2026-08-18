@@ -1,0 +1,314 @@
+PRESUPUESTO POR ACTIVIDAD				
+MISERENGA-EBEJICO				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$518,510,126	1	KM
+2	Construcción de alcantarillas	$213,865,400	6	UN 
+3	Construcción de filtro para cunetas	$182,548,520	1000	M
+4	Construcción de cunetas	$157,374,908	1000	M
+5	Construcción de disipadores	$39,701,395	5	UN
+6	Construcción de bordillos	$24,292,720	200	M
+7	Señalización vial	$14,684,225	1	M
+8	PMA	$33,016,917		
+9	PMT	$61,822,034		
+10	Caracterización vial	$1,055,961	1	KM
+	TOTAL	$1,246,872,206		
+				
+				
+FRONTINO-NUTIBARA				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$18,141,304,676	25	KM
+2	Construcción de alcantarillas	$3,567,628,925	102	UN
+3	Construcción de filtro para cunetas	$5,624,939,000	25000	M 
+4	Construcción de cunetas	$4,169,474,519	25000	M 
+5	Construcción de disipadores	$524,283,533	77	UN
+6	Construcción de bordillos	$607,318,000	5000	M 
+7	Señalización vial	$367.105.625.	25	KM
+8	PMA	$232,478,312		
+9	PMT	$236,983,041		
+10	Caracterización vial	$26,399,025	25	KM
+	TOTAL	$33,130,809,031		
+				
+				
+EBÉJICO -HELICONIA-MEDELLÍN				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$13,054,791,453	28.76	KM
+2	Construcción de alcantarillas	$5,275,095,278	153	UN
+3	Construcción de filtro para cunetas	$5,481,632,992	28760	M 
+4	Construcción de cunetas	$4,576,792,772	28760	M 
+5	Construcción de disipadores	$794,311,877	115	UN
+6	Construcción de bordillos	$98,645,918	5752	M 
+7	Señalización vial	$423,362,845	28.76	KM
+8	PMA	$243,833,071		
+9	PMT	$209,492,241		
+10	Caracterización vial	$30,369,438	28.76	KM
+	TOTAL	$30,188,327,885		
+				
+				
+TITIRIBÍ-ARMENIA				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$2,207,075,287	5	KM
+2	Construcción de alcantarillas	$689,907,778	20	UN
+3	Construcción de filtro para cunetas	$926,282,380	5000	M 
+4	Construcción de cunetas	$789,753,323	5000	M 
+5	Construcción de disipadores	$100,387,622	15	UN
+6	Construcción de bordillos	$121,463,600	1000	M 
+7	Señalización vial	$73,421,125	5	KM
+8	PMA	$110,835,670		
+9	PMT	$132,518,461		
+10	Caracterización vial	$5,279,805	5	KM
+	TOTAL	$5,156,925,051		
+				
+				
+SOPETRAN-BELMIRA-HORIZONTES				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$14,634,943,849	35.19	KM
+2	Construcción de alcantarillas	$6,008,447,623	176	UN
+3	Construcción de filtro para cunetas	$6,135,428,018	35190	M 
+4	Construcción de cunetas	$5,472,851,814	35190	M 
+5	Construcción de disipadores	$981,582,888	132	UN
+6	Construcción de bordillos	$854,884,790	7038	M 
+7	Señalización vial	$103,970,005,769	35.19	KM
+8	PMA	$304,537,083		
+9	PMT	$291,964,641		
+10	Caracterización vial	$37,159,268	35.19	KM
+	TOTAL	$138,691,805,743		
+				
+				
+EL GUAYABO-EL SALTO-PARTIDAS A GUADALUPE				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$6,266,517,643	10.61	KM
+2	Construcción de alcantarillas	$1,542,262,804	44	UN
+3	Construcción de filtro para cunetas	$2.193 276.749	10610	M 
+4	Construcción de cunetas	$1,731,465,548	10610	M 
+5	Construcción de disipadores	$219,770,103	33	UN
+6	Construcción de bordillos	$258,744,898	2122	M 
+7	Señalización vial	$158,135,005	10.61	KM
+8	PMA	$126,007,950		
+9	PMT	$154,510,641		
+10	Caracterización vial	$11,203,746	10.61	KM
+	TOTAL	$10,468,618,338		
+				
+				
+CAROLINA DEL PRINCIPE-ANGOSTURA				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$7,316,481,479	13.62	KM
+2	Construcción de alcantarillas	$1,422,096,987	39	UN
+3	Construcción de filtro para cunetas	$3,026,654,378	13620	M 
+4	Construcción de cunetas	$2,269,642,088	13620	M 
+5	Construcción de disipadores	$201,098,953	29	UN
+6	Construcción de bordillos	$332,146,712	2724	M 
+7	Señalización vial	$202,469,890	13.62	KM
+8	PMA	$158,006,367		
+9	PMT	$195,746,841		
+10	Caracterización vial	$14,382,189	13.62	KM
+	TOTAL	$15,138,725,884		
+				
+				
+ALTO DEL CARDAL-TOLEDO				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$7,027,743,948	15.00	KM
+2	Construcción de alcantarillas	$2,691,176,698	78	UN
+3	Construcción de filtro para cunetas	$2,541,983,280	15000	M 
+4	Construcción de cunetas	$2,323,616,436	15000	M 
+5	Construcción de disipadores	$440,500,549	59	UN
+6	Construcción de bordillos	$365,853,360	3000	M 
+7	Señalización vial	$221,155,725	15.00	KM
+8	PMA	$162,252,203		
+9	PMT	$195,746,841		
+10	Caracterización vial	$15,839,415	15.00	KM
+	TOTAL	$15,985,868,455		
+				
+				
+SANTA ROSA-CAROLINA DEL PRINCIPE				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$17,997,600,054	33.67	KM
+2	Construcción de alcantarillas	$3,997,132,679	113	UN
+3	Construcción de filtro para cunetas	$6,547,043,689	33670	M 
+4	Construcción de cunetas	$5,402,748,812	33670	M 
+5	Construcción de disipadores	$589,444,253	85	UN
+6	Construcción de bordillos	$821,268,432	6734	M 
+7	Señalización vial	$497,862,890	33.67	KM
+8	PMA	$262,950,891		
+9	PMT	$278,219,241		
+10	Caracterización vial	$35,554,207	33.67	KM
+	TOTAL	$36,429,825,148		
+				
+				
+ENTRERRIOS-LABORES-SAN JOSE DE LA MONTAÑA				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$20,573,856,906	39.95	KM
+2	Construcción de alcantarillas	$3,643,300,186	100	UN
+3	Construcción de filtro para cunetas	$7,336,674,479	39950	M 
+4	Construcción de cunetas	$6,314,465,537	39950	M 
+5	Construcción de disipadores	$520,113,747	75	UN
+6	Construcción de bordillos	$974,400,758	7990	M 
+7	Señalización vial	$589,229,900	39.95	KM
+8	PMA	$291,826,438		
+9	PMT	$291,964,641		
+10	Caracterización vial	$42,185,642	39.95	KM
+	TOTAL	$40,578,018,234		
+				
+				
+SOPETRAN-HORIZONTES-BELMIRA				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$2,324,277,678	4.40	KM
+2	Construcción de alcantarillas	$868,698,467	25	UN
+3	Construcción de filtro para cunetas	$825,825,440	4400	M 
+4	Construcción de cunetas	$699,439,956	4400	M 
+5	Construcción de disipadores	$131,768,447	19	UN
+6	Construcción de bordillos	$107,339,604	880	M 
+7	Señalización vial	$123,578,409,807	4.40	KM
+8	PMA	$96.855.531.		
+9	PMT	$127,019,841		
+10	Caracterización vial	$6,675,831,787	4.40	KM
+	TOTAL	$135,338,611,027		
+				
+				
+Cáceres-El Tigre-Alto de Tamaná- La Chilona				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$10,921,589,863	25	KM
+2	Construcción de alcantarillas	$5,858,994,664	167	UN
+3	Construcción de filtro para cunetas	$4,757,000,000	25,000	M
+4	Construcción de cunetas	$3,971,539,712	25,000	M
+5	Construcción de disipadores	$861,862,520	125	UN
+6	Construcción de bordillos	$303,128,800	2,500	M
+7	Señalización vial	$366,465,875	25	KM
+8	PMA	$192,295,995		
+9	PMT	$195,746,841		
+10	Caracterización vial	$26,399,025	25	KM
+VALOR TOTAL		$27,455,023,295		
+				
+				
+VÍA CARAMANTA - CRISTALES - SAN ROQUE				
+No.	Actividad	Valor	Cantidad	UN
+1	Construcción de alcantarillas	$3,667,906,264	104	UN
+2	Construcción de cuneta	$3,382,478,638	20,640	M
+3	Construcción de filtro para cunetas	$4,309,979,578	20,640	M
+4	Construcción de bordillos	$504,438,410	4,128	M
+5	Construcción de disipadores	$518,301,418	78	UN
+6	Estabilización con material granular	$10,070,488,548	20.64	KM
+7	Señalización vial	$306,496,995	20.64	KM
+8	PMA	$208,575,259		
+9	PMT	$223,237,641		
+10	Caracterización vial	$21,795,035	20.64	KM
+VALOR TOTAL		$23,213,697,786		
+				
+				
+VÍA SAN RAFAEL-SAN ROQUE-SANTO DOMINGO-ALEJANDRÍA				
+No.	Actividad	Valor	Cantidad	UN
+1	Construcción de alcantarillas	$3,880,906,958	111	UN
+2	Construcción de cuneta	$3,801,799,853	23,460	M
+3	Construcción de filtro para cunetas	$4,705,405,044	23,460	M
+4	Construcción de bordillos	$573,317,029	4,692	M
+5	Construcción de disipadores	$576,723,016	83	UN
+6	Estabilización con material granular	$10,983,447,393	23.46	KM
+7	Señalización vial	$344,567,485	23.46	KM
+8	PMA	$209,420,004		
+9	PMT	$245,241,441		
+10	Caracterización vial	$24,772,845	23.46	KM
+VALOR TOTAL 		$25,345,601,068		
+				
+				
+VÍA AMALFI-PORTACHUELOS-SANTA ISABEL				
+No.	Actividad	Valor	Cantidad	UN
+1	Construcción de alcantarillas	$1,768,521,384	50	UN
+2	Construcción de cuneta	$1,728,494,618	10,000	M
+3	Construcción de filtro para cunetas	$2,491,606,000	10,000	M
+4	Construcción de bordillos	$244,381,280	2,000	M
+5	Construcción de disipadores	$284,270,286	38	UN
+6	Estabilización con material granular	$3,856,253,573	10	KM
+7	Señalización vial	$147,732,950	10	KM
+8	PMA	$120,209,983		
+9	PMT	$154,510,641		
+10	Caracterización vial	$10,559,610	10	KM
+VALOR TOTAL 		$10,806,540,325		
+				
+				
+Circuito Remedios - La Y De La Virgen - Puerto Berrío, vía Las Flores (Puerto Berrío) - Bodegas - La Ye				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$15,167,513,277	25	KM
+2	Construcción de alcantarillas	$2,975,258,664	84	UN
+3	Construcción de filtro para cunetas	$6,436,340,000	25,000	M
+4	Construcción de cunetas	$4,352,706,824	25,000	M
+5	Construcción de disipadores	$416,850,796	63	UN
+6	Construcción de bordillos	$607,914,500	5,000	M
+7	Señalización vial	$367,437,875	25	KM
+8	PMA	$218,336,960		
+9	PMT	$223,237,641		
+10	Caracterización vial	$26,399,025	25	KM
+VALOR TOTAL		$30,791,995,562		
+				
+				
+Vía La Ye - Yondo				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$11,136,973,253	30	KM
+2	Construcción de alcantarillas	$3,322,466,048	98	UN
+3	Construcción de filtro para cunetas	$5,943,390,000	30,000	M
+4	Construcción de cunetas	$4,827,640,390	30,000	M
+5	Construcción de disipadores	$511,639,276	74	UN
+6	Construcción de bordillos	$729,497,400	6,000	M
+7	Señalización vial	$440,925,450	30	KM
+8	PMA	$274,547,283		
+9	PMT	$264,473,841		
+10	Caracterización vial	$31,678,830	30	KM
+VALOR TOTAL		$27,483,231,771		
+				
+				
+Vía San Pedro - El Tres - Turbo				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$11,774,753,842	22	KM
+2	Construcción de alcantarillas	$1,139,880,438	29	UN
+3	Construcción de filtro para cunetas	$4,662,941,712	22,000	M
+4	Construcción de cunetas	$3,570,918,112	22,000	M
+5	Construcción de disipadores	$144,521,162	22	UN
+6	Construcción de bordillos	$527,266,432	4,400	M
+7	Señalización vial	$318,732,040	22	KM
+8	PMA	$218,262,630		
+9	PMT	$236,983,041		
+10	Caracterización vial	$23,231,142	22	KM
+VALOR TOTAL		$22,617,490,551		
+				
+				
+Vía San Pedro de Urabá - Arboletes				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$24,372,381,630	30	KM
+2	Construcción de alcantarillas	$1,255,250,206	32	UN
+3	Construcción de filtro para cunetas	$8,241,228,000	30,000	M
+4	Construcción de cunetas	$5,287,769,196	30,000	M
+5	Construcción de disipadores	$163,543,272	24	UN
+6	Construcción de bordillos	$718,999,680	6,000	M
+7	Señalización vial	$434,634,600	30	KM
+8	PMA	$256,699,631		
+9	PMT	$264,473,841		
+10	Caracterización vial	$31,678,830	30	KM
+VALOR TOTAL		$41,026,658,886		
+				
+				
+Vía San Pedro de Urabá - Necoclí				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$41,201,219,804	58.65	KM
+2	Construcción de alcantarillas	$2,680,150,627	71	UN
+3	Construcción de filtro para cunetas	$14,036,221,224	58,650	M
+4	Construcción de cunetas	$9,876,409,116	58,650	M
+5	Construcción de disipadores	$388,831,691	53	UN
+6	Construcción de bordillos	$1,405,666,600	11,730	M
+7	Señalización vial	$851,213,480	58.65	KM
+8	PMA	$383,341,008		
+9	PMT	$291,964,641		
+10	Caracterización vial	$61,932,113	58.65	KM
+VALOR TOTAL		$71,176,950,304		
+				
+				
+Corredor Mutatá - Pavarando, Vía Mutatá - Pavarandó Grande				
+No.	Actividad	Valor	Cantidad	UN
+1	Estabilización con material granular	$5,609,489,361	10	KM
+2	Construcción de alcantarillas	$681,818,770	20	UN
+3	Construcción de filtro para cunetas	$1,937,534,640	10,000	M
+4	Construcción de cunetas	$1,582,704,132	10,000	M
+5	Construcción de disipadores	$102,222,833	15	UN
+6	Construcción de bordillos	$239,666,560	2,000	M
+7	Señalización vial	$144,878,200	10	KM
+8	PMA	$139,713,648		
+9	PMT	$168,256,041		
+10	Caracterización vial	$10,559,610	10	KM
+VALOR TOTAL		$10,616,843,795

@@ -6,7 +6,7 @@ const props = defineProps({
 })
 
 const formatCurrency = (value) => {
-  return new Intl.NumberFormat('es-CO', { style: 'decimal', minimumFractionDigits: 0 }).format(value)
+  return new Intl.NumberFormat('es-CO', { style: 'decimal', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(value)
 }
 </script>
 

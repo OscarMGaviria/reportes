@@ -225,7 +225,7 @@
   },
   {
     "id_circuito": 105,
-    "meta_financiera_total": 35237877929.0,
+    "meta_financiera_total": 34737710929.0,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
@@ -260,7 +260,7 @@
       {
         "id_actividad": "12.1",
         "cantidad_total": 35.19,
-        "valor_total_esperado": 103970005769.0
+        "valor_total_esperado": 15910955.0
       },
       {
         "id_actividad": "MACRO-PMA",

@@ -190,6 +190,7 @@ const corteActual = computed(() => {
       if (catObj) {
         let catName = catObj.categoria;
         if (catName === 'CONSTRUCCIÓN DE CUNETA') catName = 'CONSTRUCCIÓN DE CUNETAS';
+        if (catName === 'CONSTRUCCIÓN DE FILTRO PARA CUNETAS') catName = 'CONSTRUCCIÓN DE FILTROS PARA CUNETAS';
         
         if (categoriasProg[catName]) {
           categoriasProg[catName].valor_total += (ap.valor_total_esperado || 0);
@@ -205,6 +206,7 @@ const corteActual = computed(() => {
       if (catObj) {
         let catName = catObj.categoria;
         if (catName === 'CONSTRUCCIÓN DE CUNETA') catName = 'CONSTRUCCIÓN DE CUNETAS';
+        if (catName === 'CONSTRUCCIÓN DE FILTRO PARA CUNETAS') catName = 'CONSTRUCCIÓN DE FILTROS PARA CUNETAS';
         
         if (categoriasProg[catName]) {
           categoriasProg[catName].completado = sa.cantidad_ejecutada || 0;

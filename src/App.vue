@@ -207,7 +207,19 @@ const corteActual = computed(() => {
         if (catName === 'CONSTRUCCIÓN DE CUNETA') catName = 'CONSTRUCCIÓN DE CUNETAS';
         
         if (categoriasProg[catName]) {
-          // Weighted completion based on value could be calculated here.
+          categoriasProg[catName].completado = sa.cantidad_ejecutada || 0;
+          
+          if (sa.subItems_ejecutados && categoriasProg[catName].subItems) {
+            categoriasProg[catName].subItems.forEach(sub => {
+              if (sa.subItems_ejecutados[sub.nombre] !== undefined) {
+                sub.completado = sa.subItems_ejecutados[sub.nombre];
+              }
+            });
+            // Update total completado for parent based on subitems if parent was 0
+            if (!sa.cantidad_ejecutada) {
+               categoriasProg[catName].completado = categoriasProg[catName].subItems.reduce((sum, item) => sum + item.completado, 0);
+            }
+          }
         }
       }
     });

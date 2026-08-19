@@ -656,5 +656,13 @@
     "descripcion": "Suministro, transporte e instalación de señal vertical de 75cmx75cm doble (SP/SR/SI), en lámina galvanizada calibre 16, reflectivo tipo IX, estructura metálica tipo pedestal compuesto por un paral en ángulo de 2\"x2\"x1/4\" y brazos en ángulo 2\"x2\"x1/8\"",
     "unidad": "Und",
     "valor_unitario": 870445.0
+  },
+  {
+    "id_actividad": "MACRO-CARAC-TOPO",
+    "categoria": "Topografía"
+  },
+  {
+    "id_actividad": "MACRO-CARAC-EXPL",
+    "categoria": "Exploración de campo"
   }
 ]

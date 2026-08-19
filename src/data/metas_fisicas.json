@@ -182,17 +182,17 @@
         {
           "nombre": "Limpieza",
           "completado": 0,
-          "total": 58.666666666666664
+          "total": 319.0
         },
         {
           "nombre": "Remplazar",
           "completado": 0,
-          "total": 58.666666666666664
+          "total": 0.0
         },
         {
           "nombre": "Nuevas",
           "completado": 0,
-          "total": 58.666666666666664
+          "total": 11.0
         }
       ]
     },
@@ -215,6 +215,14 @@
     "Señalización vial": {
       "total": 35.19,
       "unidad": "Km"
+    },
+    "Topografia": {
+      "total": 35.0,
+      "unidad": "Km"
+    },
+    "Exploracion de campo": {
+      "total": 140.0,
+      "unidad": "und"
     }
   },
   "21": {

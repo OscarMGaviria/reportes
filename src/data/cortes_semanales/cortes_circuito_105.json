@@ -1,0 +1,48 @@
+[
+  {
+    "semana": 1,
+    "fecha_corte": "2024-05-15",
+    "seguimiento_general": {
+      "cronograma": {
+        "estado": "En ejecución"
+      },
+      "financiero": {
+        "porcentaje_programado": 100.0,
+        "porcentaje_ejecutado": 0.0
+      },
+      "fisico": {
+        "porcentaje_programado": 100.0,
+        "porcentaje_ejecutado": 0.0
+      }
+    },
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "MACRO-CARAC-TOPO",
+        "cantidad_ejecutada": 7.0
+      },
+      {
+        "id_actividad": "MACRO-CARAC-EXPL",
+        "cantidad_ejecutada": 40.0
+      },
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_ejecutada": 35.19
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_ejecutada": 0,
+        "subItems_ejecutados": {
+          "Limpieza": 319,
+          "Remplazar": 0,
+          "Nuevas": 9
+        }
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_ejecutada": 1500.0
+      }
+    ],
+    "registro_fotografico": [],
+    "dificultades_y_observaciones": []
+  }
+]

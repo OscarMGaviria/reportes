@@ -1,0 +1,60 @@
+[
+  {
+    "semana": 1,
+    "seguimiento_actividades": [
+      {
+        "id_actividad": "2.8",
+        "cantidad_ejecutada": 0,
+        "subItems_ejecutados": {
+          "Limpieza": 0,
+          "Remplazar": 0,
+          "Nuevas": 0
+        }
+      },
+      {
+        "id_actividad": "4.1.9",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "8.13.1",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "4.1.1",
+        "cantidad_ejecutada": 999
+      },
+      {
+        "id_actividad": "6.2.50",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "4.1.2",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "12.1",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "MACRO-PMA",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "MACRO-PMT",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "MACRO-CARAC",
+        "cantidad_ejecutada": 0
+      },
+      {
+        "id_actividad": "MACRO-CARAC-TOPO",
+        "cantidad_ejecutada": 7
+      },
+      {
+        "id_actividad": "MACRO-CARAC-EXPL",
+        "cantidad_ejecutada": 0
+      }
+    ]
+  }
+]

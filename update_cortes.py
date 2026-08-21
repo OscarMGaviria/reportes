@@ -1,22 +1,5 @@
 import json
-import os
 
-# Update metas_fisicas.json
-with open('src/data/metas_fisicas.json', 'r', encoding='utf-8') as f:
-    m = json.load(f)
-
-if '101' in m:
-    m['101']['Construcción de alcantarillas']['total'] = 18.0
-    m['101']['Construcción de alcantarillas']['subItems'] = [
-        {'nombre': 'Limpieza', 'completado': 0, 'total': 6.0},
-        {'nombre': 'Remplazar', 'completado': 0, 'total': 6.0},
-        {'nombre': 'Nuevas', 'completado': 0, 'total': 6.0}
-    ]
-
-with open('src/data/metas_fisicas.json', 'w', encoding='utf-8') as f:
-    json.dump(m, f, indent=2, ensure_ascii=False)
-
-# Create cortes_circuito_101.json
 corte_101 = [
   {
     "semana": 1,
@@ -45,4 +28,4 @@ corte_101 = [
 with open('src/data/cortes_semanales/cortes_circuito_101.json', 'w', encoding='utf-8') as f:
     json.dump(corte_101, f, indent=2, ensure_ascii=False)
 
-print('Updated 101')
+print('Updated cortes')

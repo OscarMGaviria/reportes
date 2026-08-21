@@ -1,313 +1,44 @@
 {
-  "101": {
-    "Estabilización con material granular": {
-      "total": 1.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 6.0,
-      "unidad": "und"
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 1000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 1000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 5.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 200.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 1.0,
-      "unidad": "m"
-    }
-  },
-  "102": {
-    "Estabilización con material granular": {
-      "total": 25.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 102.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 34.0
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 34.0
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 34.0
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 25000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 25000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 77.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 5000.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 25.0,
-      "unidad": "Km"
-    }
-  },
-  "103": {
-    "Estabilización con material granular": {
-      "total": 28.76,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 153.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 51.0
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 51.0
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 51.0
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 28760.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 28760.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 115.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 5752.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 28.76,
-      "unidad": "Km"
-    }
-  },
-  "104": {
-    "Estabilización con material granular": {
-      "total": 5.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 20.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 6.666666666666667
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 6.666666666666667
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 6.666666666666667
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 5000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 5000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 15.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 1000.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 5.0,
-      "unidad": "Km"
-    }
-  },
-  "105": {
-    "Estabilización con material granular": {
-      "total": 35.19,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 176.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 319.0
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 0.0
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 11.0
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 35190.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 35190.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 132.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 7038.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 35.19,
-      "unidad": "Km"
-    },
-    "Topografia": {
-      "total": 35.0,
-      "unidad": "Km"
-    },
-    "Exploracion de campo": {
-      "total": 140.0,
-      "unidad": "und"
-    }
-  },
-  "21": {
-    "Estabilización con material granular": {
-      "total": 10.61,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 44.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 14.666666666666666
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 14.666666666666666
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 14.666666666666666
-        }
-      ]
-    },
-    "Construcción de cunetas": {
-      "total": 10610.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 33.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 2122.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 10.61,
-      "unidad": "Km"
-    }
-  },
   "5": {
     "Estabilización con material granular": {
       "total": 13.62,
       "unidad": "Km"
     },
     "Construcción de alcantarillas": {
-      "total": 39.0,
+      "total": 39,
       "unidad": "und",
       "subItems": [
         {
           "nombre": "Limpieza",
           "completado": 0,
-          "total": 13.0
+          "total": 13
         },
         {
           "nombre": "Remplazar",
           "completado": 0,
-          "total": 13.0
+          "total": 13
         },
         {
           "nombre": "Nuevas",
           "completado": 0,
-          "total": 13.0
+          "total": 13
         }
       ]
     },
     "Construcción de filtro para cunetas": {
-      "total": 13620.0,
+      "total": 13620,
       "unidad": "m"
     },
     "Construcción de cunetas": {
-      "total": 13620.0,
+      "total": 13620,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 29.0,
+      "total": 29,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 2724.0,
+      "total": 2724,
       "unidad": "m"
     },
     "Señalización vial": {
@@ -315,97 +46,63 @@
       "unidad": "Km"
     }
   },
-  "34": {
-    "Estabilización con material granular": {
-      "total": 15.0,
-      "unidad": "Km"
-    },
+  "10": {
     "Construcción de alcantarillas": {
-      "total": 78.0,
+      "total": 666,
       "unidad": "und",
       "subItems": [
         {
           "nombre": "Limpieza",
-          "completado": 0,
-          "total": 26.0
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 26.0
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 26.0
+          "total": 666,
+          "unidad": "und"
         }
       ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 15000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 15000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 59.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 3000.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 15.0,
-      "unidad": "Km"
     }
   },
-  "36": {
+  "12": {
     "Estabilización con material granular": {
-      "total": 33.67,
+      "total": 4.4,
       "unidad": "Km"
     },
     "Construcción de alcantarillas": {
-      "total": 113.0,
+      "total": 25,
       "unidad": "und",
       "subItems": [
         {
           "nombre": "Limpieza",
           "completado": 0,
-          "total": 37.666666666666664
+          "total": 8.333333333333334
         },
         {
           "nombre": "Remplazar",
           "completado": 0,
-          "total": 37.666666666666664
+          "total": 8.333333333333334
         },
         {
           "nombre": "Nuevas",
           "completado": 0,
-          "total": 37.666666666666664
+          "total": 8.333333333333334
         }
       ]
     },
     "Construcción de filtro para cunetas": {
-      "total": 33670.0,
+      "total": 4400,
       "unidad": "m"
     },
     "Construcción de cunetas": {
-      "total": 33670.0,
+      "total": 4400,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 85.0,
+      "total": 19,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 6734.0,
+      "total": 880,
       "unidad": "m"
     },
     "Señalización vial": {
-      "total": 33.67,
+      "total": 4.4,
       "unidad": "Km"
     }
   },
@@ -415,7 +112,7 @@
       "unidad": "Km"
     },
     "Construcción de alcantarillas": {
-      "total": 100.0,
+      "total": 100,
       "unidad": "und",
       "subItems": [
         {
@@ -436,19 +133,19 @@
       ]
     },
     "Construcción de filtro para cunetas": {
-      "total": 39950.0,
+      "total": 39950,
       "unidad": "m"
     },
     "Construcción de cunetas": {
-      "total": 39950.0,
+      "total": 39950,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 75.0,
+      "total": 75,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 7990.0,
+      "total": 7990,
       "unidad": "m"
     },
     "Señalización vial": {
@@ -456,103 +153,52 @@
       "unidad": "Km"
     }
   },
-  "12": {
+  "21": {
     "Estabilización con material granular": {
-      "total": 4.4,
+      "total": 10.61,
       "unidad": "Km"
     },
     "Construcción de alcantarillas": {
-      "total": 25.0,
+      "total": 44,
       "unidad": "und",
       "subItems": [
         {
           "nombre": "Limpieza",
           "completado": 0,
-          "total": 8.333333333333334
+          "total": 14.666666666666666
         },
         {
           "nombre": "Remplazar",
           "completado": 0,
-          "total": 8.333333333333334
+          "total": 14.666666666666666
         },
         {
           "nombre": "Nuevas",
           "completado": 0,
-          "total": 8.333333333333334
+          "total": 14.666666666666666
         }
       ]
     },
-    "Construcción de filtro para cunetas": {
-      "total": 4400.0,
-      "unidad": "m"
-    },
     "Construcción de cunetas": {
-      "total": 4400.0,
+      "total": 10610,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 19.0,
+      "total": 33,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 880.0,
+      "total": 2122,
       "unidad": "m"
     },
     "Señalización vial": {
-      "total": 4.4,
-      "unidad": "Km"
-    }
-  },
-  "25": {
-    "Estabilización con material granular": {
-      "total": 25.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 167.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 55.666666666666664
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 55.666666666666664
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 55.666666666666664
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 25000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 25000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 125.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 2500.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 25.0,
+      "total": 10.61,
       "unidad": "Km"
     }
   },
   "22": {
     "Construcción de alcantarillas": {
-      "total": 104.0,
+      "total": 104,
       "unidad": "und",
       "subItems": [
         {
@@ -573,19 +219,19 @@
       ]
     },
     "Construcción de cunetas": {
-      "total": 20640.0,
+      "total": 20640,
       "unidad": "m"
     },
     "Construcción de filtro para cunetas": {
-      "total": 20640.0,
+      "total": 20640,
       "unidad": "m"
     },
     "Construcción de bordillos": {
-      "total": 4128.0,
+      "total": 4128,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 78.0,
+      "total": 78,
       "unidad": "und"
     },
     "Estabilización con material granular": {
@@ -597,285 +243,50 @@
       "unidad": "Km"
     }
   },
-  "28": {
+  "25": {
+    "Estabilización con material granular": {
+      "total": 25,
+      "unidad": "Km"
+    },
     "Construcción de alcantarillas": {
-      "total": 111.0,
+      "total": 167,
       "unidad": "und",
       "subItems": [
         {
           "nombre": "Limpieza",
           "completado": 0,
-          "total": 37.0
+          "total": 55.666666666666664
         },
         {
           "nombre": "Remplazar",
           "completado": 0,
-          "total": 37.0
+          "total": 55.666666666666664
         },
         {
           "nombre": "Nuevas",
           "completado": 0,
-          "total": 37.0
-        }
-      ]
-    },
-    "Construcción de cunetas": {
-      "total": 23460.0,
-      "unidad": "m"
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 23460.0,
-      "unidad": "m"
-    },
-    "Construcción de bordillos": {
-      "total": 4692.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 83.0,
-      "unidad": "und"
-    },
-    "Estabilización con material granular": {
-      "total": 23.46,
-      "unidad": "Km"
-    },
-    "Señalización vial": {
-      "total": 23.46,
-      "unidad": "Km"
-    }
-  },
-  "32": {
-    "Construcción de alcantarillas": {
-      "total": 50.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 16.666666666666668
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 16.666666666666668
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 16.666666666666668
-        }
-      ]
-    },
-    "Construcción de cunetas": {
-      "total": 10000.0,
-      "unidad": "m"
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 10000.0,
-      "unidad": "m"
-    },
-    "Construcción de bordillos": {
-      "total": 2000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 38.0,
-      "unidad": "und"
-    },
-    "Estabilización con material granular": {
-      "total": 10.0,
-      "unidad": "Km"
-    },
-    "Señalización vial": {
-      "total": 10.0,
-      "unidad": "Km"
-    }
-  },
-  "33": {
-    "Estabilización con material granular": {
-      "total": 25.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 84.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 28.0
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 28.0
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 28.0
+          "total": 55.666666666666664
         }
       ]
     },
     "Construcción de filtro para cunetas": {
-      "total": 25000.0,
+      "total": 25000,
       "unidad": "m"
     },
     "Construcción de cunetas": {
-      "total": 25000.0,
+      "total": 25000,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 63.0,
+      "total": 125,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 5000.0,
+      "total": 2500,
       "unidad": "m"
     },
     "Señalización vial": {
-      "total": 25.0,
-      "unidad": "Km"
-    }
-  },
-  "31": {
-    "Estabilización con material granular": {
-      "total": 30.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 98.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 32.666666666666664
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 32.666666666666664
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 32.666666666666664
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 30000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 30000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 74.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 6000.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 30.0,
-      "unidad": "Km"
-    }
-  },
-  "40": {
-    "Estabilización con material granular": {
-      "total": 22.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 29.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 9.666666666666666
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 9.666666666666666
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 9.666666666666666
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 22000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 22000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 22.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 4400.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 22.0,
-      "unidad": "Km"
-    }
-  },
-  "39": {
-    "Estabilización con material granular": {
-      "total": 30.0,
-      "unidad": "Km"
-    },
-    "Construcción de alcantarillas": {
-      "total": 32.0,
-      "unidad": "und",
-      "subItems": [
-        {
-          "nombre": "Limpieza",
-          "completado": 0,
-          "total": 10.666666666666666
-        },
-        {
-          "nombre": "Remplazar",
-          "completado": 0,
-          "total": 10.666666666666666
-        },
-        {
-          "nombre": "Nuevas",
-          "completado": 0,
-          "total": 10.666666666666666
-        }
-      ]
-    },
-    "Construcción de filtro para cunetas": {
-      "total": 30000.0,
-      "unidad": "m"
-    },
-    "Construcción de cunetas": {
-      "total": 30000.0,
-      "unidad": "m"
-    },
-    "Construcción de disipadores": {
-      "total": 24.0,
-      "unidad": "und"
-    },
-    "Construcción de bordillos": {
-      "total": 6000.0,
-      "unidad": "m"
-    },
-    "Señalización vial": {
-      "total": 30.0,
+      "total": 25,
       "unidad": "Km"
     }
   },
@@ -885,7 +296,7 @@
       "unidad": "Km"
     },
     "Construcción de alcantarillas": {
-      "total": 71.0,
+      "total": 71,
       "unidad": "und",
       "subItems": [
         {
@@ -906,19 +317,19 @@
       ]
     },
     "Construcción de filtro para cunetas": {
-      "total": 58650.0,
+      "total": 58650,
       "unidad": "m"
     },
     "Construcción de cunetas": {
-      "total": 58650.0,
+      "total": 58650,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 53.0,
+      "total": 53,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 11730.0,
+      "total": 11730,
       "unidad": "m"
     },
     "Señalización vial": {
@@ -926,13 +337,295 @@
       "unidad": "Km"
     }
   },
-  "38": {
+  "28": {
+    "Construcción de alcantarillas": {
+      "total": 111,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 37
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 37
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 37
+        }
+      ]
+    },
+    "Construcción de cunetas": {
+      "total": 23460,
+      "unidad": "m"
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 23460,
+      "unidad": "m"
+    },
+    "Construcción de bordillos": {
+      "total": 4692,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 83,
+      "unidad": "und"
+    },
     "Estabilización con material granular": {
-      "total": 10.0,
+      "total": 23.46,
+      "unidad": "Km"
+    },
+    "Señalización vial": {
+      "total": 23.46,
+      "unidad": "Km"
+    }
+  },
+  "31": {
+    "Estabilización con material granular": {
+      "total": 30,
       "unidad": "Km"
     },
     "Construcción de alcantarillas": {
-      "total": 20.0,
+      "total": 98,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 32.666666666666664
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 32.666666666666664
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 32.666666666666664
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 30000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 30000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 74,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 6000,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 30,
+      "unidad": "Km"
+    }
+  },
+  "32": {
+    "Construcción de alcantarillas": {
+      "total": 50,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 16.666666666666668
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 16.666666666666668
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 16.666666666666668
+        }
+      ]
+    },
+    "Construcción de cunetas": {
+      "total": 10000,
+      "unidad": "m"
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 10000,
+      "unidad": "m"
+    },
+    "Construcción de bordillos": {
+      "total": 2000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 38,
+      "unidad": "und"
+    },
+    "Estabilización con material granular": {
+      "total": 10,
+      "unidad": "Km"
+    },
+    "Señalización vial": {
+      "total": 10,
+      "unidad": "Km"
+    }
+  },
+  "33": {
+    "Estabilización con material granular": {
+      "total": 25,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 84,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 28
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 28
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 28
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 25000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 25000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 63,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 5000,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 25,
+      "unidad": "Km"
+    }
+  },
+  "34": {
+    "Estabilización con material granular": {
+      "total": 15,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 78,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 26
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 26
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 26
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 15000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 15000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 59,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 3000,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 15,
+      "unidad": "Km"
+    }
+  },
+  "36": {
+    "Estabilización con material granular": {
+      "total": 33.67,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 113,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 37.666666666666664
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 37.666666666666664
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 37.666666666666664
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 33670,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 33670,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 85,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 6734,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 33.67,
+      "unidad": "Km"
+    }
+  },
+  "38": {
+    "Estabilización con material granular": {
+      "total": 10,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 20,
       "unidad": "und",
       "subItems": [
         {
@@ -953,24 +646,417 @@
       ]
     },
     "Construcción de filtro para cunetas": {
-      "total": 10000.0,
+      "total": 10000,
       "unidad": "m"
     },
     "Construcción de cunetas": {
-      "total": 10000.0,
+      "total": 10000,
       "unidad": "m"
     },
     "Construcción de disipadores": {
-      "total": 15.0,
+      "total": 15,
       "unidad": "und"
     },
     "Construcción de bordillos": {
-      "total": 2000.0,
+      "total": 2000,
       "unidad": "m"
     },
     "Señalización vial": {
-      "total": 10.0,
+      "total": 10,
       "unidad": "Km"
+    }
+  },
+  "39": {
+    "Estabilización con material granular": {
+      "total": 30,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 32,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 10.666666666666666
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 10.666666666666666
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 10.666666666666666
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 30000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 30000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 24,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 6000,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 30,
+      "unidad": "Km"
+    }
+  },
+  "40": {
+    "Estabilización con material granular": {
+      "total": 22,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 29,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 9.666666666666666
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 9.666666666666666
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 9.666666666666666
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 22000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 22000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 22,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 4400,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 22,
+      "unidad": "Km"
+    }
+  },
+  "101": {
+    "Estabilización con material granular": {
+      "total": 1,
+      "unidad": "km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 18,
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 6,
+          "unidad": "und"
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 6
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 6
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 1000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 1000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 5,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 200,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 1,
+      "unidad": "m"
+    },
+    "Topografia": {
+      "total": 1,
+      "unidad": "km"
+    },
+    "Exploracion de campo": {
+      "total": 4,
+      "unidad": "und"
+    },
+    "Topografía": {
+      "total": 1,
+      "unidad": "Km"
+    },
+    "Exploración de campo": {
+      "total": 10,
+      "unidad": "pruebas"
+    },
+    "Construcción de filtros para cunetas": {
+      "total": 1000,
+      "unidad": "m"
+    },
+    "Plan de manejo ambiental, social y sst": {
+      "total": 0,
+      "unidad": "GLB"
+    },
+    "Plan de manejo de transito (pmt)": {
+      "total": 0,
+      "unidad": "GLB"
+    },
+    "Caracterizacion vial": {
+      "total": 0,
+      "unidad": "GLB"
+    }
+  },
+  "102": {
+    "Estabilización con material granular": {
+      "total": 25,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 102,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 34
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 34
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 34
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 25000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 25000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 77,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 5000,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 25,
+      "unidad": "Km"
+    },
+    "Topografía": {
+      "total": 25,
+      "unidad": "Glb"
+    },
+    "Exploración de campo": {
+      "total": 100,
+      "unidad": "Glb"
+    },
+    "Construcción de filtros para cunetas": {
+      "total": 25000,
+      "unidad": "m"
+    },
+    "Plan de manejo ambiental, social y sst": {
+      "total": 0,
+      "unidad": "GLB"
+    },
+    "Plan de manejo de transito (pmt)": {
+      "total": 0,
+      "unidad": "GLB"
+    },
+    "Caracterizacion vial": {
+      "total": 0,
+      "unidad": "GLB"
+    }
+  },
+  "103": {
+    "Estabilización con material granular": {
+      "total": 28.76,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 153,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 51
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 51
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 51
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 28760,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 28760,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 115,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 5752,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 28.76,
+      "unidad": "Km"
+    }
+  },
+  "104": {
+    "Estabilización con material granular": {
+      "total": 5,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 20,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 6.666666666666667
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 6.666666666666667
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 6.666666666666667
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 5000,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 5000,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 15,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 1000,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 5,
+      "unidad": "Km"
+    }
+  },
+  "105": {
+    "Estabilización con material granular": {
+      "total": 35.19,
+      "unidad": "Km"
+    },
+    "Construcción de alcantarillas": {
+      "total": 176,
+      "unidad": "und",
+      "subItems": [
+        {
+          "nombre": "Limpieza",
+          "completado": 0,
+          "total": 319
+        },
+        {
+          "nombre": "Remplazar",
+          "completado": 0,
+          "total": 0
+        },
+        {
+          "nombre": "Nuevas",
+          "completado": 0,
+          "total": 11
+        }
+      ]
+    },
+    "Construcción de filtro para cunetas": {
+      "total": 35190,
+      "unidad": "m"
+    },
+    "Construcción de cunetas": {
+      "total": 35190,
+      "unidad": "m"
+    },
+    "Construcción de disipadores": {
+      "total": 132,
+      "unidad": "und"
+    },
+    "Construcción de bordillos": {
+      "total": 7038,
+      "unidad": "m"
+    },
+    "Señalización vial": {
+      "total": 35.19,
+      "unidad": "Km"
+    },
+    "Topografia": {
+      "total": 35,
+      "unidad": "Km"
+    },
+    "Exploracion de campo": {
+      "total": 140,
+      "unidad": "und"
     }
   }
 }

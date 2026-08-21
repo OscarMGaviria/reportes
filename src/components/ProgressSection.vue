@@ -19,25 +19,20 @@ const formatCurrency = (value) => {
       </div>
       
       <div class="progress-data">
+        <div class="data-row">
+          <div class="label"><span class="dot dot-gray"></span> Valor del tramo</div>
+          <div class="value">$ {{ formatCurrency(corte.financiero.programado.valor) }}</div>
+          <div class="percentage font-bold">{{ corte.financiero.programado.porcentaje }}%</div>
+        </div>
         <div class="data-row" v-if="corte.financiero.anticipo">
           <div class="label"><span class="dot dot-gray"></span> Anticipo</div>
           <div class="value">$ {{ formatCurrency(corte.financiero.anticipo.valor) }}</div>
           <div class="percentage font-bold">{{ corte.financiero.anticipo.porcentaje }}%</div>
         </div>
         <div class="data-row">
-          <div class="label"><span class="dot dot-gray"></span> Programado</div>
-          <div class="value">$ {{ formatCurrency(corte.financiero.programado.valor) }}</div>
-          <div class="percentage font-bold">{{ corte.financiero.programado.porcentaje }}%</div>
-        </div>
-        <div class="data-row">
           <div class="label"><span class="dot dot-gray"></span> Ejecutado</div>
           <div class="value">$ {{ formatCurrency(corte.financiero.ejecutado.valor) }}</div>
           <div class="percentage font-bold">{{ corte.financiero.ejecutado.porcentaje }}%</div>
-        </div>
-        <div class="data-row">
-          <div class="label"><span class="dot dot-gray"></span> Avance</div>
-          <div class="value">$ {{ formatCurrency(corte.financiero.avance.valor) }}</div>
-          <div class="percentage font-bold">{{ corte.financiero.avance.porcentaje }}%</div>
         </div>
       </div>
       

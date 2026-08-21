@@ -181,6 +181,13 @@
         "id_actividad": "CONFORMACIÓN_Y_ADECUACIÓN",
         "cantidad_ejecutada_semana": 0,
         "cantidad_ejecutada_acumulada": 0
+      },
+      {
+        "id_actividad": "2.8",
+        "cantidad_ejecutada": 1234,
+        "subItems_ejecutados": {
+          "Limpieza": 1234
+        }
       }
     ]
   }

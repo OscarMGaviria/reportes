@@ -1,1173 +1,1191 @@
 [
   {
     "id_circuito": 101,
-    "meta_financiera_total": 1219292958.0,
+    "meta_financiera_total": 1246872206,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 518510126.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 518510126
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 6.0,
-        "valor_total_esperado": 213865400.0
+        "cantidad_total": 6,
+        "valor_total_esperado": 213865400
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 1000.0,
-        "valor_total_esperado": 182548520.0
+        "cantidad_total": 1000,
+        "valor_total_esperado": 182548520
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 1000.0,
-        "valor_total_esperado": 157374908.0
+        "cantidad_total": 1000,
+        "valor_total_esperado": 157374908
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 5.0,
-        "valor_total_esperado": 39701395.0
+        "cantidad_total": 5,
+        "valor_total_esperado": 39701395
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 200.0,
-        "valor_total_esperado": 24292720.0
+        "cantidad_total": 200,
+        "valor_total_esperado": 24292720
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 14684225.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 14684225
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 33016917.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 33016917
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 61822034.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 61822034
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 1055961.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 1055961
       }
     ]
   },
   {
     "id_circuito": 102,
-    "meta_financiera_total": 33497913644.0,
+    "meta_financiera_total": 15356610080,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 18141304676.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 100
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 102.0,
-        "valor_total_esperado": 3567628925.0
+        "cantidad_total": 102,
+        "valor_total_esperado": 3567628925
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 25000.0,
-        "valor_total_esperado": 5624939000.0
+        "cantidad_total": 25000,
+        "valor_total_esperado": 5624939000
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 25000.0,
-        "valor_total_esperado": 4169474519.0
+        "cantidad_total": 25000,
+        "valor_total_esperado": 4169474519
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 77.0,
-        "valor_total_esperado": 524283533.0
+        "cantidad_total": 77,
+        "valor_total_esperado": 524283533
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 5000.0,
-        "valor_total_esperado": 607318000.0
+        "cantidad_total": 5000,
+        "valor_total_esperado": 607318000
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 367105625.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 367105625
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 232478312.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 232478312
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 236983041.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 236983041
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 26399025.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 26399025
+      },
+      {
+        "id_actividad": "MACRO-CARAC-TOPO",
+        "valor_total_esperado": 0
+      },
+      {
+        "id_actividad": "MACRO-CARAC-EXPL",
+        "valor_total_esperado": 0
       }
     ]
   },
   {
     "id_circuito": 103,
-    "meta_financiera_total": 30788329885.0,
+    "meta_financiera_total": 30188327885,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 28.76,
-        "valor_total_esperado": 13054791453.0
+        "valor_total_esperado": 13054791453
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 153.0,
-        "valor_total_esperado": 5275095278.0
+        "cantidad_total": 153,
+        "valor_total_esperado": 5275095278
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 28760.0,
-        "valor_total_esperado": 5481632992.0
+        "cantidad_total": 28760,
+        "valor_total_esperado": 5481632992
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 28760.0,
-        "valor_total_esperado": 4576792772.0
+        "cantidad_total": 28760,
+        "valor_total_esperado": 4576792772
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 115.0,
-        "valor_total_esperado": 794311877.0
+        "cantidad_total": 115,
+        "valor_total_esperado": 794311877
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 5752.0,
-        "valor_total_esperado": 98645918.0
+        "cantidad_total": 5752,
+        "valor_total_esperado": 98645918
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 28.76,
-        "valor_total_esperado": 423362845.0
+        "valor_total_esperado": 423362845
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 243833071.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 243833071
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 209492241.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 209492241
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 28.76,
-        "valor_total_esperado": 30369438.0
+        "valor_total_esperado": 30369438
       }
     ]
   },
   {
     "id_circuito": 104,
-    "meta_financiera_total": 5156733791.0,
+    "meta_financiera_total": 5156925051,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 5.0,
-        "valor_total_esperado": 2207075287.0
+        "cantidad_total": 5,
+        "valor_total_esperado": 2207075287
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 20.0,
-        "valor_total_esperado": 689907778.0
+        "cantidad_total": 20,
+        "valor_total_esperado": 689907778
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 5000.0,
-        "valor_total_esperado": 926282380.0
+        "cantidad_total": 5000,
+        "valor_total_esperado": 926282380
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 5000.0,
-        "valor_total_esperado": 789753323.0
+        "cantidad_total": 5000,
+        "valor_total_esperado": 789753323
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 15.0,
-        "valor_total_esperado": 100387622.0
+        "cantidad_total": 15,
+        "valor_total_esperado": 100387622
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 1000.0,
-        "valor_total_esperado": 121463600.0
+        "cantidad_total": 1000,
+        "valor_total_esperado": 121463600
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 5.0,
-        "valor_total_esperado": 73421125.0
+        "cantidad_total": 5,
+        "valor_total_esperado": 73421125
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 110835670.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 110835670
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 132518461.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 132518461
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 5.0,
-        "valor_total_esperado": 5279805.0
+        "cantidad_total": 5,
+        "valor_total_esperado": 5279805
       }
     ]
   },
   {
     "id_circuito": 105,
-    "meta_financiera_total": 34737710929.0,
+    "meta_financiera_total": 34737710929,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 35.19,
-        "valor_total_esperado": 14634943849.0
+        "valor_total_esperado": 14634943849
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 176.0,
-        "valor_total_esperado": 6008447623.0
+        "cantidad_total": 176,
+        "valor_total_esperado": 6008447623
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 35190.0,
-        "valor_total_esperado": 6135428018.0
+        "cantidad_total": 35190,
+        "valor_total_esperado": 6135428018
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 35190.0,
-        "valor_total_esperado": 5472851814.0
+        "cantidad_total": 35190,
+        "valor_total_esperado": 5472851814
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 132.0,
-        "valor_total_esperado": 981582888.0
+        "cantidad_total": 132,
+        "valor_total_esperado": 981582888
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 7038.0,
-        "valor_total_esperado": 854884790.0
+        "cantidad_total": 7038,
+        "valor_total_esperado": 854884790
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 35.19,
-        "valor_total_esperado": 15910955.0
+        "valor_total_esperado": 15910955
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 304537083.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 304537083
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 291964641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 291964641
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 35.19,
-        "valor_total_esperado": 37159268.0
+        "valor_total_esperado": 37159268
       }
     ]
   },
   {
     "id_circuito": 21,
-    "meta_financiera_total": 10468618338.0,
+    "meta_financiera_total": 10468618338,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 10.61,
-        "valor_total_esperado": 6266517643.0
+        "valor_total_esperado": 6266517643
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 44.0,
-        "valor_total_esperado": 1542262804.0
+        "cantidad_total": 44,
+        "valor_total_esperado": 1542262804
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 10610.0,
-        "valor_total_esperado": 1731465548.0
+        "cantidad_total": 10610,
+        "valor_total_esperado": 1731465548
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 33.0,
-        "valor_total_esperado": 219770103.0
+        "cantidad_total": 33,
+        "valor_total_esperado": 219770103
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 2122.0,
-        "valor_total_esperado": 258744898.0
+        "cantidad_total": 2122,
+        "valor_total_esperado": 258744898
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 10.61,
-        "valor_total_esperado": 158135005.0
+        "valor_total_esperado": 158135005
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 126007950.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 126007950
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 154510641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 154510641
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 10.61,
-        "valor_total_esperado": 11203746.0
+        "valor_total_esperado": 11203746
       }
     ]
   },
   {
     "id_circuito": 5,
-    "meta_financiera_total": 15138725884.0,
+    "meta_financiera_total": 15138725884,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 13.62,
-        "valor_total_esperado": 7316481479.0
+        "valor_total_esperado": 7316481479
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 39.0,
-        "valor_total_esperado": 1422096987.0
+        "cantidad_total": 39,
+        "valor_total_esperado": 1422096987
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 13620.0,
-        "valor_total_esperado": 3026654378.0
+        "cantidad_total": 13620,
+        "valor_total_esperado": 3026654378
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 13620.0,
-        "valor_total_esperado": 2269642088.0
+        "cantidad_total": 13620,
+        "valor_total_esperado": 2269642088
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 29.0,
-        "valor_total_esperado": 201098953.0
+        "cantidad_total": 29,
+        "valor_total_esperado": 201098953
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 2724.0,
-        "valor_total_esperado": 332146712.0
+        "cantidad_total": 2724,
+        "valor_total_esperado": 332146712
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 13.62,
-        "valor_total_esperado": 202469890.0
+        "valor_total_esperado": 202469890
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 158006367.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 158006367
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 195746841.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 195746841
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 13.62,
-        "valor_total_esperado": 14382189.0
+        "valor_total_esperado": 14382189
       }
     ]
   },
   {
     "id_circuito": 34,
-    "meta_financiera_total": 15985868455.0,
+    "meta_financiera_total": 15985868455,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 15.0,
-        "valor_total_esperado": 7027743948.0
+        "cantidad_total": 15,
+        "valor_total_esperado": 7027743948
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 78.0,
-        "valor_total_esperado": 2691176698.0
+        "cantidad_total": 78,
+        "valor_total_esperado": 2691176698
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 15000.0,
-        "valor_total_esperado": 2541983280.0
+        "cantidad_total": 15000,
+        "valor_total_esperado": 2541983280
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 15000.0,
-        "valor_total_esperado": 2323616436.0
+        "cantidad_total": 15000,
+        "valor_total_esperado": 2323616436
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 59.0,
-        "valor_total_esperado": 440500549.0
+        "cantidad_total": 59,
+        "valor_total_esperado": 440500549
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 3000.0,
-        "valor_total_esperado": 365853360.0
+        "cantidad_total": 3000,
+        "valor_total_esperado": 365853360
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 15.0,
-        "valor_total_esperado": 221155725.0
+        "cantidad_total": 15,
+        "valor_total_esperado": 221155725
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 162252203.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 162252203
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 195746841.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 195746841
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 15.0,
-        "valor_total_esperado": 15839415.0
+        "cantidad_total": 15,
+        "valor_total_esperado": 15839415
       }
     ]
   },
   {
     "id_circuito": 36,
-    "meta_financiera_total": 36429825148.0,
+    "meta_financiera_total": 36429825148,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 33.67,
-        "valor_total_esperado": 17997600054.0
+        "valor_total_esperado": 17997600054
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 113.0,
-        "valor_total_esperado": 3997132679.0
+        "cantidad_total": 113,
+        "valor_total_esperado": 3997132679
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 33670.0,
-        "valor_total_esperado": 6547043689.0
+        "cantidad_total": 33670,
+        "valor_total_esperado": 6547043689
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 33670.0,
-        "valor_total_esperado": 5402748812.0
+        "cantidad_total": 33670,
+        "valor_total_esperado": 5402748812
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 85.0,
-        "valor_total_esperado": 589444253.0
+        "cantidad_total": 85,
+        "valor_total_esperado": 589444253
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 6734.0,
-        "valor_total_esperado": 821268432.0
+        "cantidad_total": 6734,
+        "valor_total_esperado": 821268432
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 33.67,
-        "valor_total_esperado": 497862890.0
+        "valor_total_esperado": 497862890
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 262950891.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 262950891
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 278219241.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 278219241
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 33.67,
-        "valor_total_esperado": 35554207.0
+        "valor_total_esperado": 35554207
       }
     ]
   },
   {
     "id_circuito": 15,
-    "meta_financiera_total": 40578018234.0,
+    "meta_financiera_total": 40578018234,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 39.95,
-        "valor_total_esperado": 20573856906.0
+        "valor_total_esperado": 20573856906
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 100.0,
-        "valor_total_esperado": 3643300186.0
+        "cantidad_total": 100,
+        "valor_total_esperado": 3643300186
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 39950.0,
-        "valor_total_esperado": 7336674479.0
+        "cantidad_total": 39950,
+        "valor_total_esperado": 7336674479
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 39950.0,
-        "valor_total_esperado": 6314465537.0
+        "cantidad_total": 39950,
+        "valor_total_esperado": 6314465537
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 75.0,
-        "valor_total_esperado": 520113747.0
+        "cantidad_total": 75,
+        "valor_total_esperado": 520113747
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 7990.0,
-        "valor_total_esperado": 974400758.0
+        "cantidad_total": 7990,
+        "valor_total_esperado": 974400758
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 39.95,
-        "valor_total_esperado": 589229900.0
+        "valor_total_esperado": 589229900
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 291826438.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 291826438
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 291964641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 291964641
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 39.95,
-        "valor_total_esperado": 42185642.0
+        "valor_total_esperado": 42185642
       }
     ]
   },
   {
     "id_circuito": 12,
-    "meta_financiera_total": 135435466558.0,
+    "meta_financiera_total": 135435466558,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 4.4,
-        "valor_total_esperado": 2324277678.0
+        "valor_total_esperado": 2324277678
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 868698467.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 868698467
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 4400.0,
-        "valor_total_esperado": 825825440.0
+        "cantidad_total": 4400,
+        "valor_total_esperado": 825825440
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 4400.0,
-        "valor_total_esperado": 699439956.0
+        "cantidad_total": 4400,
+        "valor_total_esperado": 699439956
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 19.0,
-        "valor_total_esperado": 131768447.0
+        "cantidad_total": 19,
+        "valor_total_esperado": 131768447
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 880.0,
-        "valor_total_esperado": 107339604.0
+        "cantidad_total": 880,
+        "valor_total_esperado": 107339604
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 4.4,
-        "valor_total_esperado": 123578409807.0
+        "valor_total_esperado": 123578409807
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 96855531.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 96855531
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 127019841.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 127019841
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 4.4,
-        "valor_total_esperado": 6675831787.0
+        "valor_total_esperado": 6675831787
       }
     ]
   },
   {
     "id_circuito": 25,
-    "meta_financiera_total": 27455023295.0,
+    "meta_financiera_total": 27455023295,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 10921589863.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 10921589863
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 167.0,
-        "valor_total_esperado": 5858994664.0
+        "cantidad_total": 167,
+        "valor_total_esperado": 5858994664
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 25000.0,
-        "valor_total_esperado": 4757000000.0
+        "cantidad_total": 25000,
+        "valor_total_esperado": 4757000000
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 25000.0,
-        "valor_total_esperado": 3971539712.0
+        "cantidad_total": 25000,
+        "valor_total_esperado": 3971539712
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 125.0,
-        "valor_total_esperado": 861862520.0
+        "cantidad_total": 125,
+        "valor_total_esperado": 861862520
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 2500.0,
-        "valor_total_esperado": 303128800.0
+        "cantidad_total": 2500,
+        "valor_total_esperado": 303128800
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 366465875.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 366465875
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 192295995.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 192295995
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 195746841.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 195746841
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 26399025.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 26399025
       }
     ]
   },
   {
     "id_circuito": 22,
-    "meta_financiera_total": 23213697786.0,
+    "meta_financiera_total": 23213697786,
     "actividades_programadas": [
       {
         "id_actividad": "2.8",
-        "cantidad_total": 104.0,
-        "valor_total_esperado": 3667906264.0
+        "cantidad_total": 104,
+        "valor_total_esperado": 3667906264
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 20640.0,
-        "valor_total_esperado": 3382478638.0
+        "cantidad_total": 20640,
+        "valor_total_esperado": 3382478638
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 20640.0,
-        "valor_total_esperado": 4309979578.0
+        "cantidad_total": 20640,
+        "valor_total_esperado": 4309979578
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 4128.0,
-        "valor_total_esperado": 504438410.0
+        "cantidad_total": 4128,
+        "valor_total_esperado": 504438410
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 78.0,
-        "valor_total_esperado": 518301418.0
+        "cantidad_total": 78,
+        "valor_total_esperado": 518301418
       },
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 20.64,
-        "valor_total_esperado": 10070488548.0
+        "valor_total_esperado": 10070488548
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 20.64,
-        "valor_total_esperado": 306496995.0
+        "valor_total_esperado": 306496995
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 208575259.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 208575259
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 223237641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 223237641
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 20.64,
-        "valor_total_esperado": 21795035.0
+        "valor_total_esperado": 21795035
       }
     ]
   },
   {
     "id_circuito": 28,
-    "meta_financiera_total": 25345601068.0,
+    "meta_financiera_total": 25345601068,
     "actividades_programadas": [
       {
         "id_actividad": "2.8",
-        "cantidad_total": 111.0,
-        "valor_total_esperado": 3880906958.0
+        "cantidad_total": 111,
+        "valor_total_esperado": 3880906958
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 23460.0,
-        "valor_total_esperado": 3801799853.0
+        "cantidad_total": 23460,
+        "valor_total_esperado": 3801799853
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 23460.0,
-        "valor_total_esperado": 4705405044.0
+        "cantidad_total": 23460,
+        "valor_total_esperado": 4705405044
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 4692.0,
-        "valor_total_esperado": 573317029.0
+        "cantidad_total": 4692,
+        "valor_total_esperado": 573317029
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 83.0,
-        "valor_total_esperado": 576723016.0
+        "cantidad_total": 83,
+        "valor_total_esperado": 576723016
       },
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 23.46,
-        "valor_total_esperado": 10983447393.0
+        "valor_total_esperado": 10983447393
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 23.46,
-        "valor_total_esperado": 344567485.0
+        "valor_total_esperado": 344567485
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 209420004.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 209420004
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 245241441.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 245241441
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 23.46,
-        "valor_total_esperado": 24772845.0
+        "valor_total_esperado": 24772845
       }
     ]
   },
   {
     "id_circuito": 32,
-    "meta_financiera_total": 10806540325.0,
+    "meta_financiera_total": 10806540325,
     "actividades_programadas": [
       {
         "id_actividad": "2.8",
-        "cantidad_total": 50.0,
-        "valor_total_esperado": 1768521384.0
+        "cantidad_total": 50,
+        "valor_total_esperado": 1768521384
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 10000.0,
-        "valor_total_esperado": 1728494618.0
+        "cantidad_total": 10000,
+        "valor_total_esperado": 1728494618
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 10000.0,
-        "valor_total_esperado": 2491606000.0
+        "cantidad_total": 10000,
+        "valor_total_esperado": 2491606000
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 2000.0,
-        "valor_total_esperado": 244381280.0
+        "cantidad_total": 2000,
+        "valor_total_esperado": 244381280
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 38.0,
-        "valor_total_esperado": 284270286.0
+        "cantidad_total": 38,
+        "valor_total_esperado": 284270286
       },
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 10.0,
-        "valor_total_esperado": 3856253573.0
+        "cantidad_total": 10,
+        "valor_total_esperado": 3856253573
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 10.0,
-        "valor_total_esperado": 147732950.0
+        "cantidad_total": 10,
+        "valor_total_esperado": 147732950
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 120209983.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 120209983
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 154510641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 154510641
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 10.0,
-        "valor_total_esperado": 10559610.0
+        "cantidad_total": 10,
+        "valor_total_esperado": 10559610
       }
     ]
   },
   {
     "id_circuito": 33,
-    "meta_financiera_total": 30791995562.0,
+    "meta_financiera_total": 30791995562,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 15167513277.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 15167513277
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 84.0,
-        "valor_total_esperado": 2975258664.0
+        "cantidad_total": 84,
+        "valor_total_esperado": 2975258664
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 25000.0,
-        "valor_total_esperado": 6436340000.0
+        "cantidad_total": 25000,
+        "valor_total_esperado": 6436340000
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 25000.0,
-        "valor_total_esperado": 4352706824.0
+        "cantidad_total": 25000,
+        "valor_total_esperado": 4352706824
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 63.0,
-        "valor_total_esperado": 416850796.0
+        "cantidad_total": 63,
+        "valor_total_esperado": 416850796
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 5000.0,
-        "valor_total_esperado": 607914500.0
+        "cantidad_total": 5000,
+        "valor_total_esperado": 607914500
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 367437875.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 367437875
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 218336960.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 218336960
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 223237641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 223237641
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 25.0,
-        "valor_total_esperado": 26399025.0
+        "cantidad_total": 25,
+        "valor_total_esperado": 26399025
       }
     ]
   },
   {
     "id_circuito": 31,
-    "meta_financiera_total": 27483231771.0,
+    "meta_financiera_total": 27483231771,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 30.0,
-        "valor_total_esperado": 11136973253.0
+        "cantidad_total": 30,
+        "valor_total_esperado": 11136973253
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 98.0,
-        "valor_total_esperado": 3322466048.0
+        "cantidad_total": 98,
+        "valor_total_esperado": 3322466048
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 30000.0,
-        "valor_total_esperado": 5943390000.0
+        "cantidad_total": 30000,
+        "valor_total_esperado": 5943390000
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 30000.0,
-        "valor_total_esperado": 4827640390.0
+        "cantidad_total": 30000,
+        "valor_total_esperado": 4827640390
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 74.0,
-        "valor_total_esperado": 511639276.0
+        "cantidad_total": 74,
+        "valor_total_esperado": 511639276
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 6000.0,
-        "valor_total_esperado": 729497400.0
+        "cantidad_total": 6000,
+        "valor_total_esperado": 729497400
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 30.0,
-        "valor_total_esperado": 440925450.0
+        "cantidad_total": 30,
+        "valor_total_esperado": 440925450
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 274547283.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 274547283
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 264473841.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 264473841
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 30.0,
-        "valor_total_esperado": 31678830.0
+        "cantidad_total": 30,
+        "valor_total_esperado": 31678830
       }
     ]
   },
   {
     "id_circuito": 40,
-    "meta_financiera_total": 22617490551.0,
+    "meta_financiera_total": 22617490551,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 22.0,
-        "valor_total_esperado": 11774753842.0
+        "cantidad_total": 22,
+        "valor_total_esperado": 11774753842
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 29.0,
-        "valor_total_esperado": 1139880438.0
+        "cantidad_total": 29,
+        "valor_total_esperado": 1139880438
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 22000.0,
-        "valor_total_esperado": 4662941712.0
+        "cantidad_total": 22000,
+        "valor_total_esperado": 4662941712
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 22000.0,
-        "valor_total_esperado": 3570918112.0
+        "cantidad_total": 22000,
+        "valor_total_esperado": 3570918112
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 22.0,
-        "valor_total_esperado": 144521162.0
+        "cantidad_total": 22,
+        "valor_total_esperado": 144521162
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 4400.0,
-        "valor_total_esperado": 527266432.0
+        "cantidad_total": 4400,
+        "valor_total_esperado": 527266432
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 22.0,
-        "valor_total_esperado": 318732040.0
+        "cantidad_total": 22,
+        "valor_total_esperado": 318732040
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 218262630.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 218262630
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 236983041.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 236983041
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 22.0,
-        "valor_total_esperado": 23231142.0
+        "cantidad_total": 22,
+        "valor_total_esperado": 23231142
       }
     ]
   },
   {
     "id_circuito": 39,
-    "meta_financiera_total": 41026658886.0,
+    "meta_financiera_total": 41026658886,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 30.0,
-        "valor_total_esperado": 24372381630.0
+        "cantidad_total": 30,
+        "valor_total_esperado": 24372381630
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 32.0,
-        "valor_total_esperado": 1255250206.0
+        "cantidad_total": 32,
+        "valor_total_esperado": 1255250206
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 30000.0,
-        "valor_total_esperado": 8241228000.0
+        "cantidad_total": 30000,
+        "valor_total_esperado": 8241228000
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 30000.0,
-        "valor_total_esperado": 5287769196.0
+        "cantidad_total": 30000,
+        "valor_total_esperado": 5287769196
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 24.0,
-        "valor_total_esperado": 163543272.0
+        "cantidad_total": 24,
+        "valor_total_esperado": 163543272
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 6000.0,
-        "valor_total_esperado": 718999680.0
+        "cantidad_total": 6000,
+        "valor_total_esperado": 718999680
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 30.0,
-        "valor_total_esperado": 434634600.0
+        "cantidad_total": 30,
+        "valor_total_esperado": 434634600
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 256699631.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 256699631
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 264473841.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 264473841
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 30.0,
-        "valor_total_esperado": 31678830.0
+        "cantidad_total": 30,
+        "valor_total_esperado": 31678830
       }
     ]
   },
   {
     "id_circuito": 26,
-    "meta_financiera_total": 71176950304.0,
+    "meta_financiera_total": 71176950304,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
         "cantidad_total": 58.65,
-        "valor_total_esperado": 41201219804.0
+        "valor_total_esperado": 41201219804
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 71.0,
-        "valor_total_esperado": 2680150627.0
+        "cantidad_total": 71,
+        "valor_total_esperado": 2680150627
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 58650.0,
-        "valor_total_esperado": 14036221224.0
+        "cantidad_total": 58650,
+        "valor_total_esperado": 14036221224
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 58650.0,
-        "valor_total_esperado": 9876409116.0
+        "cantidad_total": 58650,
+        "valor_total_esperado": 9876409116
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 53.0,
-        "valor_total_esperado": 388831691.0
+        "cantidad_total": 53,
+        "valor_total_esperado": 388831691
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 11730.0,
-        "valor_total_esperado": 1405666600.0
+        "cantidad_total": 11730,
+        "valor_total_esperado": 1405666600
       },
       {
         "id_actividad": "12.1",
         "cantidad_total": 58.65,
-        "valor_total_esperado": 851213480.0
+        "valor_total_esperado": 851213480
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 383341008.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 383341008
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 291964641.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 291964641
       },
       {
         "id_actividad": "MACRO-CARAC",
         "cantidad_total": 58.65,
-        "valor_total_esperado": 61932113.0
+        "valor_total_esperado": 61932113
       }
     ]
   },
   {
     "id_circuito": 38,
-    "meta_financiera_total": 10616843795.0,
+    "meta_financiera_total": 10616843795,
     "actividades_programadas": [
       {
         "id_actividad": "4.1.1",
-        "cantidad_total": 10.0,
-        "valor_total_esperado": 5609489361.0
+        "cantidad_total": 10,
+        "valor_total_esperado": 5609489361
       },
       {
         "id_actividad": "2.8",
-        "cantidad_total": 20.0,
-        "valor_total_esperado": 681818770.0
+        "cantidad_total": 20,
+        "valor_total_esperado": 681818770
       },
       {
         "id_actividad": "8.13.1",
-        "cantidad_total": 10000.0,
-        "valor_total_esperado": 1937534640.0
+        "cantidad_total": 10000,
+        "valor_total_esperado": 1937534640
       },
       {
         "id_actividad": "6.2.50",
-        "cantidad_total": 10000.0,
-        "valor_total_esperado": 1582704132.0
+        "cantidad_total": 10000,
+        "valor_total_esperado": 1582704132
       },
       {
         "id_actividad": "4.1.9",
-        "cantidad_total": 15.0,
-        "valor_total_esperado": 102222833.0
+        "cantidad_total": 15,
+        "valor_total_esperado": 102222833
       },
       {
         "id_actividad": "4.1.2",
-        "cantidad_total": 2000.0,
-        "valor_total_esperado": 239666560.0
+        "cantidad_total": 2000,
+        "valor_total_esperado": 239666560
       },
       {
         "id_actividad": "12.1",
-        "cantidad_total": 10.0,
-        "valor_total_esperado": 144878200.0
+        "cantidad_total": 10,
+        "valor_total_esperado": 144878200
       },
       {
         "id_actividad": "MACRO-PMA",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 139713648.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 139713648
       },
       {
         "id_actividad": "MACRO-PMT",
-        "cantidad_total": 1.0,
-        "valor_total_esperado": 168256041.0
+        "cantidad_total": 1,
+        "valor_total_esperado": 168256041
       },
       {
         "id_actividad": "MACRO-CARAC",
-        "cantidad_total": 10.0,
-        "valor_total_esperado": 10559610.0
+        "cantidad_total": 10,
+        "valor_total_esperado": 10559610
       }
     ]
+  },
+  {
+    "id_circuito": 10,
+    "actividades_programadas": [
+      {
+        "id_actividad": "2.8",
+        "valor_total_esperado": 9999
+      }
+    ],
+    "meta_financiera_total": 9999
   }
 ]

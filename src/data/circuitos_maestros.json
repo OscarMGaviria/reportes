@@ -36,7 +36,8 @@
       "valor_total": 72870090400,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 9999
   },
   {
     "id_circuito": 23,
@@ -75,7 +76,8 @@
       "valor_total": 124487403196,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 15138725884
   },
   {
     "id_circuito": 12,
@@ -88,7 +90,8 @@
       "valor_total": 124487403196,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 135435466558
   },
   {
     "id_circuito": 15,
@@ -101,7 +104,8 @@
       "valor_total": 124487403196,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 40578018234
   },
   {
     "id_circuito": 21,
@@ -114,7 +118,8 @@
       "valor_total": 124487403196,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 10468618338
   },
   {
     "id_circuito": 34,
@@ -127,7 +132,8 @@
       "valor_total": 124487403196,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 15985868455
   },
   {
     "id_circuito": 36,
@@ -140,7 +146,8 @@
       "valor_total": 124487403196,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 36429825148
   },
   {
     "id_circuito": 6,
@@ -218,7 +225,8 @@
       "valor_total": 108554215084.00002,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 25345601068
   },
   {
     "id_circuito": 43,
@@ -244,7 +252,8 @@
       "valor_total": 57385592096,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 23213697786
   },
   {
     "id_circuito": 29,
@@ -270,7 +279,8 @@
       "valor_total": 57385592096,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 10806540325
   },
   {
     "id_circuito": 25,
@@ -283,7 +293,8 @@
       "valor_total": 26362070969,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 27455023295
   },
   {
     "id_circuito": 26,
@@ -296,7 +307,8 @@
       "valor_total": 144973755369,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 71176950304
   },
   {
     "id_circuito": 38,
@@ -309,7 +321,8 @@
       "valor_total": 144973755369,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 10616843795
   },
   {
     "id_circuito": 39,
@@ -322,7 +335,8 @@
       "valor_total": 144973755369,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 41026658886
   },
   {
     "id_circuito": 40,
@@ -335,7 +349,8 @@
       "valor_total": 144973755369,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 22617490551
   },
   {
     "id_circuito": 31,
@@ -348,7 +363,8 @@
       "valor_total": 28215102057,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 27483231771
   },
   {
     "id_circuito": 33,
@@ -361,7 +377,8 @@
       "valor_total": 29043301088,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 30791995562
   },
   {
     "id_circuito": 101,
@@ -374,7 +391,8 @@
       "valor_total": 104855613958,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 1246872206
   },
   {
     "id_circuito": 102,
@@ -387,7 +405,8 @@
       "valor_total": 104855613958,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 15356610080
   },
   {
     "id_circuito": 103,
@@ -400,7 +419,8 @@
       "valor_total": 104855613958,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 30188327885
   },
   {
     "id_circuito": 104,
@@ -413,7 +433,8 @@
       "valor_total": 104855613958,
       "fecha_inicio": "",
       "fecha_fin": ""
-    }
+    },
+    "valor_contrato": 5156925051
   },
   {
     "id_circuito": 105,
@@ -427,6 +448,6 @@
       "fecha_inicio": "",
       "fecha_fin": ""
     },
-    "valor_contrato": 34737710929.0
+    "valor_contrato": 34737710929
   }
 ]

@@ -1,11 +1,16 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
 import { calculateGanttData } from '../utils/constructionLogic'
+import circuitosData from '../data/circuitos_maestros.json'
 
 const props = defineProps({
   circuitoNombre: {
     type: String,
     required: true
+  },
+  actividadesEnVivo: {
+    type: Array,
+    default: () => []
   }
 })
 
@@ -25,7 +30,29 @@ const months = [
 const todayPercentage = 35; 
 
 onMounted(() => {
-  processedData.value = calculateGanttData([])
+  const liveProgressOverrides = {};
+  if (props.actividadesEnVivo) {
+    props.actividadesEnVivo.forEach(a => {
+      let fName = (a.nombre_categoria || a.nombre || '').toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      
+      const mapping = {
+         'CONSTRUCCION DE ALCANTARILLAS': 'CONSTRUCCIÓN DE ALCANTARILLAS',
+         'CONSTRUCCION DE DISIPADORES': 'CONSTRUCCIÓN DE DISIPADORES',
+         'CONSTRUCCION DE FILTROS PARA CUNETAS': 'CONSTRUCCIÓN DE FILTRO PARA CUNETAS',
+         'ESTABILIZACION CON MATERIAL GRANULAR': 'ESTABILIZACION CON MATERIAL GRANULAR',
+         'CONSTRUCCION DE CUNETAS': 'CONSTRUCCIÓN DE CUNETA',
+         'CONSTRUCCION DE BORDILLOS': 'CONSTRUCCIÓN DE BORDILLOS',
+         'SENALIZACION VIAL': 'SEÑALIZACIÓN VIAL'
+      };
+
+      const key = mapping[fName];
+      if (key && a.total > 0) {
+         liveProgressOverrides[key] = Math.min(1, (a.completado || 0) / a.total);
+      }
+    });
+  }
+
+  processedData.value = calculateGanttData(circuitosData, liveProgressOverrides, props.circuitoNombre)
   filtrarCircuito()
 })
 
@@ -37,7 +64,7 @@ const filtrarCircuito = () => {
   if (!props.circuitoNombre || processedData.value.length === 0) return
   
   // Fuzzy matching: buscar si comparten al menos 2 palabras clave significativas
-  const normalize = (str) => str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9 ]/g, " ");
+  const normalize = (str) => (str || '').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9 ]/g, " ");
   
   const searchWords = normalize(props.circuitoNombre).split(' ').filter(w => w.length > 3);
   

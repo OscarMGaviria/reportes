@@ -1,4 +1,4 @@
-export const calculateGanttData = (circuitosData) => {
+export const calculateGanttData = (circuitosData, liveProgressOverrides = null, overrideCircuitName = null) => {
   const TOTAL_MONTHS = 18;
   const TOTAL_DAYS = TOTAL_MONTHS * 30; // 540 days
   const HOY_DAY = 189; // Approx mes 6.3
@@ -44,6 +44,14 @@ export const calculateGanttData = (circuitosData) => {
             progresses[name] = 0;
           }
         }
+      });
+    }
+
+    // Aplicar progresos en vivo si coinciden con el circuito solicitado
+    const cName = circuito.corredor_vial || circuito.nombre || 'Circuito Desconocido';
+    if (liveProgressOverrides && overrideCircuitName === cName) {
+      Object.keys(liveProgressOverrides).forEach(k => {
+         if (progresses[k] !== undefined) progresses[k] = liveProgressOverrides[k];
       });
     }
 
@@ -143,7 +151,7 @@ export const calculateGanttData = (circuitosData) => {
     });
 
     return {
-      nombre: circuito.nombre,
+      nombre: circuito.corredor_vial || circuito.nombre || 'Circuito Desconocido',
       fases: fases
     };
   });

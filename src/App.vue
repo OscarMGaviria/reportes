@@ -439,7 +439,7 @@ const corteActual = computed(() => {
 
   
   // Sobrescribir con cambios pendientes locales
-  const pending = pendingSyncs.value.find(p => p.id_circuito === (circuitoActual.value.id_circuito || circuitoActual.value.id) && p.semana === corteSeleccionado.value.semana);
+  const pending = pendingSyncs.value.find(p => p.id_circuito === (circuitoActual.value.id_circuito || circuitoActual.value.id) && p.semana === corteRaw.semana);
   if (pending && pending.actividades) {
     pending.actividades.forEach(act => {
        const catName = Object.keys(categoriasProg).find(k => categoriasProg[k].id_actividad === act.id_actividad || categoriasProg[k].nombre === act.nombre_categoria);
@@ -463,6 +463,35 @@ const corteActual = computed(() => {
   }
 
   corteProcesado.actividades_ejecutadas = Object.values(categoriasProg).filter(act => act.total > 0 || act.valor_total > 0 || act.completado > 0 || act.id_actividad || (act.subItems && act.subItems.length > 0));
+
+  // Recalcular el porcentaje físico y financiero ejecutado basado en los avances de las actividades
+  let valorEjecutadoCalculado = 0;
+  let hasValidActivities = false;
+
+  corteProcesado.actividades_ejecutadas.forEach(act => {
+    if (act.valor_total > 0 && act.total > 0) {
+      hasValidActivities = true;
+      let pct = Math.min(1, (act.completado || 0) / act.total);
+      valorEjecutadoCalculado += (pct * act.valor_total);
+    }
+  });
+
+  if (hasValidActivities && valorProgramadoTotal > 0) {
+    const porcFisicoCalculado = (valorEjecutadoCalculado / valorProgramadoTotal) * 100;
+    
+    // Actualizar sección física
+    corteProcesado.fisico.ejecutado = porcFisicoCalculado.toFixed(1);
+    const progFisico = parseFloat(corteProcesado.fisico.programado) || 1;
+    corteProcesado.fisico.avance = (progFisico > 0 ? (porcFisicoCalculado / progFisico * 100) : 0).toFixed(1);
+
+    // Actualizar sección financiera (usualmente van de la mano en este contexto)
+    corteProcesado.financiero.ejecutado.porcentaje = porcFisicoCalculado.toFixed(1);
+    corteProcesado.financiero.ejecutado.valor = valorEjecutadoCalculado;
+    
+    const progFinanciero = parseFloat(corteProcesado.financiero.programado.porcentaje) || 1;
+    corteProcesado.financiero.avance.porcentaje = (progFinanciero > 0 ? (porcFisicoCalculado / progFinanciero * 100) : 0).toFixed(1);
+    corteProcesado.financiero.avance.valor = valorEjecutadoCalculado;
+  }
 
   return corteProcesado
 })
@@ -604,6 +633,7 @@ const formatCurrency = (value) => {
     <GanttDashboard 
       v-if="showGanttModal && circuitoActual" 
       :circuitoNombre="circuitoActual.corredor_vial"
+      :actividadesEnVivo="corteActual.actividades_ejecutadas"
       @close="showGanttModal = false" 
     />
 
@@ -611,7 +641,7 @@ const formatCurrency = (value) => {
     <div v-if="showEditModal" class="modal-overlay">
       <div class="modal-content">
         <div class="modal-header">
-          <h2>Editar Actividades - {{ selectedCircuito?.label }}</h2>
+          <h2>Editar Actividades - {{ circuitoActual?.corredor_vial }}</h2>
           <button @click="showEditModal = false" class="close-btn">✕</button>
         </div>
         <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
